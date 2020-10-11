@@ -1,0 +1,17 @@
+5:HeapTest.SingleItemNonempty
+6:HeapTest.SingleItemPush
+7:HeapTest.SingleItemPushPop
+8:HeapTest.TwoElementPush_LowPriFirst
+9:HeapTest.TwoElementPush_HighPriFirst
+10:HeapTest.Duplicates
+11:HeapTest.NegativeElements
+12:HeapTest.ThreeElementPush_0_5_10
+13:HeapTest.ThreeElementPush_0_10_5
+14:HeapTest.ThreeElementPush_5_0_10
+15:HeapTest.ThreeElementPush_5_10_0
+16:HeapTest.ThreeElementPush_10_0_5
+17:HeapTest.ThreeElementPush_10_5_0
+18:HeapTest.GreaterComparator
+19:HeapTest.StringStorage
+20:HeapTest.FiveElementPush_TrinaryHeap
+21:HeapStress.50x50RandomElements_QuaternaryHeap

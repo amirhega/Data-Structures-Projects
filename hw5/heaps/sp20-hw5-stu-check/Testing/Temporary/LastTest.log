@@ -1,0 +1,969 @@
+Start testing: Apr 14 21:59 PDT
+----------------------------------------------------------
+1/21 Testing: HeapTest.ConstructionDestruction
+1/21 Test: HeapTest.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ConstructionDestruction" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12724== Memcheck, a memory error detector
+==12724== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12724== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12724== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ConstructionDestruction
+==12724== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ConstructionDestruction
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ConstructionDestruction
+[       OK ] HeapTest.ConstructionDestruction (5 ms)
+[----------] 1 test from HeapTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (27 ms total)
+[  PASSED  ] 1 test.
+==12724== 
+==12724== HEAP SUMMARY:
+==12724==     in use at exit: 72,704 bytes in 1 blocks
+==12724==   total heap usage: 328 allocs, 327 frees, 129,621 bytes allocated
+==12724== 
+==12724== LEAK SUMMARY:
+==12724==    definitely lost: 0 bytes in 0 blocks
+==12724==    indirectly lost: 0 bytes in 0 blocks
+==12724==      possibly lost: 0 bytes in 0 blocks
+==12724==    still reachable: 0 bytes in 0 blocks
+==12724==         suppressed: 72,704 bytes in 1 blocks
+==12724== 
+==12724== For counts of detected and suppressed errors, rerun with: -v
+==12724== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ConstructionDestruction" end time: Apr 14 21:59 PDT
+"HeapTest.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: HeapTest.InitiallyEmpty
+2/21 Test: HeapTest.InitiallyEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.InitiallyEmpty" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12725== Memcheck, a memory error detector
+==12725== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12725== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12725== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.InitiallyEmpty
+==12725== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.InitiallyEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.InitiallyEmpty
+[       OK ] HeapTest.InitiallyEmpty (6 ms)
+[----------] 1 test from HeapTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (28 ms total)
+[  PASSED  ] 1 test.
+==12725== 
+==12725== HEAP SUMMARY:
+==12725==     in use at exit: 72,704 bytes in 1 blocks
+==12725==   total heap usage: 328 allocs, 327 frees, 129,512 bytes allocated
+==12725== 
+==12725== LEAK SUMMARY:
+==12725==    definitely lost: 0 bytes in 0 blocks
+==12725==    indirectly lost: 0 bytes in 0 blocks
+==12725==      possibly lost: 0 bytes in 0 blocks
+==12725==    still reachable: 0 bytes in 0 blocks
+==12725==         suppressed: 72,704 bytes in 1 blocks
+==12725== 
+==12725== For counts of detected and suppressed errors, rerun with: -v
+==12725== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.InitiallyEmpty" end time: Apr 14 21:59 PDT
+"HeapTest.InitiallyEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/21 Testing: HeapTest.EmptyTopException
+3/21 Test: HeapTest.EmptyTopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.EmptyTopException" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12726== Memcheck, a memory error detector
+==12726== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12726== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12726== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyTopException
+==12726== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyTopException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyTopException
+[       OK ] HeapTest.EmptyTopException (24 ms)
+[----------] 1 test from HeapTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==12726== 
+==12726== HEAP SUMMARY:
+==12726==     in use at exit: 72,704 bytes in 1 blocks
+==12726==   total heap usage: 330 allocs, 329 frees, 129,725 bytes allocated
+==12726== 
+==12726== LEAK SUMMARY:
+==12726==    definitely lost: 0 bytes in 0 blocks
+==12726==    indirectly lost: 0 bytes in 0 blocks
+==12726==      possibly lost: 0 bytes in 0 blocks
+==12726==    still reachable: 0 bytes in 0 blocks
+==12726==         suppressed: 72,704 bytes in 1 blocks
+==12726== 
+==12726== For counts of detected and suppressed errors, rerun with: -v
+==12726== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyTopException" end time: Apr 14 21:59 PDT
+"HeapTest.EmptyTopException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: HeapTest.EmptyPopException
+4/21 Test: HeapTest.EmptyPopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.EmptyPopException" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12728== Memcheck, a memory error detector
+==12728== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12728== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12728== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyPopException
+==12728== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyPopException
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyPopException
+[       OK ] HeapTest.EmptyPopException (26 ms)
+[----------] 1 test from HeapTest (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==12728== 
+==12728== HEAP SUMMARY:
+==12728==     in use at exit: 72,704 bytes in 1 blocks
+==12728==   total heap usage: 330 allocs, 329 frees, 129,725 bytes allocated
+==12728== 
+==12728== LEAK SUMMARY:
+==12728==    definitely lost: 0 bytes in 0 blocks
+==12728==    indirectly lost: 0 bytes in 0 blocks
+==12728==      possibly lost: 0 bytes in 0 blocks
+==12728==    still reachable: 0 bytes in 0 blocks
+==12728==         suppressed: 72,704 bytes in 1 blocks
+==12728== 
+==12728== For counts of detected and suppressed errors, rerun with: -v
+==12728== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyPopException" end time: Apr 14 21:59 PDT
+"HeapTest.EmptyPopException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/21 Testing: HeapTest.SingleItemNonempty
+5/21 Test: HeapTest.SingleItemNonempty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.SingleItemNonempty" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12729== Memcheck, a memory error detector
+==12729== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12729== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12729== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemNonempty
+==12729== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemNonempty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemNonempty
+[       OK ] HeapTest.SingleItemNonempty (11 ms)
+[----------] 1 test from HeapTest (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (35 ms total)
+[  PASSED  ] 1 test.
+==12729== 
+==12729== HEAP SUMMARY:
+==12729==     in use at exit: 72,704 bytes in 1 blocks
+==12729==   total heap usage: 329 allocs, 328 frees, 129,544 bytes allocated
+==12729== 
+==12729== LEAK SUMMARY:
+==12729==    definitely lost: 0 bytes in 0 blocks
+==12729==    indirectly lost: 0 bytes in 0 blocks
+==12729==      possibly lost: 0 bytes in 0 blocks
+==12729==    still reachable: 0 bytes in 0 blocks
+==12729==         suppressed: 72,704 bytes in 1 blocks
+==12729== 
+==12729== For counts of detected and suppressed errors, rerun with: -v
+==12729== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemNonempty" end time: Apr 14 21:59 PDT
+"HeapTest.SingleItemNonempty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/21 Testing: HeapTest.SingleItemPush
+6/21 Test: HeapTest.SingleItemPush
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.SingleItemPush" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12730== Memcheck, a memory error detector
+==12730== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12730== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12730== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPush
+==12730== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPush
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPush
+[       OK ] HeapTest.SingleItemPush (11 ms)
+[----------] 1 test from HeapTest (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (38 ms total)
+[  PASSED  ] 1 test.
+==12730== 
+==12730== HEAP SUMMARY:
+==12730==     in use at exit: 72,704 bytes in 1 blocks
+==12730==   total heap usage: 329 allocs, 328 frees, 129,516 bytes allocated
+==12730== 
+==12730== LEAK SUMMARY:
+==12730==    definitely lost: 0 bytes in 0 blocks
+==12730==    indirectly lost: 0 bytes in 0 blocks
+==12730==      possibly lost: 0 bytes in 0 blocks
+==12730==    still reachable: 0 bytes in 0 blocks
+==12730==         suppressed: 72,704 bytes in 1 blocks
+==12730== 
+==12730== For counts of detected and suppressed errors, rerun with: -v
+==12730== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPush" end time: Apr 14 21:59 PDT
+"HeapTest.SingleItemPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: HeapTest.SingleItemPushPop
+7/21 Test: HeapTest.SingleItemPushPop
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.SingleItemPushPop" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12731== Memcheck, a memory error detector
+==12731== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12731== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12731== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPushPop
+==12731== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPushPop
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPushPop
+[       OK ] HeapTest.SingleItemPushPop (12 ms)
+[----------] 1 test from HeapTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (36 ms total)
+[  PASSED  ] 1 test.
+==12731== 
+==12731== HEAP SUMMARY:
+==12731==     in use at exit: 72,704 bytes in 1 blocks
+==12731==   total heap usage: 329 allocs, 328 frees, 129,537 bytes allocated
+==12731== 
+==12731== LEAK SUMMARY:
+==12731==    definitely lost: 0 bytes in 0 blocks
+==12731==    indirectly lost: 0 bytes in 0 blocks
+==12731==      possibly lost: 0 bytes in 0 blocks
+==12731==    still reachable: 0 bytes in 0 blocks
+==12731==         suppressed: 72,704 bytes in 1 blocks
+==12731== 
+==12731== For counts of detected and suppressed errors, rerun with: -v
+==12731== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPushPop" end time: Apr 14 21:59 PDT
+"HeapTest.SingleItemPushPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: HeapTest.TwoElementPush_LowPriFirst
+8/21 Test: HeapTest.TwoElementPush_LowPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.TwoElementPush_LowPriFirst" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12732== Memcheck, a memory error detector
+==12732== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12732== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12732== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_LowPriFirst
+==12732== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_LowPriFirst
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_LowPriFirst
+[       OK ] HeapTest.TwoElementPush_LowPriFirst (15 ms)
+[----------] 1 test from HeapTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==12732== 
+==12732== HEAP SUMMARY:
+==12732==     in use at exit: 72,704 bytes in 1 blocks
+==12732==   total heap usage: 330 allocs, 329 frees, 129,723 bytes allocated
+==12732== 
+==12732== LEAK SUMMARY:
+==12732==    definitely lost: 0 bytes in 0 blocks
+==12732==    indirectly lost: 0 bytes in 0 blocks
+==12732==      possibly lost: 0 bytes in 0 blocks
+==12732==    still reachable: 0 bytes in 0 blocks
+==12732==         suppressed: 72,704 bytes in 1 blocks
+==12732== 
+==12732== For counts of detected and suppressed errors, rerun with: -v
+==12732== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_LowPriFirst" end time: Apr 14 21:59 PDT
+"HeapTest.TwoElementPush_LowPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/21 Testing: HeapTest.TwoElementPush_HighPriFirst
+9/21 Test: HeapTest.TwoElementPush_HighPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.TwoElementPush_HighPriFirst" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12733== Memcheck, a memory error detector
+==12733== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12733== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12733== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_HighPriFirst
+==12733== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_HighPriFirst
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_HighPriFirst
+[       OK ] HeapTest.TwoElementPush_HighPriFirst (15 ms)
+[----------] 1 test from HeapTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==12733== 
+==12733== HEAP SUMMARY:
+==12733==     in use at exit: 72,704 bytes in 1 blocks
+==12733==   total heap usage: 330 allocs, 329 frees, 129,753 bytes allocated
+==12733== 
+==12733== LEAK SUMMARY:
+==12733==    definitely lost: 0 bytes in 0 blocks
+==12733==    indirectly lost: 0 bytes in 0 blocks
+==12733==      possibly lost: 0 bytes in 0 blocks
+==12733==    still reachable: 0 bytes in 0 blocks
+==12733==         suppressed: 72,704 bytes in 1 blocks
+==12733== 
+==12733== For counts of detected and suppressed errors, rerun with: -v
+==12733== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_HighPriFirst" end time: Apr 14 21:59 PDT
+"HeapTest.TwoElementPush_HighPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: HeapTest.Duplicates
+10/21 Test: HeapTest.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.Duplicates" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12734== Memcheck, a memory error detector
+==12734== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12734== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12734== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.Duplicates
+==12734== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.Duplicates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.Duplicates
+[       OK ] HeapTest.Duplicates (16 ms)
+[----------] 1 test from HeapTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (39 ms total)
+[  PASSED  ] 1 test.
+==12734== 
+==12734== HEAP SUMMARY:
+==12734==     in use at exit: 72,704 bytes in 1 blocks
+==12734==   total heap usage: 331 allocs, 330 frees, 129,512 bytes allocated
+==12734== 
+==12734== LEAK SUMMARY:
+==12734==    definitely lost: 0 bytes in 0 blocks
+==12734==    indirectly lost: 0 bytes in 0 blocks
+==12734==      possibly lost: 0 bytes in 0 blocks
+==12734==    still reachable: 0 bytes in 0 blocks
+==12734==         suppressed: 72,704 bytes in 1 blocks
+==12734== 
+==12734== For counts of detected and suppressed errors, rerun with: -v
+==12734== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.Duplicates" end time: Apr 14 21:59 PDT
+"HeapTest.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: HeapTest.NegativeElements
+11/21 Test: HeapTest.NegativeElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.NegativeElements" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12735== Memcheck, a memory error detector
+==12735== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12735== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12735== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.NegativeElements
+==12735== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.NegativeElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.NegativeElements
+[       OK ] HeapTest.NegativeElements (13 ms)
+[----------] 1 test from HeapTest (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (36 ms total)
+[  PASSED  ] 1 test.
+==12735== 
+==12735== HEAP SUMMARY:
+==12735==     in use at exit: 72,704 bytes in 1 blocks
+==12735==   total heap usage: 330 allocs, 329 frees, 129,538 bytes allocated
+==12735== 
+==12735== LEAK SUMMARY:
+==12735==    definitely lost: 0 bytes in 0 blocks
+==12735==    indirectly lost: 0 bytes in 0 blocks
+==12735==      possibly lost: 0 bytes in 0 blocks
+==12735==    still reachable: 0 bytes in 0 blocks
+==12735==         suppressed: 72,704 bytes in 1 blocks
+==12735== 
+==12735== For counts of detected and suppressed errors, rerun with: -v
+==12735== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.NegativeElements" end time: Apr 14 21:59 PDT
+"HeapTest.NegativeElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: HeapTest.ThreeElementPush_0_5_10
+12/21 Test: HeapTest.ThreeElementPush_0_5_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ThreeElementPush_0_5_10" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12738== Memcheck, a memory error detector
+==12738== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12738== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12738== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_5_10
+==12738== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_5_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_5_10
+[       OK ] HeapTest.ThreeElementPush_0_5_10 (17 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (40 ms total)
+[  PASSED  ] 1 test.
+==12738== 
+==12738== HEAP SUMMARY:
+==12738==     in use at exit: 72,704 bytes in 1 blocks
+==12738==   total heap usage: 331 allocs, 330 frees, 129,649 bytes allocated
+==12738== 
+==12738== LEAK SUMMARY:
+==12738==    definitely lost: 0 bytes in 0 blocks
+==12738==    indirectly lost: 0 bytes in 0 blocks
+==12738==      possibly lost: 0 bytes in 0 blocks
+==12738==    still reachable: 0 bytes in 0 blocks
+==12738==         suppressed: 72,704 bytes in 1 blocks
+==12738== 
+==12738== For counts of detected and suppressed errors, rerun with: -v
+==12738== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_0_5_10" end time: Apr 14 21:59 PDT
+"HeapTest.ThreeElementPush_0_5_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: HeapTest.ThreeElementPush_0_10_5
+13/21 Test: HeapTest.ThreeElementPush_0_10_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ThreeElementPush_0_10_5" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12739== Memcheck, a memory error detector
+==12739== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12739== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12739== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_10_5
+==12739== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_10_5
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_10_5
+[       OK ] HeapTest.ThreeElementPush_0_10_5 (16 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (40 ms total)
+[  PASSED  ] 1 test.
+==12739== 
+==12739== HEAP SUMMARY:
+==12739==     in use at exit: 72,704 bytes in 1 blocks
+==12739==   total heap usage: 331 allocs, 330 frees, 129,649 bytes allocated
+==12739== 
+==12739== LEAK SUMMARY:
+==12739==    definitely lost: 0 bytes in 0 blocks
+==12739==    indirectly lost: 0 bytes in 0 blocks
+==12739==      possibly lost: 0 bytes in 0 blocks
+==12739==    still reachable: 0 bytes in 0 blocks
+==12739==         suppressed: 72,704 bytes in 1 blocks
+==12739== 
+==12739== For counts of detected and suppressed errors, rerun with: -v
+==12739== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_0_10_5" end time: Apr 14 21:59 PDT
+"HeapTest.ThreeElementPush_0_10_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: HeapTest.ThreeElementPush_5_0_10
+14/21 Test: HeapTest.ThreeElementPush_5_0_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ThreeElementPush_5_0_10" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12740== Memcheck, a memory error detector
+==12740== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12740== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12740== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_0_10
+==12740== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_0_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_0_10
+[       OK ] HeapTest.ThreeElementPush_5_0_10 (18 ms)
+[----------] 1 test from HeapTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (40 ms total)
+[  PASSED  ] 1 test.
+==12740== 
+==12740== HEAP SUMMARY:
+==12740==     in use at exit: 72,704 bytes in 1 blocks
+==12740==   total heap usage: 331 allocs, 330 frees, 129,649 bytes allocated
+==12740== 
+==12740== LEAK SUMMARY:
+==12740==    definitely lost: 0 bytes in 0 blocks
+==12740==    indirectly lost: 0 bytes in 0 blocks
+==12740==      possibly lost: 0 bytes in 0 blocks
+==12740==    still reachable: 0 bytes in 0 blocks
+==12740==         suppressed: 72,704 bytes in 1 blocks
+==12740== 
+==12740== For counts of detected and suppressed errors, rerun with: -v
+==12740== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_5_0_10" end time: Apr 14 21:59 PDT
+"HeapTest.ThreeElementPush_5_0_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: HeapTest.ThreeElementPush_5_10_0
+15/21 Test: HeapTest.ThreeElementPush_5_10_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ThreeElementPush_5_10_0" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12741== Memcheck, a memory error detector
+==12741== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12741== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12741== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_10_0
+==12741== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_10_0
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_10_0
+[       OK ] HeapTest.ThreeElementPush_5_10_0 (16 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (40 ms total)
+[  PASSED  ] 1 test.
+==12741== 
+==12741== HEAP SUMMARY:
+==12741==     in use at exit: 72,704 bytes in 1 blocks
+==12741==   total heap usage: 331 allocs, 330 frees, 129,649 bytes allocated
+==12741== 
+==12741== LEAK SUMMARY:
+==12741==    definitely lost: 0 bytes in 0 blocks
+==12741==    indirectly lost: 0 bytes in 0 blocks
+==12741==      possibly lost: 0 bytes in 0 blocks
+==12741==    still reachable: 0 bytes in 0 blocks
+==12741==         suppressed: 72,704 bytes in 1 blocks
+==12741== 
+==12741== For counts of detected and suppressed errors, rerun with: -v
+==12741== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_5_10_0" end time: Apr 14 21:59 PDT
+"HeapTest.ThreeElementPush_5_10_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: HeapTest.ThreeElementPush_10_0_5
+16/21 Test: HeapTest.ThreeElementPush_10_0_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ThreeElementPush_10_0_5" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12742== Memcheck, a memory error detector
+==12742== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12742== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12742== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_0_5
+==12742== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_0_5
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_0_5
+[       OK ] HeapTest.ThreeElementPush_10_0_5 (17 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (40 ms total)
+[  PASSED  ] 1 test.
+==12742== 
+==12742== HEAP SUMMARY:
+==12742==     in use at exit: 72,704 bytes in 1 blocks
+==12742==   total heap usage: 331 allocs, 330 frees, 129,649 bytes allocated
+==12742== 
+==12742== LEAK SUMMARY:
+==12742==    definitely lost: 0 bytes in 0 blocks
+==12742==    indirectly lost: 0 bytes in 0 blocks
+==12742==      possibly lost: 0 bytes in 0 blocks
+==12742==    still reachable: 0 bytes in 0 blocks
+==12742==         suppressed: 72,704 bytes in 1 blocks
+==12742== 
+==12742== For counts of detected and suppressed errors, rerun with: -v
+==12742== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_0_5" end time: Apr 14 21:59 PDT
+"HeapTest.ThreeElementPush_10_0_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: HeapTest.ThreeElementPush_10_5_0
+17/21 Test: HeapTest.ThreeElementPush_10_5_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.ThreeElementPush_10_5_0" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12743== Memcheck, a memory error detector
+==12743== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12743== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12743== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_5_0
+==12743== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_5_0
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_5_0
+[       OK ] HeapTest.ThreeElementPush_10_5_0 (17 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (39 ms total)
+[  PASSED  ] 1 test.
+==12743== 
+==12743== HEAP SUMMARY:
+==12743==     in use at exit: 72,704 bytes in 1 blocks
+==12743==   total heap usage: 331 allocs, 330 frees, 129,649 bytes allocated
+==12743== 
+==12743== LEAK SUMMARY:
+==12743==    definitely lost: 0 bytes in 0 blocks
+==12743==    indirectly lost: 0 bytes in 0 blocks
+==12743==      possibly lost: 0 bytes in 0 blocks
+==12743==    still reachable: 0 bytes in 0 blocks
+==12743==         suppressed: 72,704 bytes in 1 blocks
+==12743== 
+==12743== For counts of detected and suppressed errors, rerun with: -v
+==12743== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_5_0" end time: Apr 14 21:59 PDT
+"HeapTest.ThreeElementPush_10_5_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: HeapTest.GreaterComparator
+18/21 Test: HeapTest.GreaterComparator
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.GreaterComparator" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12744== Memcheck, a memory error detector
+==12744== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12744== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12744== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.GreaterComparator
+==12744== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.GreaterComparator
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.GreaterComparator
+[       OK ] HeapTest.GreaterComparator (16 ms)
+[----------] 1 test from HeapTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (40 ms total)
+[  PASSED  ] 1 test.
+==12744== 
+==12744== HEAP SUMMARY:
+==12744==     in use at exit: 72,704 bytes in 1 blocks
+==12744==   total heap usage: 331 allocs, 330 frees, 129,561 bytes allocated
+==12744== 
+==12744== LEAK SUMMARY:
+==12744==    definitely lost: 0 bytes in 0 blocks
+==12744==    indirectly lost: 0 bytes in 0 blocks
+==12744==      possibly lost: 0 bytes in 0 blocks
+==12744==    still reachable: 0 bytes in 0 blocks
+==12744==         suppressed: 72,704 bytes in 1 blocks
+==12744== 
+==12744== For counts of detected and suppressed errors, rerun with: -v
+==12744== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.GreaterComparator" end time: Apr 14 21:59 PDT
+"HeapTest.GreaterComparator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: HeapTest.StringStorage
+19/21 Test: HeapTest.StringStorage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.StringStorage" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12745== Memcheck, a memory error detector
+==12745== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12745== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12745== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.StringStorage
+==12745== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.StringStorage
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.StringStorage
+[       OK ] HeapTest.StringStorage (19 ms)
+[----------] 1 test from HeapTest (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (42 ms total)
+[  PASSED  ] 1 test.
+==12745== 
+==12745== HEAP SUMMARY:
+==12745==     in use at exit: 72,704 bytes in 1 blocks
+==12745==   total heap usage: 331 allocs, 330 frees, 129,729 bytes allocated
+==12745== 
+==12745== LEAK SUMMARY:
+==12745==    definitely lost: 0 bytes in 0 blocks
+==12745==    indirectly lost: 0 bytes in 0 blocks
+==12745==      possibly lost: 0 bytes in 0 blocks
+==12745==    still reachable: 0 bytes in 0 blocks
+==12745==         suppressed: 72,704 bytes in 1 blocks
+==12745== 
+==12745== For counts of detected and suppressed errors, rerun with: -v
+==12745== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.StringStorage" end time: Apr 14 21:59 PDT
+"HeapTest.StringStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: HeapTest.FiveElementPush_TrinaryHeap
+20/21 Test: HeapTest.FiveElementPush_TrinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapTest.FiveElementPush_TrinaryHeap" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12746== Memcheck, a memory error detector
+==12746== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12746== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12746== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapTest.FiveElementPush_TrinaryHeap
+==12746== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapTest.FiveElementPush_TrinaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.FiveElementPush_TrinaryHeap
+[       OK ] HeapTest.FiveElementPush_TrinaryHeap (23 ms)
+[----------] 1 test from HeapTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==12746== 
+==12746== HEAP SUMMARY:
+==12746==     in use at exit: 72,704 bytes in 1 blocks
+==12746==   total heap usage: 332 allocs, 331 frees, 129,801 bytes allocated
+==12746== 
+==12746== LEAK SUMMARY:
+==12746==    definitely lost: 0 bytes in 0 blocks
+==12746==    indirectly lost: 0 bytes in 0 blocks
+==12746==      possibly lost: 0 bytes in 0 blocks
+==12746==    still reachable: 0 bytes in 0 blocks
+==12746==         suppressed: 72,704 bytes in 1 blocks
+==12746== 
+==12746== For counts of detected and suppressed errors, rerun with: -v
+==12746== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.FiveElementPush_TrinaryHeap" end time: Apr 14 21:59 PDT
+"HeapTest.FiveElementPush_TrinaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: HeapStress.50x50RandomElements_QuaternaryHeap
+21/21 Test: HeapStress.50x50RandomElements_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"
+Directory: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests
+"HeapStress.50x50RandomElements_QuaternaryHeap" start time: Apr 14 21:59 PDT
+Output:
+----------------------------------------------------------
+==12747== Memcheck, a memory error detector
+==12747== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12747== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==12747== Command: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap
+==12747== 
+Running main() from gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_QuaternaryHeap
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_QuaternaryHeap
+[       OK ] HeapStress.50x50RandomElements_QuaternaryHeap (109 ms)
+[----------] 1 test from HeapStress (113 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (131 ms total)
+[  PASSED  ] 1 test.
+==12747== 
+==12747== HEAP SUMMARY:
+==12747==     in use at exit: 72,704 bytes in 1 blocks
+==12747==   total heap usage: 829 allocs, 828 frees, 177,603 bytes allocated
+==12747== 
+==12747== LEAK SUMMARY:
+==12747==    definitely lost: 0 bytes in 0 blocks
+==12747==    indirectly lost: 0 bytes in 0 blocks
+==12747==      possibly lost: 0 bytes in 0 blocks
+==12747==    still reachable: 0 bytes in 0 blocks
+==12747==         suppressed: 72,704 bytes in 1 blocks
+==12747== 
+==12747== For counts of detected and suppressed errors, rerun with: -v
+==12747== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"HeapStress.50x50RandomElements_QuaternaryHeap" end time: Apr 14 21:59 PDT
+"HeapStress.50x50RandomElements_QuaternaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 21:59 PDT

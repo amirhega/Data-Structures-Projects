@@ -1,0 +1,124 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_341bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_341bc.dir/build.make CMakeFiles/cmTC_341bc.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_341bc.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_341bc.dir/CheckSymbolExists.c.o   -c /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_341bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_341bc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_341bc.dir/CheckSymbolExists.c.o  -o cmTC_341bc 
+CMakeFiles/cmTC_341bc.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_341bc.dir/build.make:97: recipe for target 'cmTC_341bc' failed
+make[1]: *** [cmTC_341bc] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_341bc/fast' failed
+make: *** [cmTC_341bc/fast] Error 2
+
+File /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bae4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bae4.dir/build.make CMakeFiles/cmTC_1bae4.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bae4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1bae4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1bae4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bae4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1bae4.dir/CheckFunctionExists.c.o  -o cmTC_1bae4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1bae4.dir/build.make:97: recipe for target 'cmTC_1bae4' failed
+make[1]: *** [cmTC_1bae4] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1bae4/fast' failed
+make: *** [cmTC_1bae4/fast] Error 2
+
+
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7439/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7439.dir/build.make CMakeFiles/cmTC_d7439.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7439.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS___INT64  -Wall    -o CMakeFiles/cmTC_d7439.dir/kwsysPlatformTestsCXX.cxx.o -c /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:24:1: error: ‘__int64’ does not name a type
+ __int64 f(__int64 n)
+ ^
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:30:3: error: ‘__int64’ was not declared in this scope
+   __int64 n = 0;
+   ^
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:31:29: error: ‘n’ was not declared in this scope
+   return static_cast<int>(f(n));
+                             ^
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:31:30: error: ‘f’ was not declared in this scope
+   return static_cast<int>(f(n));
+                              ^
+CMakeFiles/cmTC_d7439.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d7439.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d7439.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d7439/fast' failed
+make: *** [cmTC_d7439/fast] Error 2
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0de8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0de8a.dir/build.make CMakeFiles/cmTC_0de8a.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0de8a.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -Wall    -o CMakeFiles/cmTC_0de8a.dir/kwsysPlatformTestsCXX.cxx.o -c /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:196:13: error: ‘environ’ was not declared in this scope
+   char* e = environ[0];
+             ^
+CMakeFiles/cmTC_0de8a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0de8a.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0de8a.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0de8a/fast' failed
+make: *** [cmTC_0de8a/fast] Error 2
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e4fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e4fe.dir/build.make CMakeFiles/cmTC_3e4fe.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e4fe.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -Wall    -o CMakeFiles/cmTC_3e4fe.dir/kwsysPlatformTestsCXX.cxx.o -c /home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:57:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   (void)stat1.st_mtimespec.tv_sec;
+               ^
+/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:58:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   (void)stat1.st_mtimespec.tv_nsec;
+               ^
+CMakeFiles/cmTC_3e4fe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3e4fe.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3e4fe.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw5/heaps/sp20-hw5-stu-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3e4fe/fast' failed
+make: *** [cmTC_3e4fe/fast] Error 2
+
+

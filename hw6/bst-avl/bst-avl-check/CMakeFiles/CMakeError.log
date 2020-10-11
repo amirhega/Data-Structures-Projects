@@ -1,0 +1,124 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c904/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c904.dir/build.make CMakeFiles/cmTC_1c904.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c904.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1c904.dir/CheckSymbolExists.c.o   -c /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1c904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c904.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1c904.dir/CheckSymbolExists.c.o  -o cmTC_1c904 
+CMakeFiles/cmTC_1c904.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1c904.dir/build.make:97: recipe for target 'cmTC_1c904' failed
+make[1]: *** [cmTC_1c904] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1c904/fast' failed
+make: *** [cmTC_1c904/fast] Error 2
+
+File /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a68eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a68eb.dir/build.make CMakeFiles/cmTC_a68eb.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a68eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a68eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a68eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a68eb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a68eb.dir/CheckFunctionExists.c.o  -o cmTC_a68eb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a68eb.dir/build.make:97: recipe for target 'cmTC_a68eb' failed
+make[1]: *** [cmTC_a68eb] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a68eb/fast' failed
+make: *** [cmTC_a68eb/fast] Error 2
+
+
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9e7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9e7e.dir/build.make CMakeFiles/cmTC_d9e7e.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9e7e.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS___INT64  -Wall    -o CMakeFiles/cmTC_d9e7e.dir/kwsysPlatformTestsCXX.cxx.o -c /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:24:1: error: ‘__int64’ does not name a type
+ __int64 f(__int64 n)
+ ^
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:30:3: error: ‘__int64’ was not declared in this scope
+   __int64 n = 0;
+   ^
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:31:29: error: ‘n’ was not declared in this scope
+   return static_cast<int>(f(n));
+                             ^
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:31:30: error: ‘f’ was not declared in this scope
+   return static_cast<int>(f(n));
+                              ^
+CMakeFiles/cmTC_d9e7e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d9e7e.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d9e7e.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d9e7e/fast' failed
+make: *** [cmTC_d9e7e/fast] Error 2
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ef5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ef5f.dir/build.make CMakeFiles/cmTC_8ef5f.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ef5f.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -Wall    -o CMakeFiles/cmTC_8ef5f.dir/kwsysPlatformTestsCXX.cxx.o -c /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:196:13: error: ‘environ’ was not declared in this scope
+   char* e = environ[0];
+             ^
+CMakeFiles/cmTC_8ef5f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8ef5f.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8ef5f.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ef5f/fast' failed
+make: *** [cmTC_8ef5f/fast] Error 2
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42b09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42b09.dir/build.make CMakeFiles/cmTC_42b09.dir/build
+make[1]: Entering directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42b09.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -Wall    -o CMakeFiles/cmTC_42b09.dir/kwsysPlatformTestsCXX.cxx.o -c /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:57:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   (void)stat1.st_mtimespec.tv_sec;
+               ^
+/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:58:15: error: ‘struct stat’ has no member named ‘st_mtimespec’
+   (void)stat1.st_mtimespec.tv_nsec;
+               ^
+CMakeFiles/cmTC_42b09.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_42b09.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_42b09.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_42b09/fast' failed
+make: *** [cmTC_42b09/fast] Error 2
+
+

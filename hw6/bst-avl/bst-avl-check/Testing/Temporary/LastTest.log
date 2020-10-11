@@ -1,0 +1,2941 @@
+Start testing: May 03 23:42 PDT
+----------------------------------------------------------
+1/59 Testing: BST.ConstructionDestruction
+1/59 Test: BST.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BST.ConstructionDestruction"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BST.ConstructionDestruction" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19064== Memcheck, a memory error detector
+==19064== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19064== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19064== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BST.ConstructionDestruction
+==19064== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BST.ConstructionDestruction
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BST
+[ RUN      ] BST.ConstructionDestruction
+[       OK ] BST.ConstructionDestruction (4 ms)
+[----------] 1 test from BST (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (26 ms total)
+[  PASSED  ] 1 test.
+==19064== 
+==19064== HEAP SUMMARY:
+==19064==     in use at exit: 72,704 bytes in 1 blocks
+==19064==   total heap usage: 383 allocs, 382 frees, 133,268 bytes allocated
+==19064== 
+==19064== LEAK SUMMARY:
+==19064==    definitely lost: 0 bytes in 0 blocks
+==19064==    indirectly lost: 0 bytes in 0 blocks
+==19064==      possibly lost: 0 bytes in 0 blocks
+==19064==    still reachable: 0 bytes in 0 blocks
+==19064==         suppressed: 72,704 bytes in 1 blocks
+==19064== 
+==19064== For counts of detected and suppressed errors, rerun with: -v
+==19064== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"BST.ConstructionDestruction" end time: May 03 23:42 PDT
+"BST.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/59 Testing: BSTInsert.JustRoot
+2/59 Test: BSTInsert.JustRoot
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.JustRoot"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.JustRoot" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19065== Memcheck, a memory error detector
+==19065== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19065== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19065== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.JustRoot
+==19065== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.JustRoot
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.JustRoot
+[       OK ] BSTInsert.JustRoot (25 ms)
+[----------] 1 test from BSTInsert (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (54 ms total)
+[  PASSED  ] 1 test.
+==19065== 
+==19065== HEAP SUMMARY:
+==19065==     in use at exit: 72,704 bytes in 1 blocks
+==19065==   total heap usage: 385 allocs, 384 frees, 133,365 bytes allocated
+==19065== 
+==19065== LEAK SUMMARY:
+==19065==    definitely lost: 0 bytes in 0 blocks
+==19065==    indirectly lost: 0 bytes in 0 blocks
+==19065==      possibly lost: 0 bytes in 0 blocks
+==19065==    still reachable: 0 bytes in 0 blocks
+==19065==         suppressed: 72,704 bytes in 1 blocks
+==19065== 
+==19065== For counts of detected and suppressed errors, rerun with: -v
+==19065== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.JustRoot" end time: May 03 23:42 PDT
+"BSTInsert.JustRoot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/59 Testing: BSTInsert.DoubleInsertLeft
+3/59 Test: BSTInsert.DoubleInsertLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertLeft"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.DoubleInsertLeft" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19066== Memcheck, a memory error detector
+==19066== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19066== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19066== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.DoubleInsertLeft
+==19066== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.DoubleInsertLeft
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.DoubleInsertLeft
+[       OK ] BSTInsert.DoubleInsertLeft (22 ms)
+[----------] 1 test from BSTInsert (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==19066== 
+==19066== HEAP SUMMARY:
+==19066==     in use at exit: 72,704 bytes in 1 blocks
+==19066==   total heap usage: 387 allocs, 386 frees, 133,421 bytes allocated
+==19066== 
+==19066== LEAK SUMMARY:
+==19066==    definitely lost: 0 bytes in 0 blocks
+==19066==    indirectly lost: 0 bytes in 0 blocks
+==19066==      possibly lost: 0 bytes in 0 blocks
+==19066==    still reachable: 0 bytes in 0 blocks
+==19066==         suppressed: 72,704 bytes in 1 blocks
+==19066== 
+==19066== For counts of detected and suppressed errors, rerun with: -v
+==19066== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.DoubleInsertLeft" end time: May 03 23:42 PDT
+"BSTInsert.DoubleInsertLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/59 Testing: BSTInsert.DoubleInsertRight
+4/59 Test: BSTInsert.DoubleInsertRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.DoubleInsertRight"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.DoubleInsertRight" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19067== Memcheck, a memory error detector
+==19067== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19067== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19067== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.DoubleInsertRight
+==19067== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.DoubleInsertRight
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.DoubleInsertRight
+[       OK ] BSTInsert.DoubleInsertRight (24 ms)
+[----------] 1 test from BSTInsert (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==19067== 
+==19067== HEAP SUMMARY:
+==19067==     in use at exit: 72,704 bytes in 1 blocks
+==19067==   total heap usage: 387 allocs, 386 frees, 133,428 bytes allocated
+==19067== 
+==19067== LEAK SUMMARY:
+==19067==    definitely lost: 0 bytes in 0 blocks
+==19067==    indirectly lost: 0 bytes in 0 blocks
+==19067==      possibly lost: 0 bytes in 0 blocks
+==19067==    still reachable: 0 bytes in 0 blocks
+==19067==         suppressed: 72,704 bytes in 1 blocks
+==19067== 
+==19067== For counts of detected and suppressed errors, rerun with: -v
+==19067== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.DoubleInsertRight" end time: May 03 23:42 PDT
+"BSTInsert.DoubleInsertRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/59 Testing: BSTInsert.InsertZigZigLeft
+5/59 Test: BSTInsert.InsertZigZigLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigLeft"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.InsertZigZigLeft" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19068== Memcheck, a memory error detector
+==19068== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19068== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19068== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.InsertZigZigLeft
+==19068== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.InsertZigZigLeft
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.InsertZigZigLeft
+[       OK ] BSTInsert.InsertZigZigLeft (27 ms)
+[----------] 1 test from BSTInsert (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (51 ms total)
+[  PASSED  ] 1 test.
+==19068== 
+==19068== HEAP SUMMARY:
+==19068==     in use at exit: 72,704 bytes in 1 blocks
+==19068==   total heap usage: 389 allocs, 388 frees, 133,501 bytes allocated
+==19068== 
+==19068== LEAK SUMMARY:
+==19068==    definitely lost: 0 bytes in 0 blocks
+==19068==    indirectly lost: 0 bytes in 0 blocks
+==19068==      possibly lost: 0 bytes in 0 blocks
+==19068==    still reachable: 0 bytes in 0 blocks
+==19068==         suppressed: 72,704 bytes in 1 blocks
+==19068== 
+==19068== For counts of detected and suppressed errors, rerun with: -v
+==19068== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.InsertZigZigLeft" end time: May 03 23:42 PDT
+"BSTInsert.InsertZigZigLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/59 Testing: BSTInsert.InsertZigZigRight
+6/59 Test: BSTInsert.InsertZigZigRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZigRight"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.InsertZigZigRight" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19069== Memcheck, a memory error detector
+==19069== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19069== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19069== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.InsertZigZigRight
+==19069== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.InsertZigZigRight
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.InsertZigZigRight
+[       OK ] BSTInsert.InsertZigZigRight (22 ms)
+[----------] 1 test from BSTInsert (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (44 ms total)
+[  PASSED  ] 1 test.
+==19069== 
+==19069== HEAP SUMMARY:
+==19069==     in use at exit: 72,704 bytes in 1 blocks
+==19069==   total heap usage: 389 allocs, 388 frees, 133,508 bytes allocated
+==19069== 
+==19069== LEAK SUMMARY:
+==19069==    definitely lost: 0 bytes in 0 blocks
+==19069==    indirectly lost: 0 bytes in 0 blocks
+==19069==      possibly lost: 0 bytes in 0 blocks
+==19069==    still reachable: 0 bytes in 0 blocks
+==19069==         suppressed: 72,704 bytes in 1 blocks
+==19069== 
+==19069== For counts of detected and suppressed errors, rerun with: -v
+==19069== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.InsertZigZigRight" end time: May 03 23:42 PDT
+"BSTInsert.InsertZigZigRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/59 Testing: BSTInsert.InsertZigZagLeft
+7/59 Test: BSTInsert.InsertZigZagLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagLeft"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.InsertZigZagLeft" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19070== Memcheck, a memory error detector
+==19070== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19070== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19070== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.InsertZigZagLeft
+==19070== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.InsertZigZagLeft
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.InsertZigZagLeft
+[       OK ] BSTInsert.InsertZigZagLeft (26 ms)
+[----------] 1 test from BSTInsert (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==19070== 
+==19070== HEAP SUMMARY:
+==19070==     in use at exit: 72,704 bytes in 1 blocks
+==19070==   total heap usage: 389 allocs, 388 frees, 133,501 bytes allocated
+==19070== 
+==19070== LEAK SUMMARY:
+==19070==    definitely lost: 0 bytes in 0 blocks
+==19070==    indirectly lost: 0 bytes in 0 blocks
+==19070==      possibly lost: 0 bytes in 0 blocks
+==19070==    still reachable: 0 bytes in 0 blocks
+==19070==         suppressed: 72,704 bytes in 1 blocks
+==19070== 
+==19070== For counts of detected and suppressed errors, rerun with: -v
+==19070== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.InsertZigZagLeft" end time: May 03 23:42 PDT
+"BSTInsert.InsertZigZagLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/59 Testing: BSTInsert.InsertZigZagRight
+8/59 Test: BSTInsert.InsertZigZagRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.InsertZigZagRight"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.InsertZigZagRight" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19071== Memcheck, a memory error detector
+==19071== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19071== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19071== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.InsertZigZagRight
+==19071== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.InsertZigZagRight
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.InsertZigZagRight
+[       OK ] BSTInsert.InsertZigZagRight (28 ms)
+[----------] 1 test from BSTInsert (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (53 ms total)
+[  PASSED  ] 1 test.
+==19071== 
+==19071== HEAP SUMMARY:
+==19071==     in use at exit: 72,704 bytes in 1 blocks
+==19071==   total heap usage: 389 allocs, 388 frees, 133,508 bytes allocated
+==19071== 
+==19071== LEAK SUMMARY:
+==19071==    definitely lost: 0 bytes in 0 blocks
+==19071==    indirectly lost: 0 bytes in 0 blocks
+==19071==      possibly lost: 0 bytes in 0 blocks
+==19071==    still reachable: 0 bytes in 0 blocks
+==19071==         suppressed: 72,704 bytes in 1 blocks
+==19071== 
+==19071== For counts of detected and suppressed errors, rerun with: -v
+==19071== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.InsertZigZagRight" end time: May 03 23:42 PDT
+"BSTInsert.InsertZigZagRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/59 Testing: BSTInsert.7Elements
+9/59 Test: BSTInsert.7Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.7Elements"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.7Elements" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19072== Memcheck, a memory error detector
+==19072== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19072== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19072== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.7Elements
+==19072== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.7Elements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.7Elements
+[       OK ] BSTInsert.7Elements (32 ms)
+[----------] 1 test from BSTInsert (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (58 ms total)
+[  PASSED  ] 1 test.
+==19072== 
+==19072== HEAP SUMMARY:
+==19072==     in use at exit: 72,704 bytes in 1 blocks
+==19072==   total heap usage: 397 allocs, 396 frees, 133,772 bytes allocated
+==19072== 
+==19072== LEAK SUMMARY:
+==19072==    definitely lost: 0 bytes in 0 blocks
+==19072==    indirectly lost: 0 bytes in 0 blocks
+==19072==      possibly lost: 0 bytes in 0 blocks
+==19072==    still reachable: 0 bytes in 0 blocks
+==19072==         suppressed: 72,704 bytes in 1 blocks
+==19072== 
+==19072== For counts of detected and suppressed errors, rerun with: -v
+==19072== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.7Elements" end time: May 03 23:42 PDT
+"BSTInsert.7Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/59 Testing: BSTClear.Clear
+10/59 Test: BSTClear.Clear
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTClear.Clear"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTClear.Clear" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19073== Memcheck, a memory error detector
+==19073== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19073== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19073== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTClear.Clear
+==19073== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTClear.Clear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTClear
+[ RUN      ] BSTClear.Clear
+[       OK ] BSTClear.Clear (17 ms)
+[----------] 1 test from BSTClear (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (45 ms total)
+[  PASSED  ] 1 test.
+==19073== 
+==19073== HEAP SUMMARY:
+==19073==     in use at exit: 72,704 bytes in 1 blocks
+==19073==   total heap usage: 352 allocs, 351 frees, 132,234 bytes allocated
+==19073== 
+==19073== LEAK SUMMARY:
+==19073==    definitely lost: 0 bytes in 0 blocks
+==19073==    indirectly lost: 0 bytes in 0 blocks
+==19073==      possibly lost: 0 bytes in 0 blocks
+==19073==    still reachable: 0 bytes in 0 blocks
+==19073==         suppressed: 72,704 bytes in 1 blocks
+==19073== 
+==19073== For counts of detected and suppressed errors, rerun with: -v
+==19073== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"BSTClear.Clear" end time: May 03 23:42 PDT
+"BSTClear.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/59 Testing: BSTFind.InvalidFind
+11/59 Test: BSTFind.InvalidFind
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTFind.InvalidFind"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTFind.InvalidFind" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19074== Memcheck, a memory error detector
+==19074== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19074== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19074== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTFind.InvalidFind
+==19074== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTFind.InvalidFind
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTFind
+[ RUN      ] BSTFind.InvalidFind
+[       OK ] BSTFind.InvalidFind (10 ms)
+[----------] 1 test from BSTFind (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (36 ms total)
+[  PASSED  ] 1 test.
+==19074== 
+==19074== HEAP SUMMARY:
+==19074==     in use at exit: 72,704 bytes in 1 blocks
+==19074==   total heap usage: 385 allocs, 384 frees, 133,292 bytes allocated
+==19074== 
+==19074== LEAK SUMMARY:
+==19074==    definitely lost: 0 bytes in 0 blocks
+==19074==    indirectly lost: 0 bytes in 0 blocks
+==19074==      possibly lost: 0 bytes in 0 blocks
+==19074==    still reachable: 0 bytes in 0 blocks
+==19074==         suppressed: 72,704 bytes in 1 blocks
+==19074== 
+==19074== For counts of detected and suppressed errors, rerun with: -v
+==19074== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"BSTFind.InvalidFind" end time: May 03 23:42 PDT
+"BSTFind.InvalidFind" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/59 Testing: BSTInsert.Duplicates
+12/59 Test: BSTInsert.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Duplicates"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.Duplicates" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19075== Memcheck, a memory error detector
+==19075== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19075== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19075== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.Duplicates
+==19075== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.Duplicates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.Duplicates
+[       OK ] BSTInsert.Duplicates (28 ms)
+[----------] 1 test from BSTInsert (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (52 ms total)
+[  PASSED  ] 1 test.
+==19075== 
+==19075== HEAP SUMMARY:
+==19075==     in use at exit: 72,704 bytes in 1 blocks
+==19075==   total heap usage: 391 allocs, 390 frees, 133,539 bytes allocated
+==19075== 
+==19075== LEAK SUMMARY:
+==19075==    definitely lost: 0 bytes in 0 blocks
+==19075==    indirectly lost: 0 bytes in 0 blocks
+==19075==      possibly lost: 0 bytes in 0 blocks
+==19075==    still reachable: 0 bytes in 0 blocks
+==19075==         suppressed: 72,704 bytes in 1 blocks
+==19075== 
+==19075== For counts of detected and suppressed errors, rerun with: -v
+==19075== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.Duplicates" end time: May 03 23:42 PDT
+"BSTInsert.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/59 Testing: BSTInsert.BasicRandom
+13/59 Test: BSTInsert.BasicRandom
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.BasicRandom"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.BasicRandom" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19076== Memcheck, a memory error detector
+==19076== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19076== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19076== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.BasicRandom
+==19076== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.BasicRandom
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.BasicRandom
+[       OK ] BSTInsert.BasicRandom (38 ms)
+[----------] 1 test from BSTInsert (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (61 ms total)
+[  PASSED  ] 1 test.
+==19076== 
+==19076== HEAP SUMMARY:
+==19076==     in use at exit: 72,704 bytes in 1 blocks
+==19076==   total heap usage: 404 allocs, 403 frees, 134,066 bytes allocated
+==19076== 
+==19076== LEAK SUMMARY:
+==19076==    definitely lost: 0 bytes in 0 blocks
+==19076==    indirectly lost: 0 bytes in 0 blocks
+==19076==      possibly lost: 0 bytes in 0 blocks
+==19076==    still reachable: 0 bytes in 0 blocks
+==19076==         suppressed: 72,704 bytes in 1 blocks
+==19076== 
+==19076== For counts of detected and suppressed errors, rerun with: -v
+==19076== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.58 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.BasicRandom" end time: May 03 23:42 PDT
+"BSTInsert.BasicRandom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/59 Testing: BSTInsert.Random50x30ele
+14/59 Test: BSTInsert.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random50x30ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.Random50x30ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19077== Memcheck, a memory error detector
+==19077== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19077== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19077== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.Random50x30ele
+==19077== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.Random50x30ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.Random50x30ele
+[       OK ] BSTInsert.Random50x30ele (128 ms)
+[----------] 1 test from BSTInsert (132 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (150 ms total)
+[  PASSED  ] 1 test.
+==19077== 
+==19077== HEAP SUMMARY:
+==19077==     in use at exit: 72,704 bytes in 1 blocks
+==19077==   total heap usage: 3,534 allocs, 3,533 frees, 263,647 bytes allocated
+==19077== 
+==19077== LEAK SUMMARY:
+==19077==    definitely lost: 0 bytes in 0 blocks
+==19077==    indirectly lost: 0 bytes in 0 blocks
+==19077==      possibly lost: 0 bytes in 0 blocks
+==19077==    still reachable: 0 bytes in 0 blocks
+==19077==         suppressed: 72,704 bytes in 1 blocks
+==19077== 
+==19077== For counts of detected and suppressed errors, rerun with: -v
+==19077== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.Random50x30ele" end time: May 03 23:42 PDT
+"BSTInsert.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/59 Testing: BSTInsert.Random3x5000ele
+15/59 Test: BSTInsert.Random3x5000ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTInsert.Random3x5000ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTInsert.Random3x5000ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19078== Memcheck, a memory error detector
+==19078== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19078== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19078== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTInsert.Random3x5000ele
+==19078== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTInsert.Random3x5000ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTInsert
+[ RUN      ] BSTInsert.Random3x5000ele
+[       OK ] BSTInsert.Random3x5000ele (536 ms)
+[----------] 1 test from BSTInsert (541 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (559 ms total)
+[  PASSED  ] 1 test.
+==19078== 
+==19078== HEAP SUMMARY:
+==19078==     in use at exit: 72,704 bytes in 1 blocks
+==19078==   total heap usage: 30,393 allocs, 30,392 frees, 1,393,518 bytes allocated
+==19078== 
+==19078== LEAK SUMMARY:
+==19078==    definitely lost: 0 bytes in 0 blocks
+==19078==    indirectly lost: 0 bytes in 0 blocks
+==19078==      possibly lost: 0 bytes in 0 blocks
+==19078==    still reachable: 0 bytes in 0 blocks
+==19078==         suppressed: 72,704 bytes in 1 blocks
+==19078== 
+==19078== For counts of detected and suppressed errors, rerun with: -v
+==19078== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"BSTInsert.Random3x5000ele" end time: May 03 23:42 PDT
+"BSTInsert.Random3x5000ele" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/59 Testing: BSTRemove.EmptyTree
+16/59 Test: BSTRemove.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.EmptyTree"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.EmptyTree" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19079== Memcheck, a memory error detector
+==19079== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19079== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19079== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.EmptyTree
+==19079== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.EmptyTree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.EmptyTree
+[       OK ] BSTRemove.EmptyTree (8 ms)
+[----------] 1 test from BSTRemove (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (31 ms total)
+[  PASSED  ] 1 test.
+==19079== 
+==19079== HEAP SUMMARY:
+==19079==     in use at exit: 72,704 bytes in 1 blocks
+==19079==   total heap usage: 384 allocs, 383 frees, 133,247 bytes allocated
+==19079== 
+==19079== LEAK SUMMARY:
+==19079==    definitely lost: 0 bytes in 0 blocks
+==19079==    indirectly lost: 0 bytes in 0 blocks
+==19079==      possibly lost: 0 bytes in 0 blocks
+==19079==    still reachable: 0 bytes in 0 blocks
+==19079==         suppressed: 72,704 bytes in 1 blocks
+==19079== 
+==19079== For counts of detected and suppressed errors, rerun with: -v
+==19079== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.EmptyTree" end time: May 03 23:42 PDT
+"BSTRemove.EmptyTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/59 Testing: BSTRemove.NodeMismatch
+17/59 Test: BSTRemove.NodeMismatch
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.NodeMismatch"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.NodeMismatch" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19082== Memcheck, a memory error detector
+==19082== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19082== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19082== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.NodeMismatch
+==19082== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.NodeMismatch
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.NodeMismatch
+[       OK ] BSTRemove.NodeMismatch (28 ms)
+[----------] 1 test from BSTRemove (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (51 ms total)
+[  PASSED  ] 1 test.
+==19082== 
+==19082== HEAP SUMMARY:
+==19082==     in use at exit: 72,704 bytes in 1 blocks
+==19082==   total heap usage: 388 allocs, 387 frees, 133,588 bytes allocated
+==19082== 
+==19082== LEAK SUMMARY:
+==19082==    definitely lost: 0 bytes in 0 blocks
+==19082==    indirectly lost: 0 bytes in 0 blocks
+==19082==      possibly lost: 0 bytes in 0 blocks
+==19082==    still reachable: 0 bytes in 0 blocks
+==19082==         suppressed: 72,704 bytes in 1 blocks
+==19082== 
+==19082== For counts of detected and suppressed errors, rerun with: -v
+==19082== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.NodeMismatch" end time: May 03 23:42 PDT
+"BSTRemove.NodeMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/59 Testing: BSTRemove.SingleRemove
+18/59 Test: BSTRemove.SingleRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.SingleRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.SingleRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19084== Memcheck, a memory error detector
+==19084== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19084== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19084== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.SingleRemove
+==19084== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.SingleRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.SingleRemove
+[       OK ] BSTRemove.SingleRemove (9 ms)
+[----------] 1 test from BSTRemove (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (32 ms total)
+[  PASSED  ] 1 test.
+==19084== 
+==19084== HEAP SUMMARY:
+==19084==     in use at exit: 72,704 bytes in 1 blocks
+==19084==   total heap usage: 384 allocs, 383 frees, 133,281 bytes allocated
+==19084== 
+==19084== LEAK SUMMARY:
+==19084==    definitely lost: 0 bytes in 0 blocks
+==19084==    indirectly lost: 0 bytes in 0 blocks
+==19084==      possibly lost: 0 bytes in 0 blocks
+==19084==    still reachable: 0 bytes in 0 blocks
+==19084==         suppressed: 72,704 bytes in 1 blocks
+==19084== 
+==19084== For counts of detected and suppressed errors, rerun with: -v
+==19084== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.SingleRemove" end time: May 03 23:42 PDT
+"BSTRemove.SingleRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/59 Testing: BSTRemove.RightChildRemove
+19/59 Test: BSTRemove.RightChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.RightChildRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.RightChildRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19085== Memcheck, a memory error detector
+==19085== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19085== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19085== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.RightChildRemove
+==19085== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.RightChildRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.RightChildRemove
+[       OK ] BSTRemove.RightChildRemove (24 ms)
+[----------] 1 test from BSTRemove (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==19085== 
+==19085== HEAP SUMMARY:
+==19085==     in use at exit: 72,704 bytes in 1 blocks
+==19085==   total heap usage: 388 allocs, 387 frees, 133,485 bytes allocated
+==19085== 
+==19085== LEAK SUMMARY:
+==19085==    definitely lost: 0 bytes in 0 blocks
+==19085==    indirectly lost: 0 bytes in 0 blocks
+==19085==      possibly lost: 0 bytes in 0 blocks
+==19085==    still reachable: 0 bytes in 0 blocks
+==19085==         suppressed: 72,704 bytes in 1 blocks
+==19085== 
+==19085== For counts of detected and suppressed errors, rerun with: -v
+==19085== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.RightChildRemove" end time: May 03 23:42 PDT
+"BSTRemove.RightChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/59 Testing: BSTRemove.LeftChildRemove
+20/59 Test: BSTRemove.LeftChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.LeftChildRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.LeftChildRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19086== Memcheck, a memory error detector
+==19086== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19086== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19086== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.LeftChildRemove
+==19086== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.LeftChildRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.LeftChildRemove
+[       OK ] BSTRemove.LeftChildRemove (26 ms)
+[----------] 1 test from BSTRemove (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (50 ms total)
+[  PASSED  ] 1 test.
+==19086== 
+==19086== HEAP SUMMARY:
+==19086==     in use at exit: 72,704 bytes in 1 blocks
+==19086==   total heap usage: 388 allocs, 387 frees, 133,478 bytes allocated
+==19086== 
+==19086== LEAK SUMMARY:
+==19086==    definitely lost: 0 bytes in 0 blocks
+==19086==    indirectly lost: 0 bytes in 0 blocks
+==19086==      possibly lost: 0 bytes in 0 blocks
+==19086==    still reachable: 0 bytes in 0 blocks
+==19086==         suppressed: 72,704 bytes in 1 blocks
+==19086== 
+==19086== For counts of detected and suppressed errors, rerun with: -v
+==19086== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.LeftChildRemove" end time: May 03 23:42 PDT
+"BSTRemove.LeftChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/59 Testing: BSTRemove.TwoChildrenRemove_3Node
+21/59 Test: BSTRemove.TwoChildrenRemove_3Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_3Node"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.TwoChildrenRemove_3Node" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19087== Memcheck, a memory error detector
+==19087== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19087== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19087== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.TwoChildrenRemove_3Node
+==19087== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.TwoChildrenRemove_3Node
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.TwoChildrenRemove_3Node
+[       OK ] BSTRemove.TwoChildrenRemove_3Node (30 ms)
+[----------] 1 test from BSTRemove (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (53 ms total)
+[  PASSED  ] 1 test.
+==19087== 
+==19087== HEAP SUMMARY:
+==19087==     in use at exit: 72,704 bytes in 1 blocks
+==19087==   total heap usage: 388 allocs, 387 frees, 133,633 bytes allocated
+==19087== 
+==19087== LEAK SUMMARY:
+==19087==    definitely lost: 0 bytes in 0 blocks
+==19087==    indirectly lost: 0 bytes in 0 blocks
+==19087==      possibly lost: 0 bytes in 0 blocks
+==19087==    still reachable: 0 bytes in 0 blocks
+==19087==         suppressed: 72,704 bytes in 1 blocks
+==19087== 
+==19087== For counts of detected and suppressed errors, rerun with: -v
+==19087== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.TwoChildrenRemove_3Node" end time: May 03 23:42 PDT
+"BSTRemove.TwoChildrenRemove_3Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/59 Testing: BSTRemove.TwoChildrenRemove_4Node
+22/59 Test: BSTRemove.TwoChildrenRemove_4Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.TwoChildrenRemove_4Node"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.TwoChildrenRemove_4Node" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19088== Memcheck, a memory error detector
+==19088== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19088== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19088== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.TwoChildrenRemove_4Node
+==19088== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.TwoChildrenRemove_4Node
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.TwoChildrenRemove_4Node
+[       OK ] BSTRemove.TwoChildrenRemove_4Node (36 ms)
+[----------] 1 test from BSTRemove (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (59 ms total)
+[  PASSED  ] 1 test.
+==19088== 
+==19088== HEAP SUMMARY:
+==19088==     in use at exit: 72,704 bytes in 1 blocks
+==19088==   total heap usage: 390 allocs, 389 frees, 133,721 bytes allocated
+==19088== 
+==19088== LEAK SUMMARY:
+==19088==    definitely lost: 0 bytes in 0 blocks
+==19088==    indirectly lost: 0 bytes in 0 blocks
+==19088==      possibly lost: 0 bytes in 0 blocks
+==19088==    still reachable: 0 bytes in 0 blocks
+==19088==         suppressed: 72,704 bytes in 1 blocks
+==19088== 
+==19088== For counts of detected and suppressed errors, rerun with: -v
+==19088== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.TwoChildrenRemove_4Node" end time: May 03 23:42 PDT
+"BSTRemove.TwoChildrenRemove_4Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/59 Testing: BSTRemove.Random50x30ele
+23/59 Test: BSTRemove.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTRemove.Random50x30ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTRemove.Random50x30ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19089== Memcheck, a memory error detector
+==19089== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19089== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19089== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTRemove.Random50x30ele
+==19089== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTRemove.Random50x30ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTRemove
+[ RUN      ] BSTRemove.Random50x30ele
+[       OK ] BSTRemove.Random50x30ele (268 ms)
+[----------] 1 test from BSTRemove (273 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (292 ms total)
+[  PASSED  ] 1 test.
+==19089== 
+==19089== HEAP SUMMARY:
+==19089==     in use at exit: 72,704 bytes in 1 blocks
+==19089==   total heap usage: 3,634 allocs, 3,633 frees, 271,847 bytes allocated
+==19089== 
+==19089== LEAK SUMMARY:
+==19089==    definitely lost: 0 bytes in 0 blocks
+==19089==    indirectly lost: 0 bytes in 0 blocks
+==19089==      possibly lost: 0 bytes in 0 blocks
+==19089==    still reachable: 0 bytes in 0 blocks
+==19089==         suppressed: 72,704 bytes in 1 blocks
+==19089== 
+==19089== For counts of detected and suppressed errors, rerun with: -v
+==19089== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Passed.
+"BSTRemove.Random50x30ele" end time: May 03 23:42 PDT
+"BSTRemove.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/59 Testing: BSTStress.InsertRemove
+24/59 Test: BSTStress.InsertRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTStress.InsertRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTStress.InsertRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19090== Memcheck, a memory error detector
+==19090== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19090== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19090== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTStress.InsertRemove
+==19090== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTStress.InsertRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTStress
+[ RUN      ] BSTStress.InsertRemove
+[       OK ] BSTStress.InsertRemove (94 ms)
+[----------] 1 test from BSTStress (99 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (118 ms total)
+[  PASSED  ] 1 test.
+==19090== 
+==19090== HEAP SUMMARY:
+==19090==     in use at exit: 72,704 bytes in 1 blocks
+==19090==   total heap usage: 647 allocs, 646 frees, 145,841 bytes allocated
+==19090== 
+==19090== LEAK SUMMARY:
+==19090==    definitely lost: 0 bytes in 0 blocks
+==19090==    indirectly lost: 0 bytes in 0 blocks
+==19090==      possibly lost: 0 bytes in 0 blocks
+==19090==    still reachable: 0 bytes in 0 blocks
+==19090==         suppressed: 72,704 bytes in 1 blocks
+==19090== 
+==19090== For counts of detected and suppressed errors, rerun with: -v
+==19090== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"BSTStress.InsertRemove" end time: May 03 23:42 PDT
+"BSTStress.InsertRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/59 Testing: BSTStress.Remove
+25/59 Test: BSTStress.Remove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTStress.Remove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTStress.Remove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19091== Memcheck, a memory error detector
+==19091== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19091== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19091== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTStress.Remove
+==19091== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTStress.Remove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTStress
+[ RUN      ] BSTStress.Remove
+Before any removals, tree is: 
+                     [02]
+           ┌─────────┘  └─────────┐                        
+         [01]                    [03]
+                                    └───┐            
+                                       [04]
+                                          └┐      
+                                          [05]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (2, 8)
+[03] -> (3, 0)
+[04] -> (10, 0)
+[05] -> (15, 0)
+
+After removing -1 (which doesn't exist), tree is: 
+                     [02]
+           ┌─────────┘  └─────────┐                        
+         [01]                    [03]
+                                    └───┐            
+                                       [04]
+                                          └┐      
+                                          [05]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (2, 8)
+[03] -> (3, 0)
+[04] -> (10, 0)
+[05] -> (15, 0)
+
+After removing 2 (the root), tree is: 
+                     [01]
+                        └─────────┐                        
+                                 [02]
+                                    └───┐            
+                                       [03]
+                                          └┐      
+                                          [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, 0)
+[03] -> (10, 0)
+[04] -> (15, 0)
+
+After removing 10, tree is: 
+         [01]
+            └───┐            
+               [02]
+                  └┐      
+                  [03]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, 0)
+[03] -> (15, 0)
+
+After removing 1, tree is: 
+   [01]
+      └┐      
+      [02]
+
+Tree Placeholders:------------------
+[01] -> (3, 0)
+[02] -> (15, 0)
+
+After removing 3, tree is: 
+[01]
+
+Tree Placeholders:------------------
+[01] -> (15, 0)
+
+After removing 15 (the last element), tree is: 
+<empty tree>
+
+After removing 15 (which doesn't exist), tree is: 
+<empty tree>
+
+[       OK ] BSTStress.Remove (83 ms)
+[----------] 1 test from BSTStress (88 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (107 ms total)
+[  PASSED  ] 1 test.
+==19091== 
+==19091== HEAP SUMMARY:
+==19091==     in use at exit: 72,704 bytes in 1 blocks
+==19091==   total heap usage: 474 allocs, 473 frees, 136,381 bytes allocated
+==19091== 
+==19091== LEAK SUMMARY:
+==19091==    definitely lost: 0 bytes in 0 blocks
+==19091==    indirectly lost: 0 bytes in 0 blocks
+==19091==      possibly lost: 0 bytes in 0 blocks
+==19091==    still reachable: 0 bytes in 0 blocks
+==19091==         suppressed: 72,704 bytes in 1 blocks
+==19091== 
+==19091== For counts of detected and suppressed errors, rerun with: -v
+==19091== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"BSTStress.Remove" end time: May 03 23:42 PDT
+"BSTStress.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/59 Testing: BSTBalance.EmptyTree
+26/59 Test: BSTBalance.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTBalance.EmptyTree"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTBalance.EmptyTree" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19092== Memcheck, a memory error detector
+==19092== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19092== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19092== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTBalance.EmptyTree
+==19092== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTBalance.EmptyTree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTBalance
+[ RUN      ] BSTBalance.EmptyTree
+[       OK ] BSTBalance.EmptyTree (5 ms)
+[----------] 1 test from BSTBalance (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (28 ms total)
+[  PASSED  ] 1 test.
+==19092== 
+==19092== HEAP SUMMARY:
+==19092==     in use at exit: 72,704 bytes in 1 blocks
+==19092==   total heap usage: 383 allocs, 382 frees, 133,219 bytes allocated
+==19092== 
+==19092== LEAK SUMMARY:
+==19092==    definitely lost: 0 bytes in 0 blocks
+==19092==    indirectly lost: 0 bytes in 0 blocks
+==19092==      possibly lost: 0 bytes in 0 blocks
+==19092==    still reachable: 0 bytes in 0 blocks
+==19092==         suppressed: 72,704 bytes in 1 blocks
+==19092== 
+==19092== For counts of detected and suppressed errors, rerun with: -v
+==19092== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"BSTBalance.EmptyTree" end time: May 03 23:42 PDT
+"BSTBalance.EmptyTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/59 Testing: BSTBalance.OneNode
+27/59 Test: BSTBalance.OneNode
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTBalance.OneNode"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTBalance.OneNode" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19093== Memcheck, a memory error detector
+==19093== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19093== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19093== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTBalance.OneNode
+==19093== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTBalance.OneNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTBalance
+[ RUN      ] BSTBalance.OneNode
+[       OK ] BSTBalance.OneNode (5 ms)
+[----------] 1 test from BSTBalance (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (27 ms total)
+[  PASSED  ] 1 test.
+==19093== 
+==19093== HEAP SUMMARY:
+==19093==     in use at exit: 72,704 bytes in 1 blocks
+==19093==   total heap usage: 383 allocs, 382 frees, 133,205 bytes allocated
+==19093== 
+==19093== LEAK SUMMARY:
+==19093==    definitely lost: 0 bytes in 0 blocks
+==19093==    indirectly lost: 0 bytes in 0 blocks
+==19093==      possibly lost: 0 bytes in 0 blocks
+==19093==    still reachable: 0 bytes in 0 blocks
+==19093==         suppressed: 72,704 bytes in 1 blocks
+==19093== 
+==19093== For counts of detected and suppressed errors, rerun with: -v
+==19093== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"BSTBalance.OneNode" end time: May 03 23:42 PDT
+"BSTBalance.OneNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/59 Testing: BSTBalance.3Nodes_Unbalanced
+28/59 Test: BSTBalance.3Nodes_Unbalanced
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Unbalanced"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTBalance.3Nodes_Unbalanced" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19094== Memcheck, a memory error detector
+==19094== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19094== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19094== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTBalance.3Nodes_Unbalanced
+==19094== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTBalance.3Nodes_Unbalanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTBalance
+[ RUN      ] BSTBalance.3Nodes_Unbalanced
+[       OK ] BSTBalance.3Nodes_Unbalanced (13 ms)
+[----------] 1 test from BSTBalance (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==19094== 
+==19094== HEAP SUMMARY:
+==19094==     in use at exit: 72,704 bytes in 1 blocks
+==19094==   total heap usage: 386 allocs, 385 frees, 133,395 bytes allocated
+==19094== 
+==19094== LEAK SUMMARY:
+==19094==    definitely lost: 0 bytes in 0 blocks
+==19094==    indirectly lost: 0 bytes in 0 blocks
+==19094==      possibly lost: 0 bytes in 0 blocks
+==19094==    still reachable: 0 bytes in 0 blocks
+==19094==         suppressed: 72,704 bytes in 1 blocks
+==19094== 
+==19094== For counts of detected and suppressed errors, rerun with: -v
+==19094== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"BSTBalance.3Nodes_Unbalanced" end time: May 03 23:42 PDT
+"BSTBalance.3Nodes_Unbalanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/59 Testing: BSTBalance.3Nodes_Balanced
+29/59 Test: BSTBalance.3Nodes_Balanced
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTBalance.3Nodes_Balanced"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTBalance.3Nodes_Balanced" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19095== Memcheck, a memory error detector
+==19095== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19095== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19095== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTBalance.3Nodes_Balanced
+==19095== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTBalance.3Nodes_Balanced
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTBalance
+[ RUN      ] BSTBalance.3Nodes_Balanced
+[       OK ] BSTBalance.3Nodes_Balanced (12 ms)
+[----------] 1 test from BSTBalance (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==19095== 
+==19095== HEAP SUMMARY:
+==19095==     in use at exit: 72,704 bytes in 1 blocks
+==19095==   total heap usage: 386 allocs, 385 frees, 133,381 bytes allocated
+==19095== 
+==19095== LEAK SUMMARY:
+==19095==    definitely lost: 0 bytes in 0 blocks
+==19095==    indirectly lost: 0 bytes in 0 blocks
+==19095==      possibly lost: 0 bytes in 0 blocks
+==19095==    still reachable: 0 bytes in 0 blocks
+==19095==         suppressed: 72,704 bytes in 1 blocks
+==19095== 
+==19095== For counts of detected and suppressed errors, rerun with: -v
+==19095== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"BSTBalance.3Nodes_Balanced" end time: May 03 23:42 PDT
+"BSTBalance.3Nodes_Balanced" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/59 Testing: BSTBalance.UnbalancedSubtree
+30/59 Test: BSTBalance.UnbalancedSubtree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTBalance.UnbalancedSubtree"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTBalance.UnbalancedSubtree" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19096== Memcheck, a memory error detector
+==19096== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19096== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19096== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTBalance.UnbalancedSubtree
+==19096== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTBalance.UnbalancedSubtree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTBalance
+[ RUN      ] BSTBalance.UnbalancedSubtree
+                     [04]
+           ┌─────────┘  └─────────┐                        
+         [02]                    [05]
+     ┌───┘  └───┐                   └───┐            
+   [01]        [03]                    [06]
+                                          └┐      
+                                          [07]
+
+Tree Placeholders:------------------
+[01] -> (1, 9)
+[02] -> (3, 159)
+[03] -> (4, 4)
+[04] -> (5, 8)
+[05] -> (10, 90)
+[06] -> (15, 11)
+[07] -> (17, 159)
+
+[       OK ] BSTBalance.UnbalancedSubtree (57 ms)
+[----------] 1 test from BSTBalance (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (81 ms total)
+[  PASSED  ] 1 test.
+==19096== 
+==19096== HEAP SUMMARY:
+==19096==     in use at exit: 72,704 bytes in 1 blocks
+==19096==   total heap usage: 409 allocs, 408 frees, 134,269 bytes allocated
+==19096== 
+==19096== LEAK SUMMARY:
+==19096==    definitely lost: 0 bytes in 0 blocks
+==19096==    indirectly lost: 0 bytes in 0 blocks
+==19096==      possibly lost: 0 bytes in 0 blocks
+==19096==    still reachable: 0 bytes in 0 blocks
+==19096==         suppressed: 72,704 bytes in 1 blocks
+==19096== 
+==19096== For counts of detected and suppressed errors, rerun with: -v
+==19096== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"BSTBalance.UnbalancedSubtree" end time: May 03 23:42 PDT
+"BSTBalance.UnbalancedSubtree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/59 Testing: BSTBalance.Random50x30ele
+31/59 Test: BSTBalance.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests" "--gtest_filter=BSTBalance.Random50x30ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests
+"BSTBalance.Random50x30ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19097== Memcheck, a memory error detector
+==19097== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19097== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19097== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/bst_tests/bst_tests --gtest_filter=BSTBalance.Random50x30ele
+==19097== 
+Running main() from gtest_main.cc
+Note: Google Test filter = BSTBalance.Random50x30ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BSTBalance
+[ RUN      ] BSTBalance.Random50x30ele
+[       OK ] BSTBalance.Random50x30ele (122 ms)
+[----------] 1 test from BSTBalance (125 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (144 ms total)
+[  PASSED  ] 1 test.
+==19097== 
+==19097== HEAP SUMMARY:
+==19097==     in use at exit: 72,704 bytes in 1 blocks
+==19097==   total heap usage: 3,534 allocs, 3,533 frees, 263,654 bytes allocated
+==19097== 
+==19097== LEAK SUMMARY:
+==19097==    definitely lost: 0 bytes in 0 blocks
+==19097==    indirectly lost: 0 bytes in 0 blocks
+==19097==      possibly lost: 0 bytes in 0 blocks
+==19097==    still reachable: 0 bytes in 0 blocks
+==19097==         suppressed: 72,704 bytes in 1 blocks
+==19097== 
+==19097== For counts of detected and suppressed errors, rerun with: -v
+==19097== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"BSTBalance.Random50x30ele" end time: May 03 23:42 PDT
+"BSTBalance.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/59 Testing: AVLBST.ConstructionDestruction
+32/59 Test: AVLBST.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLBST.ConstructionDestruction"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLBST.ConstructionDestruction" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19098== Memcheck, a memory error detector
+==19098== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19098== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19098== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLBST.ConstructionDestruction
+==19098== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLBST.ConstructionDestruction
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLBST
+[ RUN      ] AVLBST.ConstructionDestruction
+[       OK ] AVLBST.ConstructionDestruction (4 ms)
+[----------] 1 test from AVLBST (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (28 ms total)
+[  PASSED  ] 1 test.
+==19098== 
+==19098== HEAP SUMMARY:
+==19098==     in use at exit: 72,704 bytes in 1 blocks
+==19098==   total heap usage: 333 allocs, 332 frees, 130,141 bytes allocated
+==19098== 
+==19098== LEAK SUMMARY:
+==19098==    definitely lost: 0 bytes in 0 blocks
+==19098==    indirectly lost: 0 bytes in 0 blocks
+==19098==      possibly lost: 0 bytes in 0 blocks
+==19098==    still reachable: 0 bytes in 0 blocks
+==19098==         suppressed: 72,704 bytes in 1 blocks
+==19098== 
+==19098== For counts of detected and suppressed errors, rerun with: -v
+==19098== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"AVLBST.ConstructionDestruction" end time: May 03 23:42 PDT
+"AVLBST.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/59 Testing: AVLInsert.OneNode
+33/59 Test: AVLInsert.OneNode
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.OneNode"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.OneNode" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19099== Memcheck, a memory error detector
+==19099== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19099== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19099== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.OneNode
+==19099== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.OneNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.OneNode
+[       OK ] AVLInsert.OneNode (27 ms)
+[----------] 1 test from AVLInsert (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (50 ms total)
+[  PASSED  ] 1 test.
+==19099== 
+==19099== HEAP SUMMARY:
+==19099==     in use at exit: 72,704 bytes in 1 blocks
+==19099==   total heap usage: 335 allocs, 334 frees, 130,218 bytes allocated
+==19099== 
+==19099== LEAK SUMMARY:
+==19099==    definitely lost: 0 bytes in 0 blocks
+==19099==    indirectly lost: 0 bytes in 0 blocks
+==19099==      possibly lost: 0 bytes in 0 blocks
+==19099==    still reachable: 0 bytes in 0 blocks
+==19099==         suppressed: 72,704 bytes in 1 blocks
+==19099== 
+==19099== For counts of detected and suppressed errors, rerun with: -v
+==19099== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.OneNode" end time: May 03 23:42 PDT
+"AVLInsert.OneNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/59 Testing: AVLInsert.DoubleInsertLeft
+34/59 Test: AVLInsert.DoubleInsertLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertLeft"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.DoubleInsertLeft" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19100== Memcheck, a memory error detector
+==19100== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19100== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19100== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.DoubleInsertLeft
+==19100== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.DoubleInsertLeft
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.DoubleInsertLeft
+[       OK ] AVLInsert.DoubleInsertLeft (31 ms)
+[----------] 1 test from AVLInsert (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==19100== 
+==19100== HEAP SUMMARY:
+==19100==     in use at exit: 72,704 bytes in 1 blocks
+==19100==   total heap usage: 337 allocs, 336 frees, 130,289 bytes allocated
+==19100== 
+==19100== LEAK SUMMARY:
+==19100==    definitely lost: 0 bytes in 0 blocks
+==19100==    indirectly lost: 0 bytes in 0 blocks
+==19100==      possibly lost: 0 bytes in 0 blocks
+==19100==    still reachable: 0 bytes in 0 blocks
+==19100==         suppressed: 72,704 bytes in 1 blocks
+==19100== 
+==19100== For counts of detected and suppressed errors, rerun with: -v
+==19100== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.DoubleInsertLeft" end time: May 03 23:42 PDT
+"AVLInsert.DoubleInsertLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/59 Testing: AVLInsert.DoubleInsertRight
+35/59 Test: AVLInsert.DoubleInsertRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertRight"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.DoubleInsertRight" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19101== Memcheck, a memory error detector
+==19101== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19101== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19101== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.DoubleInsertRight
+==19101== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.DoubleInsertRight
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.DoubleInsertRight
+[       OK ] AVLInsert.DoubleInsertRight (29 ms)
+[----------] 1 test from AVLInsert (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (53 ms total)
+[  PASSED  ] 1 test.
+==19101== 
+==19101== HEAP SUMMARY:
+==19101==     in use at exit: 72,704 bytes in 1 blocks
+==19101==   total heap usage: 337 allocs, 336 frees, 130,296 bytes allocated
+==19101== 
+==19101== LEAK SUMMARY:
+==19101==    definitely lost: 0 bytes in 0 blocks
+==19101==    indirectly lost: 0 bytes in 0 blocks
+==19101==      possibly lost: 0 bytes in 0 blocks
+==19101==    still reachable: 0 bytes in 0 blocks
+==19101==         suppressed: 72,704 bytes in 1 blocks
+==19101== 
+==19101== For counts of detected and suppressed errors, rerun with: -v
+==19101== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.DoubleInsertRight" end time: May 03 23:42 PDT
+"AVLInsert.DoubleInsertRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/59 Testing: AVLInsert.InsertZigZigLeft
+36/59 Test: AVLInsert.InsertZigZigLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigLeft"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.InsertZigZigLeft" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19102== Memcheck, a memory error detector
+==19102== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19102== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19102== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZigLeft
+==19102== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZigLeft
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZigLeft
+[       OK ] AVLInsert.InsertZigZigLeft (35 ms)
+[----------] 1 test from AVLInsert (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (58 ms total)
+[  PASSED  ] 1 test.
+==19102== 
+==19102== HEAP SUMMARY:
+==19102==     in use at exit: 72,704 bytes in 1 blocks
+==19102==   total heap usage: 339 allocs, 338 frees, 130,377 bytes allocated
+==19102== 
+==19102== LEAK SUMMARY:
+==19102==    definitely lost: 0 bytes in 0 blocks
+==19102==    indirectly lost: 0 bytes in 0 blocks
+==19102==      possibly lost: 0 bytes in 0 blocks
+==19102==    still reachable: 0 bytes in 0 blocks
+==19102==         suppressed: 72,704 bytes in 1 blocks
+==19102== 
+==19102== For counts of detected and suppressed errors, rerun with: -v
+==19102== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZigLeft" end time: May 03 23:42 PDT
+"AVLInsert.InsertZigZigLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/59 Testing: AVLInsert.InsertZigZigRight
+37/59 Test: AVLInsert.InsertZigZigRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigRight"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.InsertZigZigRight" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19103== Memcheck, a memory error detector
+==19103== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19103== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19103== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZigRight
+==19103== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZigRight
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZigRight
+[       OK ] AVLInsert.InsertZigZigRight (33 ms)
+[----------] 1 test from AVLInsert (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (58 ms total)
+[  PASSED  ] 1 test.
+==19103== 
+==19103== HEAP SUMMARY:
+==19103==     in use at exit: 72,704 bytes in 1 blocks
+==19103==   total heap usage: 339 allocs, 338 frees, 130,384 bytes allocated
+==19103== 
+==19103== LEAK SUMMARY:
+==19103==    definitely lost: 0 bytes in 0 blocks
+==19103==    indirectly lost: 0 bytes in 0 blocks
+==19103==      possibly lost: 0 bytes in 0 blocks
+==19103==    still reachable: 0 bytes in 0 blocks
+==19103==         suppressed: 72,704 bytes in 1 blocks
+==19103== 
+==19103== For counts of detected and suppressed errors, rerun with: -v
+==19103== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZigRight" end time: May 03 23:42 PDT
+"AVLInsert.InsertZigZigRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/59 Testing: AVLInsert.InsertZigZagLeft
+38/59 Test: AVLInsert.InsertZigZagLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagLeft"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.InsertZigZagLeft" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19104== Memcheck, a memory error detector
+==19104== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19104== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19104== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZagLeft
+==19104== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZagLeft
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZagLeft
+[       OK ] AVLInsert.InsertZigZagLeft (39 ms)
+[----------] 1 test from AVLInsert (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (64 ms total)
+[  PASSED  ] 1 test.
+==19104== 
+==19104== HEAP SUMMARY:
+==19104==     in use at exit: 72,704 bytes in 1 blocks
+==19104==   total heap usage: 339 allocs, 338 frees, 130,377 bytes allocated
+==19104== 
+==19104== LEAK SUMMARY:
+==19104==    definitely lost: 0 bytes in 0 blocks
+==19104==    indirectly lost: 0 bytes in 0 blocks
+==19104==      possibly lost: 0 bytes in 0 blocks
+==19104==    still reachable: 0 bytes in 0 blocks
+==19104==         suppressed: 72,704 bytes in 1 blocks
+==19104== 
+==19104== For counts of detected and suppressed errors, rerun with: -v
+==19104== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZagLeft" end time: May 03 23:42 PDT
+"AVLInsert.InsertZigZagLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/59 Testing: AVLInsert.InsertZigZagRight
+39/59 Test: AVLInsert.InsertZigZagRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagRight"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.InsertZigZagRight" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19105== Memcheck, a memory error detector
+==19105== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19105== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19105== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZagRight
+==19105== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZagRight
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZagRight
+[       OK ] AVLInsert.InsertZigZagRight (43 ms)
+[----------] 1 test from AVLInsert (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (69 ms total)
+[  PASSED  ] 1 test.
+==19105== 
+==19105== HEAP SUMMARY:
+==19105==     in use at exit: 72,704 bytes in 1 blocks
+==19105==   total heap usage: 339 allocs, 338 frees, 130,384 bytes allocated
+==19105== 
+==19105== LEAK SUMMARY:
+==19105==    definitely lost: 0 bytes in 0 blocks
+==19105==    indirectly lost: 0 bytes in 0 blocks
+==19105==      possibly lost: 0 bytes in 0 blocks
+==19105==    still reachable: 0 bytes in 0 blocks
+==19105==         suppressed: 72,704 bytes in 1 blocks
+==19105== 
+==19105== For counts of detected and suppressed errors, rerun with: -v
+==19105== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.76 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZagRight" end time: May 03 23:42 PDT
+"AVLInsert.InsertZigZagRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/59 Testing: AVLInsert.7Elements
+40/59 Test: AVLInsert.7Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.7Elements"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.7Elements" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19106== Memcheck, a memory error detector
+==19106== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19106== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19106== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.7Elements
+==19106== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.7Elements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.7Elements
+[       OK ] AVLInsert.7Elements (47 ms)
+[----------] 1 test from AVLInsert (51 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (76 ms total)
+[  PASSED  ] 1 test.
+==19106== 
+==19106== HEAP SUMMARY:
+==19106==     in use at exit: 72,704 bytes in 1 blocks
+==19106==   total heap usage: 347 allocs, 346 frees, 130,680 bytes allocated
+==19106== 
+==19106== LEAK SUMMARY:
+==19106==    definitely lost: 0 bytes in 0 blocks
+==19106==    indirectly lost: 0 bytes in 0 blocks
+==19106==      possibly lost: 0 bytes in 0 blocks
+==19106==    still reachable: 0 bytes in 0 blocks
+==19106==         suppressed: 72,704 bytes in 1 blocks
+==19106== 
+==19106== For counts of detected and suppressed errors, rerun with: -v
+==19106== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.7Elements" end time: May 03 23:42 PDT
+"AVLInsert.7Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/59 Testing: AVLClear.Clear
+41/59 Test: AVLClear.Clear
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLClear.Clear"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLClear.Clear" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19107== Memcheck, a memory error detector
+==19107== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19107== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19107== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLClear.Clear
+==19107== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLClear.Clear
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLClear
+[ RUN      ] AVLClear.Clear
+[       OK ] AVLClear.Clear (15 ms)
+[----------] 1 test from AVLClear (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (38 ms total)
+[  PASSED  ] 1 test.
+==19107== 
+==19107== HEAP SUMMARY:
+==19107==     in use at exit: 72,704 bytes in 1 blocks
+==19107==   total heap usage: 310 allocs, 309 frees, 129,350 bytes allocated
+==19107== 
+==19107== LEAK SUMMARY:
+==19107==    definitely lost: 0 bytes in 0 blocks
+==19107==    indirectly lost: 0 bytes in 0 blocks
+==19107==      possibly lost: 0 bytes in 0 blocks
+==19107==    still reachable: 0 bytes in 0 blocks
+==19107==         suppressed: 72,704 bytes in 1 blocks
+==19107== 
+==19107== For counts of detected and suppressed errors, rerun with: -v
+==19107== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLClear.Clear" end time: May 03 23:42 PDT
+"AVLClear.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/59 Testing: AVLInsert.Duplicates
+42/59 Test: AVLInsert.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Duplicates"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.Duplicates" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19108== Memcheck, a memory error detector
+==19108== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19108== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19108== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.Duplicates
+==19108== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.Duplicates
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.Duplicates
+[       OK ] AVLInsert.Duplicates (37 ms)
+[----------] 1 test from AVLInsert (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (59 ms total)
+[  PASSED  ] 1 test.
+==19108== 
+==19108== HEAP SUMMARY:
+==19108==     in use at exit: 72,704 bytes in 1 blocks
+==19108==   total heap usage: 341 allocs, 340 frees, 130,423 bytes allocated
+==19108== 
+==19108== LEAK SUMMARY:
+==19108==    definitely lost: 0 bytes in 0 blocks
+==19108==    indirectly lost: 0 bytes in 0 blocks
+==19108==      possibly lost: 0 bytes in 0 blocks
+==19108==    still reachable: 0 bytes in 0 blocks
+==19108==         suppressed: 72,704 bytes in 1 blocks
+==19108== 
+==19108== For counts of detected and suppressed errors, rerun with: -v
+==19108== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.Duplicates" end time: May 03 23:42 PDT
+"AVLInsert.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/59 Testing: AVLInsert.Random50x30ele
+43/59 Test: AVLInsert.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random50x30ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.Random50x30ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19109== Memcheck, a memory error detector
+==19109== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19109== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19109== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.Random50x30ele
+==19109== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.Random50x30ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.Random50x30ele
+[       OK ] AVLInsert.Random50x30ele (170 ms)
+[----------] 1 test from AVLInsert (174 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (194 ms total)
+[  PASSED  ] 1 test.
+==19109== 
+==19109== HEAP SUMMARY:
+==19109==     in use at exit: 72,704 bytes in 1 blocks
+==19109==   total heap usage: 3,484 allocs, 3,483 frees, 272,499 bytes allocated
+==19109== 
+==19109== LEAK SUMMARY:
+==19109==    definitely lost: 0 bytes in 0 blocks
+==19109==    indirectly lost: 0 bytes in 0 blocks
+==19109==      possibly lost: 0 bytes in 0 blocks
+==19109==    still reachable: 0 bytes in 0 blocks
+==19109==         suppressed: 72,704 bytes in 1 blocks
+==19109== 
+==19109== For counts of detected and suppressed errors, rerun with: -v
+==19109== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.Random50x30ele" end time: May 03 23:42 PDT
+"AVLInsert.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/59 Testing: AVLInsert.Random3x5000ele
+44/59 Test: AVLInsert.Random3x5000ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random3x5000ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLInsert.Random3x5000ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19110== Memcheck, a memory error detector
+==19110== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19110== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19110== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLInsert.Random3x5000ele
+==19110== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLInsert.Random3x5000ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.Random3x5000ele
+[       OK ] AVLInsert.Random3x5000ele (670 ms)
+[----------] 1 test from AVLInsert (675 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (696 ms total)
+[  PASSED  ] 1 test.
+==19110== 
+==19110== HEAP SUMMARY:
+==19110==     in use at exit: 72,704 bytes in 1 blocks
+==19110==   total heap usage: 30,343 allocs, 30,342 frees, 1,510,370 bytes allocated
+==19110== 
+==19110== LEAK SUMMARY:
+==19110==    definitely lost: 0 bytes in 0 blocks
+==19110==    indirectly lost: 0 bytes in 0 blocks
+==19110==      possibly lost: 0 bytes in 0 blocks
+==19110==    still reachable: 0 bytes in 0 blocks
+==19110==         suppressed: 72,704 bytes in 1 blocks
+==19110== 
+==19110== For counts of detected and suppressed errors, rerun with: -v
+==19110== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.24 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.Random3x5000ele" end time: May 03 23:42 PDT
+"AVLInsert.Random3x5000ele" time elapsed: 00:00:01
+----------------------------------------------------------
+
+45/59 Testing: AVLRemove.EmptyTree
+45/59 Test: AVLRemove.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.EmptyTree"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.EmptyTree" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19119== Memcheck, a memory error detector
+==19119== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19119== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19119== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.EmptyTree
+==19119== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.EmptyTree
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.EmptyTree
+[       OK ] AVLRemove.EmptyTree (11 ms)
+[----------] 1 test from AVLRemove (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (34 ms total)
+[  PASSED  ] 1 test.
+==19119== 
+==19119== HEAP SUMMARY:
+==19119==     in use at exit: 72,704 bytes in 1 blocks
+==19119==   total heap usage: 334 allocs, 333 frees, 130,099 bytes allocated
+==19119== 
+==19119== LEAK SUMMARY:
+==19119==    definitely lost: 0 bytes in 0 blocks
+==19119==    indirectly lost: 0 bytes in 0 blocks
+==19119==      possibly lost: 0 bytes in 0 blocks
+==19119==    still reachable: 0 bytes in 0 blocks
+==19119==         suppressed: 72,704 bytes in 1 blocks
+==19119== 
+==19119== For counts of detected and suppressed errors, rerun with: -v
+==19119== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.EmptyTree" end time: May 03 23:42 PDT
+"AVLRemove.EmptyTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/59 Testing: AVLRemove.NodeMismatch
+46/59 Test: AVLRemove.NodeMismatch
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.NodeMismatch"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.NodeMismatch" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19120== Memcheck, a memory error detector
+==19120== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19120== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19120== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.NodeMismatch
+==19120== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.NodeMismatch
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.NodeMismatch
+[       OK ] AVLRemove.NodeMismatch (34 ms)
+[----------] 1 test from AVLRemove (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (59 ms total)
+[  PASSED  ] 1 test.
+==19120== 
+==19120== HEAP SUMMARY:
+==19120==     in use at exit: 72,704 bytes in 1 blocks
+==19120==   total heap usage: 338 allocs, 337 frees, 130,456 bytes allocated
+==19120== 
+==19120== LEAK SUMMARY:
+==19120==    definitely lost: 0 bytes in 0 blocks
+==19120==    indirectly lost: 0 bytes in 0 blocks
+==19120==      possibly lost: 0 bytes in 0 blocks
+==19120==    still reachable: 0 bytes in 0 blocks
+==19120==         suppressed: 72,704 bytes in 1 blocks
+==19120== 
+==19120== For counts of detected and suppressed errors, rerun with: -v
+==19120== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.NodeMismatch" end time: May 03 23:42 PDT
+"AVLRemove.NodeMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/59 Testing: AVLRemove.SingleRemove
+47/59 Test: AVLRemove.SingleRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.SingleRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.SingleRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19121== Memcheck, a memory error detector
+==19121== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19121== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19121== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.SingleRemove
+==19121== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.SingleRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.SingleRemove
+[       OK ] AVLRemove.SingleRemove (13 ms)
+[----------] 1 test from AVLRemove (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (39 ms total)
+[  PASSED  ] 1 test.
+==19121== 
+==19121== HEAP SUMMARY:
+==19121==     in use at exit: 72,704 bytes in 1 blocks
+==19121==   total heap usage: 334 allocs, 333 frees, 130,141 bytes allocated
+==19121== 
+==19121== LEAK SUMMARY:
+==19121==    definitely lost: 0 bytes in 0 blocks
+==19121==    indirectly lost: 0 bytes in 0 blocks
+==19121==      possibly lost: 0 bytes in 0 blocks
+==19121==    still reachable: 0 bytes in 0 blocks
+==19121==         suppressed: 72,704 bytes in 1 blocks
+==19121== 
+==19121== For counts of detected and suppressed errors, rerun with: -v
+==19121== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.SingleRemove" end time: May 03 23:42 PDT
+"AVLRemove.SingleRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/59 Testing: AVLRemove.RightChildRemove
+48/59 Test: AVLRemove.RightChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.RightChildRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.RightChildRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19122== Memcheck, a memory error detector
+==19122== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19122== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19122== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.RightChildRemove
+==19122== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.RightChildRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.RightChildRemove
+[       OK ] AVLRemove.RightChildRemove (34 ms)
+[----------] 1 test from AVLRemove (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (58 ms total)
+[  PASSED  ] 1 test.
+==19122== 
+==19122== HEAP SUMMARY:
+==19122==     in use at exit: 72,704 bytes in 1 blocks
+==19122==   total heap usage: 338 allocs, 337 frees, 130,361 bytes allocated
+==19122== 
+==19122== LEAK SUMMARY:
+==19122==    definitely lost: 0 bytes in 0 blocks
+==19122==    indirectly lost: 0 bytes in 0 blocks
+==19122==      possibly lost: 0 bytes in 0 blocks
+==19122==    still reachable: 0 bytes in 0 blocks
+==19122==         suppressed: 72,704 bytes in 1 blocks
+==19122== 
+==19122== For counts of detected and suppressed errors, rerun with: -v
+==19122== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.RightChildRemove" end time: May 03 23:42 PDT
+"AVLRemove.RightChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/59 Testing: AVLRemove.LeftChildRemove
+49/59 Test: AVLRemove.LeftChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.LeftChildRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.LeftChildRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19123== Memcheck, a memory error detector
+==19123== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19123== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19123== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.LeftChildRemove
+==19123== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.LeftChildRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.LeftChildRemove
+[       OK ] AVLRemove.LeftChildRemove (37 ms)
+[----------] 1 test from AVLRemove (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (60 ms total)
+[  PASSED  ] 1 test.
+==19123== 
+==19123== HEAP SUMMARY:
+==19123==     in use at exit: 72,704 bytes in 1 blocks
+==19123==   total heap usage: 338 allocs, 337 frees, 130,354 bytes allocated
+==19123== 
+==19123== LEAK SUMMARY:
+==19123==    definitely lost: 0 bytes in 0 blocks
+==19123==    indirectly lost: 0 bytes in 0 blocks
+==19123==      possibly lost: 0 bytes in 0 blocks
+==19123==    still reachable: 0 bytes in 0 blocks
+==19123==         suppressed: 72,704 bytes in 1 blocks
+==19123== 
+==19123== For counts of detected and suppressed errors, rerun with: -v
+==19123== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.LeftChildRemove" end time: May 03 23:42 PDT
+"AVLRemove.LeftChildRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/59 Testing: AVLRemove.TwoChildrenRemove_3Node
+50/59 Test: AVLRemove.TwoChildrenRemove_3Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_3Node"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.TwoChildrenRemove_3Node" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19124== Memcheck, a memory error detector
+==19124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19124== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19124== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.TwoChildrenRemove_3Node
+==19124== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.TwoChildrenRemove_3Node
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.TwoChildrenRemove_3Node
+[       OK ] AVLRemove.TwoChildrenRemove_3Node (36 ms)
+[----------] 1 test from AVLRemove (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (59 ms total)
+[  PASSED  ] 1 test.
+==19124== 
+==19124== HEAP SUMMARY:
+==19124==     in use at exit: 72,704 bytes in 1 blocks
+==19124==   total heap usage: 338 allocs, 337 frees, 130,485 bytes allocated
+==19124== 
+==19124== LEAK SUMMARY:
+==19124==    definitely lost: 0 bytes in 0 blocks
+==19124==    indirectly lost: 0 bytes in 0 blocks
+==19124==      possibly lost: 0 bytes in 0 blocks
+==19124==    still reachable: 0 bytes in 0 blocks
+==19124==         suppressed: 72,704 bytes in 1 blocks
+==19124== 
+==19124== For counts of detected and suppressed errors, rerun with: -v
+==19124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.TwoChildrenRemove_3Node" end time: May 03 23:42 PDT
+"AVLRemove.TwoChildrenRemove_3Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/59 Testing: AVLRemove.TwoChildrenRemove_4Node
+51/59 Test: AVLRemove.TwoChildrenRemove_4Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_4Node"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.TwoChildrenRemove_4Node" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19125== Memcheck, a memory error detector
+==19125== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19125== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19125== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.TwoChildrenRemove_4Node
+==19125== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.TwoChildrenRemove_4Node
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.TwoChildrenRemove_4Node
+[       OK ] AVLRemove.TwoChildrenRemove_4Node (45 ms)
+[----------] 1 test from AVLRemove (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (69 ms total)
+[  PASSED  ] 1 test.
+==19125== 
+==19125== HEAP SUMMARY:
+==19125==     in use at exit: 72,704 bytes in 1 blocks
+==19125==   total heap usage: 340 allocs, 339 frees, 130,581 bytes allocated
+==19125== 
+==19125== LEAK SUMMARY:
+==19125==    definitely lost: 0 bytes in 0 blocks
+==19125==    indirectly lost: 0 bytes in 0 blocks
+==19125==      possibly lost: 0 bytes in 0 blocks
+==19125==    still reachable: 0 bytes in 0 blocks
+==19125==         suppressed: 72,704 bytes in 1 blocks
+==19125== 
+==19125== For counts of detected and suppressed errors, rerun with: -v
+==19125== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.TwoChildrenRemove_4Node" end time: May 03 23:42 PDT
+"AVLRemove.TwoChildrenRemove_4Node" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/59 Testing: AVLRemove.Random50x30ele
+52/59 Test: AVLRemove.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLRemove.Random50x30ele"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRemove.Random50x30ele" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19126== Memcheck, a memory error detector
+==19126== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19126== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19126== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLRemove.Random50x30ele
+==19126== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRemove.Random50x30ele
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.Random50x30ele
+[       OK ] AVLRemove.Random50x30ele (150 ms)
+[----------] 1 test from AVLRemove (156 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (177 ms total)
+[  PASSED  ] 1 test.
+==19126== 
+==19126== HEAP SUMMARY:
+==19126==     in use at exit: 72,704 bytes in 1 blocks
+==19126==   total heap usage: 1,084 allocs, 1,083 frees, 162,859 bytes allocated
+==19126== 
+==19126== LEAK SUMMARY:
+==19126==    definitely lost: 0 bytes in 0 blocks
+==19126==    indirectly lost: 0 bytes in 0 blocks
+==19126==      possibly lost: 0 bytes in 0 blocks
+==19126==    still reachable: 0 bytes in 0 blocks
+==19126==         suppressed: 72,704 bytes in 1 blocks
+==19126== 
+==19126== For counts of detected and suppressed errors, rerun with: -v
+==19126== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.Random50x30ele" end time: May 03 23:42 PDT
+"AVLRemove.Random50x30ele" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/59 Testing: AVLStress.InsertRemove
+53/59 Test: AVLStress.InsertRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLStress.InsertRemove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLStress.InsertRemove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19127== Memcheck, a memory error detector
+==19127== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19127== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19127== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLStress.InsertRemove
+==19127== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLStress.InsertRemove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLStress
+[ RUN      ] AVLStress.InsertRemove
+[       OK ] AVLStress.InsertRemove (118 ms)
+[----------] 1 test from AVLStress (122 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (141 ms total)
+[  PASSED  ] 1 test.
+==19127== 
+==19127== HEAP SUMMARY:
+==19127==     in use at exit: 72,704 bytes in 1 blocks
+==19127==   total heap usage: 597 allocs, 596 frees, 143,205 bytes allocated
+==19127== 
+==19127== LEAK SUMMARY:
+==19127==    definitely lost: 0 bytes in 0 blocks
+==19127==    indirectly lost: 0 bytes in 0 blocks
+==19127==      possibly lost: 0 bytes in 0 blocks
+==19127==    still reachable: 0 bytes in 0 blocks
+==19127==         suppressed: 72,704 bytes in 1 blocks
+==19127== 
+==19127== For counts of detected and suppressed errors, rerun with: -v
+==19127== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"AVLStress.InsertRemove" end time: May 03 23:42 PDT
+"AVLStress.InsertRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/59 Testing: AVLStress.Remove
+54/59 Test: AVLStress.Remove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests" "--gtest_filter=AVLStress.Remove"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLStress.Remove" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+==19128== Memcheck, a memory error detector
+==19128== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==19128== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==19128== Command: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_tests --gtest_filter=AVLStress.Remove
+==19128== 
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLStress.Remove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLStress
+[ RUN      ] AVLStress.Remove
+Before any removals, tree is: 
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (2, 8)
+[03] -> (3, 0)
+[04] -> (10, 0)
+[05] -> (15, 0)
+
+After removing -1 (which doesn't exist), tree is: 
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (2, 8)
+[03] -> (3, 0)
+[04] -> (10, 0)
+[05] -> (15, 0)
+
+After removing 2 (the root), tree is: 
+         [03]
+     ┌───┘  └───┐            
+   [01]        [04]
+      └┐                  
+      [02]            
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, 0)
+[03] -> (10, 0)
+[04] -> (15, 0)
+
+After removing 10, tree is: 
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, 0)
+[03] -> (15, 0)
+
+After removing 1, tree is: 
+   [01]
+      └┐      
+      [02]
+
+Tree Placeholders:------------------
+[01] -> (3, 0)
+[02] -> (15, 0)
+
+After removing 3, tree is: 
+[01]
+
+Tree Placeholders:------------------
+[01] -> (15, 0)
+
+After removing 15 (the last element), tree is: 
+<empty tree>
+
+After removing 15 (which doesn't exist), tree is: 
+<empty tree>
+
+[       OK ] AVLStress.Remove (99 ms)
+[----------] 1 test from AVLStress (103 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (123 ms total)
+[  PASSED  ] 1 test.
+==19128== 
+==19128== HEAP SUMMARY:
+==19128==     in use at exit: 72,704 bytes in 1 blocks
+==19128==   total heap usage: 407 allocs, 406 frees, 132,403 bytes allocated
+==19128== 
+==19128== LEAK SUMMARY:
+==19128==    definitely lost: 0 bytes in 0 blocks
+==19128==    indirectly lost: 0 bytes in 0 blocks
+==19128==      possibly lost: 0 bytes in 0 blocks
+==19128==    still reachable: 0 bytes in 0 blocks
+==19128==         suppressed: 72,704 bytes in 1 blocks
+==19128== 
+==19128== For counts of detected and suppressed errors, rerun with: -v
+==19128== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"AVLStress.Remove" end time: May 03 23:42 PDT
+"AVLStress.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/59 Testing: AVLRuntime.InsertAscending
+55/59 Test: AVLRuntime.InsertAscending
+Command: "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.InsertAscending"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRuntime.InsertAscending" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertAscending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertAscending
+>> Evaluating runtime of AVLTree::insert() with keys in ascending order
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.0910) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (3.5678) is >= threshold (1.4000)
+>> Time complexity of AVLTree::insert() with keys in ascending order is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.3394) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3431) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0408) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0314) is < threshold (1.4000)
+[       OK ] AVLRuntime.InsertAscending (481 ms)
+[----------] 1 test from AVLRuntime (481 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (481 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRuntime.InsertAscending" end time: May 03 23:42 PDT
+"AVLRuntime.InsertAscending" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/59 Testing: AVLRuntime.InsertDescending
+56/59 Test: AVLRuntime.InsertDescending
+Command: "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.InsertDescending"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRuntime.InsertDescending" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertDescending
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertDescending
+>> Evaluating runtime of AVLTree::insert() with keys in descending order
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.1247) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.4378) is >= threshold (1.4000)
+>> Time complexity of AVLTree::insert() with keys in descending order is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.5042) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3222) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0547) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0347) is < threshold (1.4000)
+[       OK ] AVLRuntime.InsertDescending (531 ms)
+[----------] 1 test from AVLRuntime (531 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (531 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRuntime.InsertDescending" end time: May 03 23:42 PDT
+"AVLRuntime.InsertDescending" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/59 Testing: AVLRuntime.InsertRandom
+57/59 Test: AVLRuntime.InsertRandom
+Command: "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.InsertRandom"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRuntime.InsertRandom" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.InsertRandom
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.InsertRandom
+>> Evaluating runtime of AVLTree::insert() with keys in random order
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.1311) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.3316) is >= threshold (1.4000)
+>> Time complexity of AVLTree::insert() with keys in random order is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.5256) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3540) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0597) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0410) is < threshold (1.4000)
+[       OK ] AVLRuntime.InsertRandom (2640 ms)
+[----------] 1 test from AVLRuntime (2640 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (2640 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.64 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRuntime.InsertRandom" end time: May 03 23:42 PDT
+"AVLRuntime.InsertRandom" time elapsed: 00:00:02
+----------------------------------------------------------
+
+58/59 Testing: AVLRuntime.RemoveMin
+58/59 Test: AVLRuntime.RemoveMin
+Command: "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.RemoveMin"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRuntime.RemoveMin" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMin
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMin
+>> Evaluating runtime of AVLTree::remove() on min element
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.1889) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (1.8515) is >= threshold (1.4000)
+>> Time complexity of AVLTree::remove() on min element is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.5444) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3483) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0815) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0507) is < threshold (1.4000)
+[       OK ] AVLRuntime.RemoveMin (496 ms)
+[----------] 1 test from AVLRuntime (496 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (496 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRuntime.RemoveMin" end time: May 03 23:42 PDT
+"AVLRuntime.RemoveMin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/59 Testing: AVLRuntime.RemoveMax
+59/59 Test: AVLRuntime.RemoveMax
+Command: "/home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests/avl_runtime_tests" "--gtest_filter=AVLRuntime.RemoveMax"
+Directory: /home/cs104/CS104/hw-amirhega/hw6/bst-avl/bst-avl-check/avl_tests
+"AVLRuntime.RemoveMax" start time: May 03 23:42 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AVLRuntime.RemoveMax
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRuntime
+[ RUN      ] AVLRuntime.RemoveMax
+>> Evaluating runtime of AVLTree::remove() on max element
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.1995) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.1665) is >= threshold (1.4000)
+>> Time complexity of AVLTree::remove() on max element is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.8162) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3572) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0900) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0574) is < threshold (1.4000)
+[       OK ] AVLRuntime.RemoveMax (512 ms)
+[----------] 1 test from AVLRuntime (512 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (512 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRuntime.RemoveMax" end time: May 03 23:42 PDT
+"AVLRuntime.RemoveMax" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 03 23:42 PDT

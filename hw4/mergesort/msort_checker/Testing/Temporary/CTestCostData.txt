@@ -1,0 +1,19 @@
+MSortTest.SortEmpty 1 0.540321
+MSortTest.SortSingleElement 1 0.519855
+MSortTest.SortTwoElements_InOrder 1 0.507687
+MSortTest.SortTwoElements_OutOfOrder 1 0.510452
+MSortTest.SortThreeElements_10_20_30 1 0.540323
+MSortTest.SortThreeElements_10_30_20 1 0.520353
+MSortTest.SortThreeElements_20_10_30 1 0.504981
+MSortTest.SortThreeElements_20_30_10 1 0.525182
+MSortTest.SortThreeElements_30_10_20 1 0.507051
+MSortTest.SortThreeElements_30_20_10 1 0.505245
+MSortTest.SortThreeElements_Greater 1 0.500171
+MSortTest.SortStrings 1 0.560577
+MSortTest.SortPairs 1 0.50943
+MSortTest.Stress10RandomElements_Less 1 0.534935
+MSortTest.Stress100RandomElements_Less 1 0.514134
+MSortTest.Stress1000RandomElements_Less 1 0.53903
+MSortTest.Stress10000RandomElements_Less 1 0.749203
+MergeSortRuntime.Runtime 1 0.890125
+---

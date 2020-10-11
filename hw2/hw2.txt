@@ -1,0 +1,19 @@
+1. 
+	A) The README.md would be unmodified
+	B) The README.md would be modified while fun_problems.txt would be untracked
+	C) They are both staged
+	D) They are both modified
+	E) The README.md is staged while fun_problems.txt is unmodified.
+	   fun_problems.txt would "checkout" or goes to the most recent commit, meaning it would be empty and ignore untracked changes
+	F) README.md would be modified and untracked because the content has been changed from the current commit
+
+
+2.
+	1) What can be used here efficiently is a map. This map would have a unique key that is a string which contains (playlist-track) and a string value for song name. Lookup time for a map is log(n), making map a good choice for looking up songs.
+	2) A List (implemented using vectors like) would work efficiently for this. This is because a List has its members linearly ordered which, like the process of a recipe because you can't skip steps, provides sequential accessing and storage and allows for the ammending new steps.
+	3) A map of (key=string) and (value=string array) would be useful in this sense since a map has an efficient lookup time and the key will always be unique. The associated string array would have all possible programs for it and since it is not
+	necessary to find a specific one but only know the possible programs, and array would
+	work very well if we wanted to get each one.
+	4) A set of strings would work efficiently as the lookup time is quick (O(logn)). Also the stations don't have any values or data associated it which is perfect for a set.
+
+3. In hw2.pdf

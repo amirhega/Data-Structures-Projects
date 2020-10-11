@@ -1,0 +1,1162 @@
+{
+  "list-recursion": {
+    "check_llrec_source": {
+      "complete": true,
+      "passed": true,
+      "task": "check_llrec_source",
+      "details": {}
+    },
+    "build_llrec_harness": {
+      "complete": true,
+      "passed": true,
+      "task": "build_llrec_harness",
+      "details": {
+        "runtime": {
+          "args": [
+            "g++",
+            "-std=c++11",
+            "-I/home/cs104/.local/lib/python3.7/site-packages/curricula/grade/include",
+            "-I/home/cs104/CS104/hw-amirhega/hw4/list-recursion",
+            "-o",
+            "/tmp/llrec",
+            "/home/cs104/CS104/homework-resources/hw4-grading/list-recursion/harness.cpp",
+            "/home/cs104/CS104/hw-amirhega/hw4/list-recursion/llrec.cpp"
+          ],
+          "cwd": null,
+          "elapsed": 0.2021371410082793,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 30,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_pivot_empty": {
+      "complete": true,
+      "passed": false,
+      "task": "test_pivot_empty",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_pivot",
+            "0"
+          ],
+          "cwd": null,
+          "elapsed": 0.084477316995617,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": -11,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        },
+        "error": "expected status code of zero"
+      }
+    },
+    "test_pivot_sorted": {
+      "complete": true,
+      "passed": false,
+      "task": "test_pivot_sorted",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_pivot",
+            "2",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "cwd": null,
+          "elapsed": 0.08257181700901128,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": -11,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        },
+        "error": "expected status code of zero"
+      }
+    },
+    "test_pivot_unsorted": {
+      "complete": true,
+      "passed": false,
+      "task": "test_pivot_unsorted",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_pivot",
+            "2",
+            "3",
+            "1",
+            "4",
+            "2"
+          ],
+          "cwd": null,
+          "elapsed": 0.0831703000003472,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": -11,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        },
+        "error": "expected status code of zero"
+      }
+    },
+    "test_pivot_same": {
+      "complete": true,
+      "passed": false,
+      "task": "test_pivot_same",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_pivot",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "cwd": null,
+          "elapsed": 0.0883417430013651,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": -11,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        },
+        "error": "expected status code of zero"
+      }
+    },
+    "test_filter_empty": {
+      "complete": true,
+      "passed": true,
+      "task": "test_filter_empty",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_filter",
+            "3"
+          ],
+          "cwd": null,
+          "elapsed": 0.002281957000377588,
+          "stdin": null,
+          "stdout": "\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_filter_sorted": {
+      "complete": true,
+      "passed": true,
+      "task": "test_filter_sorted",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_filter",
+            "3",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "cwd": null,
+          "elapsed": 0.0022742029977962375,
+          "stdin": null,
+          "stdout": "3 4\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_filter_all": {
+      "complete": true,
+      "passed": true,
+      "task": "test_filter_all",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_filter",
+            "3",
+            "1",
+            "2"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021030959906056523,
+          "stdin": null,
+          "stdout": "\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_filter_none": {
+      "complete": true,
+      "passed": true,
+      "task": "test_filter_none",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/llrec",
+            "test_filter",
+            "3",
+            "3",
+            "4"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021631100098602474,
+          "stdin": null,
+          "stdout": "3 4\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 5,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "cleanup_llrec": {
+      "complete": true,
+      "passed": true,
+      "task": "cleanup_llrec",
+      "details": {}
+    }
+  },
+  "mergesort": {
+    "check_mergesort_source": {
+      "complete": true,
+      "passed": true,
+      "task": "check_mergesort_source",
+      "details": {}
+    },
+    "build_mergesort_harness": {
+      "complete": true,
+      "passed": true,
+      "task": "build_mergesort_harness",
+      "details": {
+        "runtime": {
+          "args": [
+            "g++",
+            "-std=c++11",
+            "-I/home/cs104/.local/lib/python3.7/site-packages/curricula/grade/include",
+            "-I/home/cs104/CS104/hw-amirhega/hw4/mergesort",
+            "-o",
+            "/tmp/msort",
+            "/home/cs104/CS104/homework-resources/hw4-grading/mergesort/harness.cpp"
+          ],
+          "cwd": null,
+          "elapsed": 0.5189014960051281,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 20,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_empty": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_empty",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021986549982102588,
+          "stdin": null,
+          "stdout": "\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_one_a": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_one_a",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "10"
+          ],
+          "cwd": null,
+          "elapsed": 0.002339906000997871,
+          "stdin": null,
+          "stdout": "10\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_two_ab": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_two_ab",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "10",
+            "20"
+          ],
+          "cwd": null,
+          "elapsed": 0.0022026990045560524,
+          "stdin": null,
+          "stdout": "10 20\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_two_ba": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_two_ba",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "20",
+            "10"
+          ],
+          "cwd": null,
+          "elapsed": 0.0020811589929508045,
+          "stdin": null,
+          "stdout": "10 20\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_three_abc": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_three_abc",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "10",
+            "20",
+            "30"
+          ],
+          "cwd": null,
+          "elapsed": 0.0022885080106789246,
+          "stdin": null,
+          "stdout": "10 20 30\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_three_acb": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_three_acb",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "10",
+            "30",
+            "20"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021839859982719645,
+          "stdin": null,
+          "stdout": "10 20 30\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_three_bac": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_three_bac",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "20",
+            "10",
+            "30"
+          ],
+          "cwd": null,
+          "elapsed": 0.002304264999111183,
+          "stdin": null,
+          "stdout": "10 20 30\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_three_bca": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_three_bca",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "20",
+            "30",
+            "10"
+          ],
+          "cwd": null,
+          "elapsed": 0.002179864008212462,
+          "stdin": null,
+          "stdout": "10 20 30\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_three_cab": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_three_cab",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "30",
+            "10",
+            "20"
+          ],
+          "cwd": null,
+          "elapsed": 0.002503411000361666,
+          "stdin": null,
+          "stdout": "10 20 30\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_three_cba": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_three_cba",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "30",
+            "20",
+            "10"
+          ],
+          "cwd": null,
+          "elapsed": 0.0025513019936624914,
+          "stdin": null,
+          "stdout": "10 20 30\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_ten_random": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_ten_random",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "70",
+            "100",
+            "10",
+            "30",
+            "40",
+            "20",
+            "50",
+            "60",
+            "90",
+            "80"
+          ],
+          "cwd": null,
+          "elapsed": 0.002506510994862765,
+          "stdin": null,
+          "stdout": "10 20 30 40 50 60 70 80 90 100\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_ten_same": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_ten_same",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "sort",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10"
+          ],
+          "cwd": null,
+          "elapsed": 0.0024990050005726516,
+          "stdin": null,
+          "stdout": "10 10 10 10 10 10 10 10 10 10\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_random_100": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_random_100",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "random",
+            "1",
+            "100"
+          ],
+          "cwd": null,
+          "elapsed": 0.0022365280019585043,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_random_1000": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_random_1000",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "random",
+            "1",
+            "1000"
+          ],
+          "cwd": null,
+          "elapsed": 0.002973522001411766,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesort_random_10000": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesort_random_10000",
+      "details": {
+        "runtime": {
+          "args": [
+            "/tmp/msort",
+            "random",
+            "1",
+            "10000"
+          ],
+          "cwd": null,
+          "elapsed": 0.007655180990695953,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_mergesert_complexity": {
+      "complete": true,
+      "passed": true,
+      "task": "test_mergesert_complexity",
+      "details": {}
+    },
+    "cleanup_mergesort_harness": {
+      "complete": true,
+      "passed": true,
+      "task": "cleanup_mergesort_harness",
+      "details": {}
+    }
+  },
+  "search2": {
+    "check_search_makefile": {
+      "complete": true,
+      "passed": true,
+      "task": "check_search_makefile",
+      "details": {}
+    },
+    "build_search_crawler": {
+      "complete": true,
+      "passed": true,
+      "task": "build_search_crawler",
+      "details": {
+        "runtime": {
+          "args": [
+            "make",
+            "-B",
+            "-C",
+            "/home/cs104/CS104/hw-amirhega/hw4/search2",
+            "crawl"
+          ],
+          "cwd": null,
+          "elapsed": 2.5224346820032224,
+          "stdin": null,
+          "stdout": "make: Entering directory '/home/cs104/CS104/hw-amirhega/hw4/search2'\ng++ -g -std=gnu++11 -Wall -c util.cpp -o util.o\ng++ -g -std=gnu++11 -Wall -c txt_parser.cpp -o txt_parser.o\ng++ -g -std=gnu++11 -Wall -c md_parser.cpp -o md_parser.o\ng++ -g -std=gnu++11 -Wall -c webpage.cpp -o webpage.o\ng++ -g -std=gnu++11 -Wall -c searcheng.cpp -o searcheng.o\ng++ -g -std=gnu++11 -Wall crawl.cpp util.o txt_parser.o md_parser.o webpage.o searcheng.o -o crawl\nmake: Leaving directory '/home/cs104/CS104/hw-amirhega/hw4/search2'\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": null,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "check_search_crawler": {
+      "complete": true,
+      "passed": true,
+      "task": "check_search_crawler",
+      "details": {}
+    },
+    "setup_search_crawler_output": {
+      "complete": true,
+      "passed": true,
+      "task": "setup_search_crawler_output",
+      "details": {}
+    },
+    "build_search_shell": {
+      "complete": true,
+      "passed": true,
+      "task": "build_search_shell",
+      "details": {
+        "runtime": {
+          "args": [
+            "make",
+            "-B",
+            "-C",
+            "/home/cs104/CS104/hw-amirhega/hw4/search2"
+          ],
+          "cwd": null,
+          "elapsed": 3.417946250003297,
+          "stdin": null,
+          "stdout": "make: Entering directory '/home/cs104/CS104/hw-amirhega/hw4/search2'\ng++ -g -std=gnu++11 -Wall -c searcheng.cpp -o searcheng.o\ng++ -g -std=gnu++11 -Wall -c searchui.cpp -o searchui.o\ng++ -g -std=gnu++11 -Wall -c webpage.cpp -o webpage.o\ng++ -g -std=gnu++11 -Wall -c combiners.cpp -o combiners.o\ng++ -g -std=gnu++11 -Wall -c util.cpp -o util.o\ng++ -g -std=gnu++11 -Wall -c txt_parser.cpp -o txt_parser.o\ng++ -g -std=gnu++11 -Wall -c md_parser.cpp -o md_parser.o\ng++ -g -std=gnu++11 -Wall -c handler.cpp -o handler.o\ng++ -g -std=gnu++11 -Wall -c cmdhandler.cpp -o cmdhandler.o\ng++ -g -std=gnu++11 -Wall search-shell.cpp searcheng.o searchui.o webpage.o combiners.o util.o txt_parser.o md_parser.o handler.o cmdhandler.o -o search-shell\nmake: Leaving directory '/home/cs104/CS104/hw-amirhega/hw4/search2'\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 30,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "check_search_shell": {
+      "complete": true,
+      "passed": true,
+      "task": "check_search_shell",
+      "details": {}
+    },
+    "open_search_shells": {
+      "complete": true,
+      "passed": true,
+      "task": "open_search_shells",
+      "details": {}
+    },
+    "test_crawler_basic": {
+      "complete": true,
+      "passed": true,
+      "task": "test_crawler_basic",
+      "details": {
+        "expected": "tests/basic/b.md\ntests/basic/a.md\ntests/basic/c.md\n",
+        "out": "tests/basic/b.md\ntests/basic/a.md\ntests/basic/c.md\n"
+      }
+    },
+    "test_crawler_pr-ex1": {
+      "complete": true,
+      "passed": true,
+      "task": "test_crawler_pr-ex1",
+      "details": {
+        "expected": "tests/pr-ex1/e.md\ntests/pr-ex1/c.md\ntests/pr-ex1/b.md\ntests/pr-ex1/a.md\ntests/pr-ex1/d.md\ntests/pr-ex1/f.md\n",
+        "out": "tests/pr-ex1/e.md\ntests/pr-ex1/c.md\ntests/pr-ex1/b.md\ntests/pr-ex1/a.md\ntests/pr-ex1/d.md\ntests/pr-ex1/f.md\n"
+      }
+    },
+    "test_crawler_pr-small": {
+      "complete": true,
+      "passed": true,
+      "task": "test_crawler_pr-small",
+      "details": {
+        "expected": "tests/pr-small/e.md\ntests/pr-small/c.md\ntests/pr-small/b.md\ntests/pr-small/a.md\ntests/pr-small/d.md\ntests/pr-small/f.md\n",
+        "out": "tests/pr-small/e.md\ntests/pr-small/c.md\ntests/pr-small/b.md\ntests/pr-small/a.md\ntests/pr-small/d.md\ntests/pr-small/f.md\n"
+      }
+    },
+    "test_crawler_unknown": {
+      "complete": true,
+      "passed": true,
+      "task": "test_crawler_unknown",
+      "details": {
+        "expected": "tests/basic/b.md\ntests/basic/a.md\ntests/basic/c.md\n",
+        "out": "tests/basic/b.md\ntests/basic/a.md\ntests/basic/c.md\n"
+      }
+    },
+    "test_query0": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query0",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.0012493669928517193,
+          "stdin": "PRAND r moon\n",
+          "stdout": "\n5\ntests/data/data1.md : 0.580548\ntests/data/data4.md : 0.117657\ntests/data/data6.md : 0.110217\ntests/data/data5.md : 0.107274\ntests/data/data7.md : 0.084305\n\n$: ",
+          "stderr": ""
+        }
+      }
+    },
+    "test_query1": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query1",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.0012868140038335696,
+          "stdin": "PRAND n space HTML\n",
+          "stdout": "\n11\n/about/ : 0.101633\nhttp://example.net/ : 0.101633\nhttp://google.com/ : 0.101633\nhttp://search.msn.com/ : 0.101633\nhttp://search.yahoo.com/ : 0.101633\ntests/data/data1.md : 0.194885\ntests/data/data2.md : 0.126164\ntests/data/data4.md : 0.0329124\ntests/data/data5.md : 0.017316\ntests/data/data7.md : 0.0189246\ntests/data/data9.md : 0.101633\n\n$: ",
+          "stderr": ""
+        }
+      }
+    },
+    "test_query2": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query2",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.0012125899957027286,
+          "stdin": "PROR r moon MIT\n",
+          "stdout": "\n7\ntests/data/data1.md : 0.471155\ntests/data/data3.md : 0.199336\ntests/data/data4.md : 0.0840406\ntests/data/data6.md : 0.0787262\ntests/data/data5.md : 0.0766242\ntests/data/data7.md : 0.0602178\ntests/data/data8.md : 0.0299003\n\n$: ",
+          "stderr": ""
+        }
+      }
+    },
+    "test_query3": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query3",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.0010625499999150634,
+          "stdin": "PROR n url beginner\n",
+          "stdout": "\n14\n/about/ : 0.0810037\nhttp://example.net/ : 0.0810037\nhttp://google.com/ : 0.0810037\nhttp://search.msn.com/ : 0.0810037\nhttp://search.yahoo.com/ : 0.0810037\ntests/data/data1.md : 0.177449\ntests/data/data2.md : 0.158495\ntests/data/data3.md : 0.123338\ntests/data/data4.md : 0.023578\ntests/data/data5.md : 0.0223383\ntests/data/data6.md : 0.0242718\ntests/data/data7.md : 0.0168975\ntests/data/data8.md : 0.0274817\ntests/data/data9.md : 0.0211315\n\n$: ",
+          "stderr": ""
+        }
+      }
+    },
+    "test_query4": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query4",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.0003514709969749674,
+          "stdin": "PRAND n moon\n",
+          "stdout": "\n5\ntests/data/data1.md : 0.580548\ntests/data/data4.md : 0.117657\ntests/data/data5.md : 0.107274\ntests/data/data6.md : 0.110217\ntests/data/data7.md : 0.084305\n\n$: ",
+          "stderr": ""
+        }
+      }
+    },
+    "test_query4_incoming": {
+      "complete": true,
+      "passed": false,
+      "task": "test_query4_incoming",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.001429933006875217,
+          "stdin": "INCOMING tests/data/data7.md\n",
+          "stdout": "\n2\ntests/data/data5.md\ntests/data/data7.md\n\n$: ",
+          "stderr": ""
+        },
+        "received": "tests/data/data7.md, tests/data/data5.md"
+      }
+    },
+    "test_query4_outgoing": {
+      "complete": true,
+      "passed": false,
+      "task": "test_query4_outgoing",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 9.624099766369909e-05,
+          "stdin": "OUTGOING tests/data/data7.md\n",
+          "stdout": "\n10\ntests/data/data1.md\ntests/data/data2.md\ntests/data/data4.md\ntests/data/data7.md\n/about/\nhttp://example.net/\nhttp://google.com/\nhttp://search.msn.com/\nhttp://search.yahoo.com/\ntests/data/data9.md\n\n$: ",
+          "stderr": ""
+        },
+        "received": "tests/data/data1.md, http://search.msn.com/, tests/data/data2.md, /about/, tests/data/data4.md, http://google.com/, http://example.net/, tests/data/data9.md, http://search.yahoo.com/, tests/data/data7.md"
+      }
+    },
+    "test_query5": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query5",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.00040902399632614106,
+          "stdin": "PROR r moon\n",
+          "stdout": "\n5\ntests/data/data1.md : 0.580548\ntests/data/data4.md : 0.117657\ntests/data/data6.md : 0.110217\ntests/data/data5.md : 0.107274\ntests/data/data7.md : 0.084305\n\n$: ",
+          "stderr": ""
+        }
+      }
+    },
+    "test_query5_incoming": {
+      "complete": true,
+      "passed": false,
+      "task": "test_query5_incoming",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 5.326000973582268e-05,
+          "stdin": "INCOMING tests/data/data4.md\n",
+          "stdout": "\n3\ntests/data/data4.md\ntests/data/data5.md\ntests/data/data7.md\n\n$: ",
+          "stderr": ""
+        },
+        "received": "tests/data/data4.md, tests/data/data7.md, tests/data/data5.md"
+      }
+    },
+    "test_query5_outgoing": {
+      "complete": true,
+      "passed": false,
+      "task": "test_query5_outgoing",
+      "details": {
+        "interaction": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 4.137100768275559e-05,
+          "stdin": "OUTGOING tests/data/data4.md\n",
+          "stdout": "\n3\ntests/data/data1.md\ntests/data/data4.md\ntests/data/data6.md\n\n$: ",
+          "stderr": ""
+        },
+        "received": "tests/data/data1.md, tests/data/data4.md, tests/data/data6.md"
+      }
+    },
+    "cleanup_search_crawler": {
+      "complete": true,
+      "passed": true,
+      "task": "cleanup_search_crawler",
+      "details": {}
+    },
+    "test_query0_quit": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query0_quit",
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.1043879139906494,
+          "stdin": "PRAND r moon\nquit\n",
+          "stdout": "=====================================\nMenu: \n  AND term term ...                  \n  OR term term ...                   \n  PRAND r|n term term ...            \n  PROR r|n term term ...             \n  DIFF term not-present-term not-present-term ... \n  PRINT page                         \n  INCOMING page                      \n  OUTGOING page                      \n  QUIT                               \n=====================================\n\n$: \n5\ntests/data/data1.md : 0.580548\ntests/data/data4.md : 0.117657\ntests/data/data6.md : 0.110217\ntests/data/data5.md : 0.107274\ntests/data/data7.md : 0.084305\n\n$: \n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 1,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_query1_quit": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query1_quit",
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.09173571800056379,
+          "stdin": "PRAND n space HTML\nquit\n",
+          "stdout": "=====================================\nMenu: \n  AND term term ...                  \n  OR term term ...                   \n  PRAND r|n term term ...            \n  PROR r|n term term ...             \n  DIFF term not-present-term not-present-term ... \n  PRINT page                         \n  INCOMING page                      \n  OUTGOING page                      \n  QUIT                               \n=====================================\n\n$: \n11\n/about/ : 0.101633\nhttp://example.net/ : 0.101633\nhttp://google.com/ : 0.101633\nhttp://search.msn.com/ : 0.101633\nhttp://search.yahoo.com/ : 0.101633\ntests/data/data1.md : 0.194885\ntests/data/data2.md : 0.126164\ntests/data/data4.md : 0.0329124\ntests/data/data5.md : 0.017316\ntests/data/data7.md : 0.0189246\ntests/data/data9.md : 0.101633\n\n$: \n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 1,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_query2_quit": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query2_quit",
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.07778972999949474,
+          "stdin": "PROR r moon MIT\nquit\n",
+          "stdout": "=====================================\nMenu: \n  AND term term ...                  \n  OR term term ...                   \n  PRAND r|n term term ...            \n  PROR r|n term term ...             \n  DIFF term not-present-term not-present-term ... \n  PRINT page                         \n  INCOMING page                      \n  OUTGOING page                      \n  QUIT                               \n=====================================\n\n$: \n7\ntests/data/data1.md : 0.471155\ntests/data/data3.md : 0.199336\ntests/data/data4.md : 0.0840406\ntests/data/data6.md : 0.0787262\ntests/data/data5.md : 0.0766242\ntests/data/data7.md : 0.0602178\ntests/data/data8.md : 0.0299003\n\n$: \n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 1,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_query3_quit": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query3_quit",
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.066762282003765,
+          "stdin": "PROR n url beginner\nquit\n",
+          "stdout": "=====================================\nMenu: \n  AND term term ...                  \n  OR term term ...                   \n  PRAND r|n term term ...            \n  PROR r|n term term ...             \n  DIFF term not-present-term not-present-term ... \n  PRINT page                         \n  INCOMING page                      \n  OUTGOING page                      \n  QUIT                               \n=====================================\n\n$: \n14\n/about/ : 0.0810037\nhttp://example.net/ : 0.0810037\nhttp://google.com/ : 0.0810037\nhttp://search.msn.com/ : 0.0810037\nhttp://search.yahoo.com/ : 0.0810037\ntests/data/data1.md : 0.177449\ntests/data/data2.md : 0.158495\ntests/data/data3.md : 0.123338\ntests/data/data4.md : 0.023578\ntests/data/data5.md : 0.0223383\ntests/data/data6.md : 0.0242718\ntests/data/data7.md : 0.0168975\ntests/data/data8.md : 0.0274817\ntests/data/data9.md : 0.0211315\n\n$: \n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 1,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_query4_quit": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query4_quit",
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.05555837899737526,
+          "stdin": "PRAND n moon\nINCOMING tests/data/data7.md\nOUTGOING tests/data/data7.md\nquit\n",
+          "stdout": "=====================================\nMenu: \n  AND term term ...                  \n  OR term term ...                   \n  PRAND r|n term term ...            \n  PROR r|n term term ...             \n  DIFF term not-present-term not-present-term ... \n  PRINT page                         \n  INCOMING page                      \n  OUTGOING page                      \n  QUIT                               \n=====================================\n\n$: \n5\ntests/data/data1.md : 0.580548\ntests/data/data4.md : 0.117657\ntests/data/data5.md : 0.107274\ntests/data/data6.md : 0.110217\ntests/data/data7.md : 0.084305\n\n$: \n2\ntests/data/data5.md\ntests/data/data7.md\n\n$: \n10\ntests/data/data1.md\ntests/data/data2.md\ntests/data/data4.md\ntests/data/data7.md\n/about/\nhttp://example.net/\nhttp://google.com/\nhttp://search.msn.com/\nhttp://search.yahoo.com/\ntests/data/data9.md\n\n$: \n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 1,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "test_query5_quit": {
+      "complete": true,
+      "passed": true,
+      "task": "test_query5_quit",
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw4/search2/search-shell",
+            "/home/cs104/CS104/homework-resources/hw4-grading/search2/tests/data/index.in"
+          ],
+          "cwd": "/home/cs104/CS104/homework-resources/hw4-grading/search2",
+          "elapsed": 0.04443449300015345,
+          "stdin": "PROR r moon\nINCOMING tests/data/data4.md\nOUTGOING tests/data/data4.md\nquit\n",
+          "stdout": "=====================================\nMenu: \n  AND term term ...                  \n  OR term term ...                   \n  PRAND r|n term term ...            \n  PROR r|n term term ...             \n  DIFF term not-present-term not-present-term ... \n  PRINT page                         \n  INCOMING page                      \n  OUTGOING page                      \n  QUIT                               \n=====================================\n\n$: \n5\ntests/data/data1.md : 0.580548\ntests/data/data4.md : 0.117657\ntests/data/data6.md : 0.110217\ntests/data/data5.md : 0.107274\ntests/data/data7.md : 0.084305\n\n$: \n3\ntests/data/data4.md\ntests/data/data5.md\ntests/data/data7.md\n\n$: \n3\ntests/data/data1.md\ntests/data/data4.md\ntests/data/data6.md\n\n$: \n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 1,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      }
+    },
+    "cleanup_search_shell": {
+      "complete": true,
+      "passed": true,
+      "task": "cleanup_search_shell",
+      "details": {}
+    },
+    "delete_output": {
+      "complete": true,
+      "passed": true,
+      "task": "delete_output",
+      "details": {}
+    }
+  }
+}

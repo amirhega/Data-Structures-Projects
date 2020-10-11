@@ -1,0 +1,827 @@
+Start testing: Mar 30 15:28 PDT
+----------------------------------------------------------
+1/18 Testing: MSortTest.SortEmpty
+1/18 Test: MSortTest.SortEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortEmpty"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortEmpty" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17955== Memcheck, a memory error detector
+==17955== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17955== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17955== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortEmpty
+==17955== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortEmpty
+[       OK ] MSortTest.SortEmpty (8 ms)
+[----------] 1 test from MSortTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (31 ms total)
+[  PASSED  ] 1 test.
+==17955== 
+==17955== HEAP SUMMARY:
+==17955==     in use at exit: 72,704 bytes in 1 blocks
+==17955==   total heap usage: 298 allocs, 297 frees, 128,086 bytes allocated
+==17955== 
+==17955== LEAK SUMMARY:
+==17955==    definitely lost: 0 bytes in 0 blocks
+==17955==    indirectly lost: 0 bytes in 0 blocks
+==17955==      possibly lost: 0 bytes in 0 blocks
+==17955==    still reachable: 0 bytes in 0 blocks
+==17955==         suppressed: 72,704 bytes in 1 blocks
+==17955== 
+==17955== For counts of detected and suppressed errors, rerun with: -v
+==17955== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortEmpty" end time: Mar 30 15:28 PDT
+"MSortTest.SortEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/18 Testing: MSortTest.SortSingleElement
+2/18 Test: MSortTest.SortSingleElement
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortSingleElement"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortSingleElement" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17956== Memcheck, a memory error detector
+==17956== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17956== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17956== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortSingleElement
+==17956== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortSingleElement
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortSingleElement
+[       OK ] MSortTest.SortSingleElement (14 ms)
+[----------] 1 test from MSortTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (37 ms total)
+[  PASSED  ] 1 test.
+==17956== 
+==17956== HEAP SUMMARY:
+==17956==     in use at exit: 72,704 bytes in 1 blocks
+==17956==   total heap usage: 299 allocs, 298 frees, 128,146 bytes allocated
+==17956== 
+==17956== LEAK SUMMARY:
+==17956==    definitely lost: 0 bytes in 0 blocks
+==17956==    indirectly lost: 0 bytes in 0 blocks
+==17956==      possibly lost: 0 bytes in 0 blocks
+==17956==    still reachable: 0 bytes in 0 blocks
+==17956==         suppressed: 72,704 bytes in 1 blocks
+==17956== 
+==17956== For counts of detected and suppressed errors, rerun with: -v
+==17956== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortSingleElement" end time: Mar 30 15:28 PDT
+"MSortTest.SortSingleElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/18 Testing: MSortTest.SortTwoElements_InOrder
+3/18 Test: MSortTest.SortTwoElements_InOrder
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortTwoElements_InOrder"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortTwoElements_InOrder" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17957== Memcheck, a memory error detector
+==17957== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17957== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17957== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortTwoElements_InOrder
+==17957== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortTwoElements_InOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortTwoElements_InOrder
+[       OK ] MSortTest.SortTwoElements_InOrder (19 ms)
+[----------] 1 test from MSortTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (41 ms total)
+[  PASSED  ] 1 test.
+==17957== 
+==17957== HEAP SUMMARY:
+==17957==     in use at exit: 72,704 bytes in 1 blocks
+==17957==   total heap usage: 302 allocs, 301 frees, 128,261 bytes allocated
+==17957== 
+==17957== LEAK SUMMARY:
+==17957==    definitely lost: 0 bytes in 0 blocks
+==17957==    indirectly lost: 0 bytes in 0 blocks
+==17957==      possibly lost: 0 bytes in 0 blocks
+==17957==    still reachable: 0 bytes in 0 blocks
+==17957==         suppressed: 72,704 bytes in 1 blocks
+==17957== 
+==17957== For counts of detected and suppressed errors, rerun with: -v
+==17957== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortTwoElements_InOrder" end time: Mar 30 15:28 PDT
+"MSortTest.SortTwoElements_InOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/18 Testing: MSortTest.SortTwoElements_OutOfOrder
+4/18 Test: MSortTest.SortTwoElements_OutOfOrder
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortTwoElements_OutOfOrder"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortTwoElements_OutOfOrder" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17958== Memcheck, a memory error detector
+==17958== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17958== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17958== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortTwoElements_OutOfOrder
+==17958== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortTwoElements_OutOfOrder
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortTwoElements_OutOfOrder
+[       OK ] MSortTest.SortTwoElements_OutOfOrder (21 ms)
+[----------] 1 test from MSortTest (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (43 ms total)
+[  PASSED  ] 1 test.
+==17958== 
+==17958== HEAP SUMMARY:
+==17958==     in use at exit: 72,704 bytes in 1 blocks
+==17958==   total heap usage: 302 allocs, 301 frees, 128,339 bytes allocated
+==17958== 
+==17958== LEAK SUMMARY:
+==17958==    definitely lost: 0 bytes in 0 blocks
+==17958==    indirectly lost: 0 bytes in 0 blocks
+==17958==      possibly lost: 0 bytes in 0 blocks
+==17958==    still reachable: 0 bytes in 0 blocks
+==17958==         suppressed: 72,704 bytes in 1 blocks
+==17958== 
+==17958== For counts of detected and suppressed errors, rerun with: -v
+==17958== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortTwoElements_OutOfOrder" end time: Mar 30 15:28 PDT
+"MSortTest.SortTwoElements_OutOfOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/18 Testing: MSortTest.SortThreeElements_10_20_30
+5/18 Test: MSortTest.SortThreeElements_10_20_30
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_10_20_30"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_10_20_30" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17959== Memcheck, a memory error detector
+==17959== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17959== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17959== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_10_20_30
+==17959== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_10_20_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_10_20_30
+[       OK ] MSortTest.SortThreeElements_10_20_30 (19 ms)
+[----------] 1 test from MSortTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (41 ms total)
+[  PASSED  ] 1 test.
+==17959== 
+==17959== HEAP SUMMARY:
+==17959==     in use at exit: 72,704 bytes in 1 blocks
+==17959==   total heap usage: 305 allocs, 304 frees, 128,367 bytes allocated
+==17959== 
+==17959== LEAK SUMMARY:
+==17959==    definitely lost: 0 bytes in 0 blocks
+==17959==    indirectly lost: 0 bytes in 0 blocks
+==17959==      possibly lost: 0 bytes in 0 blocks
+==17959==    still reachable: 0 bytes in 0 blocks
+==17959==         suppressed: 72,704 bytes in 1 blocks
+==17959== 
+==17959== For counts of detected and suppressed errors, rerun with: -v
+==17959== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_10_20_30" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_10_20_30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/18 Testing: MSortTest.SortThreeElements_10_30_20
+6/18 Test: MSortTest.SortThreeElements_10_30_20
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_10_30_20"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_10_30_20" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17960== Memcheck, a memory error detector
+==17960== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17960== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17960== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_10_30_20
+==17960== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_10_30_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_10_30_20
+[       OK ] MSortTest.SortThreeElements_10_30_20 (19 ms)
+[----------] 1 test from MSortTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (42 ms total)
+[  PASSED  ] 1 test.
+==17960== 
+==17960== HEAP SUMMARY:
+==17960==     in use at exit: 72,704 bytes in 1 blocks
+==17960==   total heap usage: 305 allocs, 304 frees, 128,367 bytes allocated
+==17960== 
+==17960== LEAK SUMMARY:
+==17960==    definitely lost: 0 bytes in 0 blocks
+==17960==    indirectly lost: 0 bytes in 0 blocks
+==17960==      possibly lost: 0 bytes in 0 blocks
+==17960==    still reachable: 0 bytes in 0 blocks
+==17960==         suppressed: 72,704 bytes in 1 blocks
+==17960== 
+==17960== For counts of detected and suppressed errors, rerun with: -v
+==17960== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_10_30_20" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_10_30_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/18 Testing: MSortTest.SortThreeElements_20_10_30
+7/18 Test: MSortTest.SortThreeElements_20_10_30
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_20_10_30"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_20_10_30" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17961== Memcheck, a memory error detector
+==17961== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17961== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17961== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_20_10_30
+==17961== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_20_10_30
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_20_10_30
+[       OK ] MSortTest.SortThreeElements_20_10_30 (24 ms)
+[----------] 1 test from MSortTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==17961== 
+==17961== HEAP SUMMARY:
+==17961==     in use at exit: 72,704 bytes in 1 blocks
+==17961==   total heap usage: 305 allocs, 304 frees, 128,367 bytes allocated
+==17961== 
+==17961== LEAK SUMMARY:
+==17961==    definitely lost: 0 bytes in 0 blocks
+==17961==    indirectly lost: 0 bytes in 0 blocks
+==17961==      possibly lost: 0 bytes in 0 blocks
+==17961==    still reachable: 0 bytes in 0 blocks
+==17961==         suppressed: 72,704 bytes in 1 blocks
+==17961== 
+==17961== For counts of detected and suppressed errors, rerun with: -v
+==17961== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_20_10_30" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_20_10_30" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/18 Testing: MSortTest.SortThreeElements_20_30_10
+8/18 Test: MSortTest.SortThreeElements_20_30_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_20_30_10"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_20_30_10" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17962== Memcheck, a memory error detector
+==17962== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17962== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17962== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_20_30_10
+==17962== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_20_30_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_20_30_10
+[       OK ] MSortTest.SortThreeElements_20_30_10 (19 ms)
+[----------] 1 test from MSortTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (41 ms total)
+[  PASSED  ] 1 test.
+==17962== 
+==17962== HEAP SUMMARY:
+==17962==     in use at exit: 72,704 bytes in 1 blocks
+==17962==   total heap usage: 305 allocs, 304 frees, 128,367 bytes allocated
+==17962== 
+==17962== LEAK SUMMARY:
+==17962==    definitely lost: 0 bytes in 0 blocks
+==17962==    indirectly lost: 0 bytes in 0 blocks
+==17962==      possibly lost: 0 bytes in 0 blocks
+==17962==    still reachable: 0 bytes in 0 blocks
+==17962==         suppressed: 72,704 bytes in 1 blocks
+==17962== 
+==17962== For counts of detected and suppressed errors, rerun with: -v
+==17962== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_20_30_10" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_20_30_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/18 Testing: MSortTest.SortThreeElements_30_10_20
+9/18 Test: MSortTest.SortThreeElements_30_10_20
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_30_10_20"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_30_10_20" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17963== Memcheck, a memory error detector
+==17963== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17963== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17963== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_30_10_20
+==17963== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_30_10_20
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_30_10_20
+[       OK ] MSortTest.SortThreeElements_30_10_20 (20 ms)
+[----------] 1 test from MSortTest (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (41 ms total)
+[  PASSED  ] 1 test.
+==17963== 
+==17963== HEAP SUMMARY:
+==17963==     in use at exit: 72,704 bytes in 1 blocks
+==17963==   total heap usage: 305 allocs, 304 frees, 128,367 bytes allocated
+==17963== 
+==17963== LEAK SUMMARY:
+==17963==    definitely lost: 0 bytes in 0 blocks
+==17963==    indirectly lost: 0 bytes in 0 blocks
+==17963==      possibly lost: 0 bytes in 0 blocks
+==17963==    still reachable: 0 bytes in 0 blocks
+==17963==         suppressed: 72,704 bytes in 1 blocks
+==17963== 
+==17963== For counts of detected and suppressed errors, rerun with: -v
+==17963== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_30_10_20" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_30_10_20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/18 Testing: MSortTest.SortThreeElements_30_20_10
+10/18 Test: MSortTest.SortThreeElements_30_20_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_30_20_10"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_30_20_10" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17964== Memcheck, a memory error detector
+==17964== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17964== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17964== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_30_20_10
+==17964== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_30_20_10
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_30_20_10
+[       OK ] MSortTest.SortThreeElements_30_20_10 (20 ms)
+[----------] 1 test from MSortTest (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (43 ms total)
+[  PASSED  ] 1 test.
+==17964== 
+==17964== HEAP SUMMARY:
+==17964==     in use at exit: 72,704 bytes in 1 blocks
+==17964==   total heap usage: 305 allocs, 304 frees, 128,367 bytes allocated
+==17964== 
+==17964== LEAK SUMMARY:
+==17964==    definitely lost: 0 bytes in 0 blocks
+==17964==    indirectly lost: 0 bytes in 0 blocks
+==17964==      possibly lost: 0 bytes in 0 blocks
+==17964==    still reachable: 0 bytes in 0 blocks
+==17964==         suppressed: 72,704 bytes in 1 blocks
+==17964== 
+==17964== For counts of detected and suppressed errors, rerun with: -v
+==17964== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_30_20_10" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_30_20_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/18 Testing: MSortTest.SortThreeElements_Greater
+11/18 Test: MSortTest.SortThreeElements_Greater
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortThreeElements_Greater"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortThreeElements_Greater" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17965== Memcheck, a memory error detector
+==17965== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17965== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17965== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortThreeElements_Greater
+==17965== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortThreeElements_Greater
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortThreeElements_Greater
+[       OK ] MSortTest.SortThreeElements_Greater (19 ms)
+[----------] 1 test from MSortTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (41 ms total)
+[  PASSED  ] 1 test.
+==17965== 
+==17965== HEAP SUMMARY:
+==17965==     in use at exit: 72,704 bytes in 1 blocks
+==17965==   total heap usage: 305 allocs, 304 frees, 128,341 bytes allocated
+==17965== 
+==17965== LEAK SUMMARY:
+==17965==    definitely lost: 0 bytes in 0 blocks
+==17965==    indirectly lost: 0 bytes in 0 blocks
+==17965==      possibly lost: 0 bytes in 0 blocks
+==17965==    still reachable: 0 bytes in 0 blocks
+==17965==         suppressed: 72,704 bytes in 1 blocks
+==17965== 
+==17965== For counts of detected and suppressed errors, rerun with: -v
+==17965== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortThreeElements_Greater" end time: Mar 30 15:28 PDT
+"MSortTest.SortThreeElements_Greater" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/18 Testing: MSortTest.SortStrings
+12/18 Test: MSortTest.SortStrings
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortStrings"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortStrings" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17966== Memcheck, a memory error detector
+==17966== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17966== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17966== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortStrings
+==17966== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortStrings
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortStrings
+[       OK ] MSortTest.SortStrings (23 ms)
+[----------] 1 test from MSortTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (45 ms total)
+[  PASSED  ] 1 test.
+==17966== 
+==17966== HEAP SUMMARY:
+==17966==     in use at exit: 72,704 bytes in 1 blocks
+==17966==   total heap usage: 310 allocs, 309 frees, 128,964 bytes allocated
+==17966== 
+==17966== LEAK SUMMARY:
+==17966==    definitely lost: 0 bytes in 0 blocks
+==17966==    indirectly lost: 0 bytes in 0 blocks
+==17966==      possibly lost: 0 bytes in 0 blocks
+==17966==    still reachable: 0 bytes in 0 blocks
+==17966==         suppressed: 72,704 bytes in 1 blocks
+==17966== 
+==17966== For counts of detected and suppressed errors, rerun with: -v
+==17966== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortStrings" end time: Mar 30 15:28 PDT
+"MSortTest.SortStrings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/18 Testing: MSortTest.SortPairs
+13/18 Test: MSortTest.SortPairs
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.SortPairs"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.SortPairs" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17967== Memcheck, a memory error detector
+==17967== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17967== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17967== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.SortPairs
+==17967== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.SortPairs
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.SortPairs
+[       OK ] MSortTest.SortPairs (24 ms)
+[----------] 1 test from MSortTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (46 ms total)
+[  PASSED  ] 1 test.
+==17967== 
+==17967== HEAP SUMMARY:
+==17967==     in use at exit: 72,704 bytes in 1 blocks
+==17967==   total heap usage: 310 allocs, 309 frees, 129,166 bytes allocated
+==17967== 
+==17967== LEAK SUMMARY:
+==17967==    definitely lost: 0 bytes in 0 blocks
+==17967==    indirectly lost: 0 bytes in 0 blocks
+==17967==      possibly lost: 0 bytes in 0 blocks
+==17967==    still reachable: 0 bytes in 0 blocks
+==17967==         suppressed: 72,704 bytes in 1 blocks
+==17967== 
+==17967== For counts of detected and suppressed errors, rerun with: -v
+==17967== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.SortPairs" end time: Mar 30 15:28 PDT
+"MSortTest.SortPairs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/18 Testing: MSortTest.Stress10RandomElements_Less
+14/18 Test: MSortTest.Stress10RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress10RandomElements_Less"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.Stress10RandomElements_Less" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17968== Memcheck, a memory error detector
+==17968== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17968== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17968== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.Stress10RandomElements_Less
+==17968== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress10RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress10RandomElements_Less
+[       OK ] MSortTest.Stress10RandomElements_Less (26 ms)
+[----------] 1 test from MSortTest (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==17968== 
+==17968== HEAP SUMMARY:
+==17968==     in use at exit: 72,704 bytes in 1 blocks
+==17968==   total heap usage: 317 allocs, 316 frees, 128,521 bytes allocated
+==17968== 
+==17968== LEAK SUMMARY:
+==17968==    definitely lost: 0 bytes in 0 blocks
+==17968==    indirectly lost: 0 bytes in 0 blocks
+==17968==      possibly lost: 0 bytes in 0 blocks
+==17968==    still reachable: 0 bytes in 0 blocks
+==17968==         suppressed: 72,704 bytes in 1 blocks
+==17968== 
+==17968== For counts of detected and suppressed errors, rerun with: -v
+==17968== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress10RandomElements_Less" end time: Mar 30 15:28 PDT
+"MSortTest.Stress10RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/18 Testing: MSortTest.Stress100RandomElements_Less
+15/18 Test: MSortTest.Stress100RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress100RandomElements_Less"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.Stress100RandomElements_Less" start time: Mar 30 15:28 PDT
+Output:
+----------------------------------------------------------
+==17969== Memcheck, a memory error detector
+==17969== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17969== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17969== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.Stress100RandomElements_Less
+==17969== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress100RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress100RandomElements_Less
+[       OK ] MSortTest.Stress100RandomElements_Less (27 ms)
+[----------] 1 test from MSortTest (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==17969== 
+==17969== HEAP SUMMARY:
+==17969==     in use at exit: 72,704 bytes in 1 blocks
+==17969==   total heap usage: 497 allocs, 496 frees, 131,459 bytes allocated
+==17969== 
+==17969== LEAK SUMMARY:
+==17969==    definitely lost: 0 bytes in 0 blocks
+==17969==    indirectly lost: 0 bytes in 0 blocks
+==17969==      possibly lost: 0 bytes in 0 blocks
+==17969==    still reachable: 0 bytes in 0 blocks
+==17969==         suppressed: 72,704 bytes in 1 blocks
+==17969== 
+==17969== For counts of detected and suppressed errors, rerun with: -v
+==17969== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress100RandomElements_Less" end time: Mar 30 15:29 PDT
+"MSortTest.Stress100RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/18 Testing: MSortTest.Stress1000RandomElements_Less
+16/18 Test: MSortTest.Stress1000RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress1000RandomElements_Less"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.Stress1000RandomElements_Less" start time: Mar 30 15:29 PDT
+Output:
+----------------------------------------------------------
+==17970== Memcheck, a memory error detector
+==17970== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17970== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17970== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.Stress1000RandomElements_Less
+==17970== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress1000RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress1000RandomElements_Less
+[       OK ] MSortTest.Stress1000RandomElements_Less (45 ms)
+[----------] 1 test from MSortTest (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (66 ms total)
+[  PASSED  ] 1 test.
+==17970== 
+==17970== HEAP SUMMARY:
+==17970==     in use at exit: 72,704 bytes in 1 blocks
+==17970==   total heap usage: 2,297 allocs, 2,296 frees, 172,301 bytes allocated
+==17970== 
+==17970== LEAK SUMMARY:
+==17970==    definitely lost: 0 bytes in 0 blocks
+==17970==    indirectly lost: 0 bytes in 0 blocks
+==17970==      possibly lost: 0 bytes in 0 blocks
+==17970==    still reachable: 0 bytes in 0 blocks
+==17970==         suppressed: 72,704 bytes in 1 blocks
+==17970== 
+==17970== For counts of detected and suppressed errors, rerun with: -v
+==17970== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.54 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress1000RandomElements_Less" end time: Mar 30 15:29 PDT
+"MSortTest.Stress1000RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/18 Testing: MSortTest.Stress10000RandomElements_Less
+17/18 Test: MSortTest.Stress10000RandomElements_Less
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests" "--gtest_filter=MSortTest.Stress10000RandomElements_Less"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MSortTest.Stress10000RandomElements_Less" start time: Mar 30 15:29 PDT
+Output:
+----------------------------------------------------------
+==17971== Memcheck, a memory error detector
+==17971== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==17971== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==17971== Command: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_tests --gtest_filter=MSortTest.Stress10000RandomElements_Less
+==17971== 
+Running main() from gtest_main.cc
+Note: Google Test filter = MSortTest.Stress10000RandomElements_Less
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MSortTest
+[ RUN      ] MSortTest.Stress10000RandomElements_Less
+Stack size was 0x800000 bytes, setting it to the max of infinity bytes.
+[       OK ] MSortTest.Stress10000RandomElements_Less (258 ms)
+[----------] 1 test from MSortTest (262 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (280 ms total)
+[  PASSED  ] 1 test.
+==17971== 
+==17971== HEAP SUMMARY:
+==17971==     in use at exit: 72,704 bytes in 1 blocks
+==17971==   total heap usage: 20,299 allocs, 20,298 frees, 703,913 bytes allocated
+==17971== 
+==17971== LEAK SUMMARY:
+==17971==    definitely lost: 0 bytes in 0 blocks
+==17971==    indirectly lost: 0 bytes in 0 blocks
+==17971==      possibly lost: 0 bytes in 0 blocks
+==17971==    still reachable: 0 bytes in 0 blocks
+==17971==         suppressed: 72,704 bytes in 1 blocks
+==17971== 
+==17971== For counts of detected and suppressed errors, rerun with: -v
+==17971== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.75 sec
+----------------------------------------------------------
+Test Passed.
+"MSortTest.Stress10000RandomElements_Less" end time: Mar 30 15:29 PDT
+"MSortTest.Stress10000RandomElements_Less" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: MergeSortRuntime.Runtime
+18/18 Test: MergeSortRuntime.Runtime
+Command: "/home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests/msort_runtime_tests" "--gtest_filter=MergeSortRuntime.Runtime"
+Directory: /home/cs104/CS104/hw-amirhega/hw4/mergesort/msort_checker/msort_tests
+"MergeSortRuntime.Runtime" start time: Mar 30 15:29 PDT
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = MergeSortRuntime.Runtime
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from MergeSortRuntime
+[ RUN      ] MergeSortRuntime.Runtime
+>> Evaluating runtime of mergeSort()
+Testing if time complexity could be linear...
+Correlation factor (3.0758) is >= threshold (1.3000)
+>> Time complexity of mergeSort() is likely linear
+Testing if time complexity could be constant...
+Correlation factor (-1.7894) is < threshold (1.3000)
+Testing if time complexity could be logarithmic...
+Correlation factor (0.3857) is < threshold (1.3000)
+Testing if time complexity could be linearithmic...
+Correlation factor (0.2681) is < threshold (1.3000)
+Testing if time complexity could be quadratic...
+Correlation factor (1.0067) is < threshold (1.3000)
+Testing if time complexity could be cubic...
+Correlation factor (0.5943) is < threshold (1.3000)
+[       OK ] MergeSortRuntime.Runtime (887 ms)
+[----------] 1 test from MergeSortRuntime (887 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (887 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.89 sec
+----------------------------------------------------------
+Test Passed.
+"MergeSortRuntime.Runtime" end time: Mar 30 15:29 PDT
+"MergeSortRuntime.Runtime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 30 15:29 PDT

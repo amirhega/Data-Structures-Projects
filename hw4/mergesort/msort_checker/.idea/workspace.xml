@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="CS104-HW8-Test-Suite" targetName="kwsys" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.SingleItemPush" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapRuntime.Decrease" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_Root1Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.SingleItemPushPop" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="heap_tests" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_30_20_10" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_10_20_30" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ConstructionDestruction" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapRuntime.Pop" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="perf" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="run_make_recs" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_Child" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="login_tests" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_20_30_10" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="grade" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="testing_utils" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_Two_Levels_5Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_Zero_Level_4Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_30_10_20" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.TwoElementsSamePriority" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="recs_tests" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="check" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapStress.2x10000RandomElements_Binary" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapRuntime.Push" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_TrinaryHeap" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.TwoElementPush_LowPriFirst" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_Two_Levels_4Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapStress.50x50RandomElements_BinaryHeap" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.InitiallyEmpty" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_RootOnly" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_Zero_Level_5Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_QuaternaryHeap" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.TwoElementPush_HighPriFirst" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapStress.10x50RandomElements_QuaternaryDecrease" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_One_Level_4Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_10_30_20" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_String" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementPush_20_10_30" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapTest.ThreeElementDecrease_One_Level_5Node" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="run_make_login" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="heap_runtime_tests" />
+      <config projectName="CS104-HW8-Test-Suite" targetName="debug-HeapStress.50x50RandomElements_QuaternaryHeap" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/../../../cmake-dirs/hw8" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef48d919-bda2-4b11-9445-7d72b657f5c1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/../../../cmake-dirs/hw8/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="amazon_recs_tests.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recs_tests/amazon_recs_tests.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15915">
+              <caret line="1061" column="34" selection-start-line="1061" selection-start-column="34" selection-end-line="1061" selection-end-column="34" />
+              <folding>
+                <element signature="e#37#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_grade_report.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen_grade_report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rubric/login.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heap.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rubric/heap.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recs.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rubric/recs.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTargets.cmake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_cmake_lib/TestTargets.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heap_tests.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heap_tests/heap_tests.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+              <folding>
+                <element signature="e#198#336#0" expanded="true" />
+                <element signature="e#393#424#0" expanded="true" />
+                <element signature="e#1795#2679#0" expanded="true" />
+                <element signature="e#2730#2742#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random_generator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing_utils/random_generator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="amazon_checker.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing_utils/amazon_checker.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleParser.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing_utils/ConsoleParser.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3540">
+              <caret line="236" column="9" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EXECUTABLE_NAME</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testing_utils/misc_utils.cpp" />
+        <option value="$PROJECT_DIR$/testing_utils/misc_utils.h" />
+        <option value="$PROJECT_DIR$/login_tests/ConsoleParser.h" />
+        <option value="$PROJECT_DIR$/login_tests/ConsoleParser.cpp" />
+        <option value="$PROJECT_DIR$/testing_utils/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test_cmake_lib/CustomTests.cmake" />
+        <option value="$PROJECT_DIR$/testing_utils/Utility.cpp" />
+        <option value="$PROJECT_DIR$/testing_utils/Utility.h" />
+        <option value="$PROJECT_DIR$/login_tests/amazon_login_tests.cpp" />
+        <option value="$PROJECT_DIR$/heap_tests/heap_runtime_tests.cpp" />
+        <option value="$PROJECT_DIR$/../../hw8_sol/heap.h" />
+        <option value="$PROJECT_DIR$/login_tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/recs_tests/recommendations_checker.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/recs_tests/recommendations_checker.cpp" />
+        <option value="$PROJECT_DIR$/recs_tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/testing_utils/amazon_checker.h" />
+        <option value="$PROJECT_DIR$/testing_utils/amazon_checker.cpp" />
+        <option value="$PROJECT_DIR$/testing_utils/ConsoleParser.h" />
+        <option value="$PROJECT_DIR$/testing_utils/ConsoleParser.cpp" />
+        <option value="$PROJECT_DIR$/gen_grade_report.py" />
+        <option value="$PROJECT_DIR$/rubric/login.config" />
+        <option value="$PROJECT_DIR$/rubric/heap.config" />
+        <option value="$PROJECT_DIR$/recs_tests/amazon_recs_tests.cpp" />
+        <option value="$PROJECT_DIR$/rubric/recs.config" />
+        <option value="$PROJECT_DIR$/test_cmake_lib/TestTargets.cmake" />
+        <option value="$PROJECT_DIR$/heap_tests/heap_tests.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="612" />
+    <option name="y" value="171" />
+    <option name="width" value="1398" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CS104-HW8-Test-Suite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw8_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS104-HW8-Test-Suite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw8_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="heap_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS104-HW8-Test-Suite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw8_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="login_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS104-HW8-Test-Suite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw8_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="recs_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS104-HW8-Test-Suite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw8_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="rubric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS104-HW8-Test-Suite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw8_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_cmake_lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../itp380/xv6-public" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing_utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.recs_tests">
+    <configuration name="heap_runtime_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="heap_runtime_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS104-HW8-Test-Suite" RUN_TARGET_NAME="heap_runtime_tests" TEST_MODE="SUITE_TEST" />
+    <configuration name="heap_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="heap_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS104-HW8-Test-Suite" RUN_TARGET_NAME="heap_tests" TEST_MODE="SUITE_TEST" />
+    <configuration name="login_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="login_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS104-HW8-Test-Suite" RUN_TARGET_NAME="login_tests" TEST_MODE="SUITE_TEST" />
+    <configuration name="recs_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="recs_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS104-HW8-Test-Suite" RUN_TARGET_NAME="recs_tests" TEST_MODE="SUITE_TEST" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="check" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapRuntime.Decrease" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapRuntime.Decrease" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapRuntime.Pop" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapRuntime.Pop" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapRuntime.Push" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapRuntime.Push" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapStress.10x50RandomElements_QuaternaryDecrease" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapStress.10x50RandomElements_QuaternaryDecrease" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapStress.2x10000RandomElements_Binary" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapStress.2x10000RandomElements_Binary" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapStress.50x50RandomElements_BinaryHeap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapStress.50x50RandomElements_BinaryHeap" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapStress.50x50RandomElements_QuaternaryHeap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapStress.50x50RandomElements_QuaternaryHeap" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ConstructionDestruction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ConstructionDestruction" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.InitiallyEmpty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.InitiallyEmpty" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.SingleItemPush" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.SingleItemPush" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.SingleItemPushPop" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.SingleItemPushPop" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_Child" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_Child" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_One_Level_4Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_One_Level_4Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_One_Level_5Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_One_Level_5Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_Root1Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_Root1Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_RootOnly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_RootOnly" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_Two_Levels_4Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_Two_Levels_4Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_Two_Levels_5Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_Two_Levels_5Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_Zero_Level_4Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_Zero_Level_4Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementDecrease_Zero_Level_5Node" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementDecrease_Zero_Level_5Node" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_10_20_30" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_10_20_30" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_10_30_20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_10_30_20" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_20_10_30" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_20_10_30" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_20_30_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_20_30_10" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_30_10_20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_30_10_20" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_30_20_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_30_20_10" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_QuaternaryHeap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_QuaternaryHeap" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_String" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_String" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.ThreeElementPush_TrinaryHeap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.ThreeElementPush_TrinaryHeap" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.TwoElementPush_HighPriFirst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.TwoElementPush_HighPriFirst" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.TwoElementPush_LowPriFirst" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.TwoElementPush_LowPriFirst" CONFIG_NAME="Debug" />
+    <configuration name="debug-HeapTest.TwoElementsSamePriority" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="debug-HeapTest.TwoElementsSamePriority" CONFIG_NAME="Debug" />
+    <configuration name="grade" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="grade" CONFIG_NAME="Debug" />
+    <configuration name="kwsys" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="kwsys" CONFIG_NAME="Debug" />
+    <configuration name="perf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="perf" CONFIG_NAME="Debug" />
+    <configuration name="run_make_login" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="run_make_login" CONFIG_NAME="Debug" />
+    <configuration name="run_make_recs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="run_make_recs" CONFIG_NAME="Debug" />
+    <configuration name="testing_utils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS104-HW8-Test-Suite" TARGET_NAME="testing_utils" CONFIG_NAME="Debug" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.check" />
+      <item itemvalue="Application.grade" />
+      <item itemvalue="Application.debug-HeapRuntime.Decrease" />
+      <item itemvalue="Application.debug-HeapRuntime.Pop" />
+      <item itemvalue="Application.debug-HeapRuntime.Push" />
+      <item itemvalue="Application.debug-HeapStress.10x50RandomElements_QuaternaryDecrease" />
+      <item itemvalue="Application.debug-HeapStress.2x10000RandomElements_Binary" />
+      <item itemvalue="Application.debug-HeapStress.50x50RandomElements_BinaryHeap" />
+      <item itemvalue="Application.debug-HeapStress.50x50RandomElements_QuaternaryHeap" />
+      <item itemvalue="Application.debug-HeapTest.ConstructionDestruction" />
+      <item itemvalue="Application.debug-HeapTest.InitiallyEmpty" />
+      <item itemvalue="Application.debug-HeapTest.SingleItemPush" />
+      <item itemvalue="Application.debug-HeapTest.SingleItemPushPop" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_Child" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_One_Level_4Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_One_Level_5Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_Root1Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_RootOnly" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_Two_Levels_4Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_Two_Levels_5Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_Zero_Level_4Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementDecrease_Zero_Level_5Node" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_10_20_30" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_10_30_20" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_20_10_30" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_20_30_10" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_30_10_20" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_30_20_10" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_QuaternaryHeap" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_String" />
+      <item itemvalue="Application.debug-HeapTest.ThreeElementPush_TrinaryHeap" />
+      <item itemvalue="Application.debug-HeapTest.TwoElementPush_HighPriFirst" />
+      <item itemvalue="Application.debug-HeapTest.TwoElementPush_LowPriFirst" />
+      <item itemvalue="Application.debug-HeapTest.TwoElementsSamePriority" />
+      <item itemvalue="Google Test.heap_runtime_tests" />
+      <item itemvalue="Google Test.heap_tests" />
+      <item itemvalue="Google Test.login_tests" />
+      <item itemvalue="Application.run_make_login" />
+      <item itemvalue="Google Test.recs_tests" />
+      <item itemvalue="Application.run_make_recs" />
+      <item itemvalue="Application.testing_utils" />
+      <item itemvalue="Application.kwsys" />
+      <item itemvalue="Application.perf" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef48d919-bda2-4b11-9445-7d72b657f5c1" name="Default" comment="" />
+      <created>1556839139870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556839139870</updated>
+      <workItem from="1556839141146" duration="26839000" />
+      <workItem from="1579547604925" duration="459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="heap_tests - 2019.05.02 at 18h 24m 26s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 18h 25m 54s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 18h 43m 56s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 18h 55m 34s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 18h 58m 52s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 18h 59m 15s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 18h 59m 34s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 19h 01m 33s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="heap_tests - 2019.05.02 at 19h 42m 35s.xml">
+      <configuration name="heap_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="recs_tests - 2019.05.02 at 22h 56m 12s.xml">
+      <configuration name="recs_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27298000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="2497" height="1387" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496994" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CMake" order="7" visible="true" weight="0.3299293" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299293" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998429" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.3299293" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="actual.mUsers" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/recs_tests/amazon_recs_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15915">
+          <caret line="1061" column="34" selection-start-line="1061" selection-start-column="34" selection-end-line="1061" selection-end-column="34" />
+          <folding>
+            <element signature="e#37#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_grade_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric/login.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric/heap.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric/recs.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cmake_lib/TestTargets.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/random_generator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/amazon_checker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/ConsoleParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="236" column="9" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap_tests/heap_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+          <folding>
+            <element signature="e#198#336#0" expanded="true" />
+            <element signature="e#393#424#0" expanded="true" />
+            <element signature="e#1795#2679#0" expanded="true" />
+            <element signature="e#2730#2742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_tests/db/database0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/misc_utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="1277" selection-start-line="1277" selection-end-line="1277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_set.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="843" selection-start-line="843" selection-end-line="843" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="4914" selection-start-line="4914" selection-end-line="4914" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/Utility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/Utility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/ios_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/fstream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="714" column="6" selection-start-line="714" selection-start-column="6" selection-end-line="714" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/tuple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="969" selection-start-line="969" selection-end-line="969" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/hashtable_policy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="356" column="14" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap_tests/heap_runtime_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hw8_sol/heap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/DatabaseParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="361" column="25" selection-start-line="361" selection-start-column="25" selection-end-line="361" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cmake_lib/CustomTests.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recs_tests/recommendations_checker.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recs_tests/recommendations_checker.cpp" />
+    <entry file="file://$PROJECT_DIR$/recs_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/misc_utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/amazon_checker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="130" selection-start-line="25" selection-start-column="130" selection-end-line="25" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/ConsoleParser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="227" column="21" selection-start-line="227" selection-start-column="21" selection-end-line="227" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/ConsoleParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="236" column="9" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/amazon_checker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_grade_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_tests/amazon_login_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="241" column="41" selection-start-line="241" selection-start-column="41" selection-end-line="241" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_utils/random_generator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric/login.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric/heap.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recs_tests/amazon_recs_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15915">
+          <caret line="1061" column="34" selection-start-line="1061" selection-start-column="34" selection-end-line="1061" selection-end-column="34" />
+          <folding>
+            <element signature="e#37#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric/recs.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cmake_lib/TestTargets.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heap_tests/heap_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding>
+            <element signature="e#198#336#0" expanded="true" />
+            <element signature="e#393#424#0" expanded="true" />
+            <element signature="e#1795#2679#0" expanded="true" />
+            <element signature="e#2730#2742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

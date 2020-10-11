@@ -1,0 +1,1263 @@
+{
+  "traversal": {
+    "check_traversal_files": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "check_traversal_files"
+    },
+    "build_traversal_harness": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "g++",
+            "-std=c++11",
+            "-I/home/cs104/.local/lib/python3.7/site-packages/curricula/grade/include",
+            "-I/home/cs104/CS104/hw-amirhega/hw5/traversal",
+            "-o",
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "/home/cs104/CS104/homework-resources/hw5-grading/traversal/harness.cpp",
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/expr-ops.cpp",
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/expr-reader.cpp"
+          ],
+          "cwd": null,
+          "elapsed": 0.7346143589966232,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "build_traversal_harness"
+    },
+    "case0": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021586400107480586,
+          "stdin": "( 2 + 3 )",
+          "stdout": "( 2 + 3 )\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case0"
+    },
+    "case1": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0008383820095332339,
+          "stdin": "( 4 * ( 2 + 3 ) )",
+          "stdout": "( 4 * ( 2 + 3 ) )\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case1"
+    },
+    "case2": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0024062969896476716,
+          "stdin": "( 4 * ( 2 + a ) )",
+          "stdout": "invalid\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case2"
+    },
+    "case3": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.005517445009900257,
+          "stdin": "( ( ( ( ( 4 + ( ( 2 + 3 ) * 5 ) ) - ( 4 * 1 ) ) * 4 ) - 1 ) * a )",
+          "stdout": "invalid\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case3"
+    },
+    "case4": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0014324789954116568,
+          "stdin": "( 10 - ( 4 + 3 + 2 + a ) )",
+          "stdout": "invalid\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case4"
+    },
+    "case5": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0058941970055457205,
+          "stdin": "( 10 - ( a + 4 + 3 + 2 ) )",
+          "stdout": "invalid\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case5"
+    },
+    "case6": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "validate"
+          ],
+          "cwd": null,
+          "elapsed": 0.002412667003227398,
+          "stdin": "( 10 - ( 4 + a + 2 + 3 ) )",
+          "stdout": "invalid\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case6"
+    },
+    "case7": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "evaluate"
+          ],
+          "cwd": null,
+          "elapsed": 0.002829172008205205,
+          "stdin": "( 2 + 3 )",
+          "stdout": "( 2 + 3 )\n5\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case7"
+    },
+    "case8": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "evaluate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0023833150044083595,
+          "stdin": "( 1 - -2 )",
+          "stdout": "( 1 - -2 )\n3\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case8"
+    },
+    "case9": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "evaluate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021685719984816387,
+          "stdin": "( 20 / ( ( 4 * 2 ) - 2 ) )",
+          "stdout": "( 20 / ( ( 4 * 2 ) - 2 ) )\n3\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case9"
+    },
+    "case10": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "evaluate"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021285330003593117,
+          "stdin": "( ( 5 * 4 ) + ( 200 - ( ( 3 * 2 * -2 * 4 ) - 10 ) ) + ( 100 / -20 / 5 ) )",
+          "stdout": "( ( 5 * 4 ) + ( 200 - ( ( 3 * 2 * -2 * 4 ) - 10 ) ) + ( 100 / -20 / 5 ) )\n277\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case10"
+    },
+    "case11": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/traversal/harness",
+            "evaluate"
+          ],
+          "cwd": null,
+          "elapsed": 0.002214770996943116,
+          "stdin": "( 30 + ( 4 - ( ( 5 * 10 * 5 * ( 1 / 2 ) ) * 30 * 40 ) - ( 2 / 4 ) ) )",
+          "stdout": "( 30 + ( 4 - ( ( 5 * 10 * 5 * ( 1 / 2 ) ) * 30 * 40 ) - ( 2 / 4 ) ) )\n34\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case11"
+    },
+    "cleanup_heap_harness": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "cleanup_heap_harness"
+    }
+  },
+  "heaps": {
+    "check_heap_header": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "check_heap_header"
+    },
+    "build_heap_harness": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "g++",
+            "-std=c++11",
+            "-I/home/cs104/.local/lib/python3.7/site-packages/curricula/grade/include",
+            "-I/home/cs104/CS104/hw-amirhega/hw5/heaps",
+            "-o",
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "/home/cs104/CS104/homework-resources/hw5-grading/heaps/harness.cpp"
+          ],
+          "cwd": null,
+          "elapsed": 0.6321607200079598,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "build_heap_harness"
+    },
+    "construction_destruction": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_construction_destruction"
+          ],
+          "cwd": null,
+          "elapsed": 0.0020557030074996874,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "construction_destruction"
+    },
+    "initially_empty": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_initially_empty"
+          ],
+          "cwd": null,
+          "elapsed": 0.0021191870037000626,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "initially_empty"
+    },
+    "empty_top_exception": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_empty_top_exception"
+          ],
+          "cwd": null,
+          "elapsed": 0.0020263690093997866,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "empty_top_exception"
+    },
+    "empty_pop_exception": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_empty_pop_exception"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019766640034504235,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "empty_pop_exception"
+    },
+    "single_item_nonempty": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_single_item_nonempty"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019359900034032762,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "single_item_nonempty"
+    },
+    "single_item_push": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_single_item_push"
+          ],
+          "cwd": null,
+          "elapsed": 0.002037033991655335,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "single_item_push"
+    },
+    "single_item_push_pop": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_single_item_push_pop"
+          ],
+          "cwd": null,
+          "elapsed": 0.002013555000303313,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "single_item_push_pop"
+    },
+    "two_element_push_low_priority_first": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_two_element_push_low_priority_first"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019095359893981367,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "two_element_push_low_priority_first"
+    },
+    "two_element_push_high_priority_first": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_two_element_push_high_priority_first"
+          ],
+          "cwd": null,
+          "elapsed": 0.001924341995618306,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "two_element_push_high_priority_first"
+    },
+    "duplicates": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_duplicates"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019132689922116697,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "duplicates"
+    },
+    "negative_elements": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_negative_elements"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019149860017932951,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "negative_elements"
+    },
+    "three_element_push_0_5_10": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_three_element_push_0_5_10"
+          ],
+          "cwd": null,
+          "elapsed": 0.0007578780059702694,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "three_element_push_0_5_10"
+    },
+    "three_element_push_0_10_5": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_three_element_push_0_10_5"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019019039900740609,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "three_element_push_0_10_5"
+    },
+    "three_element_push_5_0_10": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_three_element_push_5_0_10"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019270899938419461,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "three_element_push_5_0_10"
+    },
+    "three_element_push_5_10_0": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_three_element_push_5_10_0"
+          ],
+          "cwd": null,
+          "elapsed": 0.001909890997922048,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "three_element_push_5_10_0"
+    },
+    "three_element_push_10_0_5": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_three_element_push_10_0_5"
+          ],
+          "cwd": null,
+          "elapsed": 0.0018947560020023957,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "three_element_push_10_0_5"
+    },
+    "three_element_push_10_5_0": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_three_element_push_10_5_0"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019640769896795973,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "three_element_push_10_5_0"
+    },
+    "greater_comparator": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_greater_comparator"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019541429937817156,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "greater_comparator"
+    },
+    "string_storage": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_string_storage"
+          ],
+          "cwd": null,
+          "elapsed": 0.0019665200088638812,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "string_storage"
+    },
+    "five_element_push_trinary_heap": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_five_element_push_trinary_heap"
+          ],
+          "cwd": null,
+          "elapsed": 0.001977997992071323,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "five_element_push_trinary_heap"
+    },
+    "six_element_push_quaternary_heap": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_six_element_push_quaternary_heap"
+          ],
+          "cwd": null,
+          "elapsed": 0.001917725006933324,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "six_element_push_quaternary_heap"
+    },
+    "random_elements_binary_heap": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_random_elements_binary_heap"
+          ],
+          "cwd": null,
+          "elapsed": 0.003153848010697402,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "random_elements_binary_heap"
+    },
+    "random_elements_quaternary_heap": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_random_elements_quaternary_heap"
+          ],
+          "cwd": null,
+          "elapsed": 0.0032582870044279844,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "random_elements_quaternary_heap"
+    },
+    "random_elements_dodecenary_heap": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_random_elements_dodecenary_heap"
+          ],
+          "cwd": null,
+          "elapsed": 0.003489406008156948,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "random_elements_dodecenary_heap"
+    },
+    "random_elements_binary_heap_large": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/heaps/heap",
+            "test_random_elements_binary_heap_large"
+          ],
+          "cwd": null,
+          "elapsed": 0.008245462013292126,
+          "stdin": null,
+          "stdout": "",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "random_elements_binary_heap_large"
+    },
+    "cleanup_heap_harness": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "cleanup_heap_harness"
+    }
+  },
+  "eventsim": {
+    "check_eventsim_makefile": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "check_eventsim_makefile"
+    },
+    "build_eventsim": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "make",
+            "-B",
+            "-C",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim"
+          ],
+          "cwd": null,
+          "elapsed": 1.5526371500018286,
+          "stdin": null,
+          "stdout": "make: Entering directory '/home/cs104/CS104/hw-amirhega/hw5/eventsim'\ng++ -g -std=gnu++11 -Wall -c derived_events.cpp -o derived_events.o\t\ng++ -g -std=gnu++11 -Wall -c input_reader.cpp -o input_reader.o\ng++ -g -std=gnu++11 -Wall -c streetgrid.cpp -o \tstreetgrid.o\ng++ -g -std=gnu++11 -Wall eventsim.cpp input_reader.o derived_events.o streetgrid.o -o eventsim\nmake: Leaving directory '/home/cs104/CS104/hw-amirhega/hw5/eventsim'\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 10,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "build_eventsim"
+    },
+    "check_eventsim": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "check_eventsim"
+    },
+    "make_output_directory": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "make_output_directory"
+    },
+    "case0": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e0.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e0.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.003780788989388384,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n\nDequeued event at time = 0, 1\nStreetGrid::AddVehicle - vehicle a1 now at 0,0\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1000, \n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    1   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1000, 3\nAdding event for time=2000, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    1   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2000, 3\nAdding event for time=3000, \n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        1     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3000, 3\nAdding event for time=4000, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        1     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4000, 3\n\nDequeued event at time = 5000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case0"
+    },
+    "case1": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e1.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e1.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.0027578070003073663,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1500, 1\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case1"
+    },
+    "case2": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e2.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e2.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.00430898999911733,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n\nDequeued event at time = 500, 1\nStreetGrid::AddVehicle - vehicle a1 now at 0,0\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1500, \n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    1   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1500, 3\nAdding event for time=2500, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    1   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2500, 3\nAdding event for time=3500, \n\n\nDequeued event at time = 2800, 2\nBlockageEvent::process()\nBlocking col at 0,2\n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0       1B     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3500, 3\nAdding event for time=4500, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0       0B     \n 1 |   +    0   +    0   + \n   |   0        0        1     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4500, 3\n\nDequeued event at time = 5000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0       0B     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case2"
+    },
+    "case3": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e3.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e3.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.0038395899900933728,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1     \n    ==============================\n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n\nDequeued event at time = 499, 2\nBlockageEvent::process()\nBlocking row at 0,0\n\n\nDequeued event at time = 500, 1\nStreetGrid::AddVehicle - vehicle a1 now at 0,0\nStreetGrid::AddVehicle - vehicle a1 will go col 1000\nAdding event for time=1500, \n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +   0B   +    0   + \n   |   1        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1500, 3\nAdding event for time=2500, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +   0B   +    0   + \n   |   0        0        0     \n 1 |   +    1   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2500, 3\nAdding event for time=3500, \n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +   0B   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    1   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3500, 3\nAdding event for time=4500, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +   0B   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        1     \n 1 |   +    0   +    0   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4500, 3\n\nDequeued event at time = 5000, 0\nState: \n       1        1        1     \n    ==============================\n 1 |   +   0B   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |   0        0        0     \n 1 |   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case3"
+    },
+    "case5": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e5.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e5.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.007392485000309534,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\n\nDequeued event at time = 500, 1\nStreetGrid::AddVehicle - vehicle a1 now at 4,3\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1500, \n\n\nDequeued event at time = 700, 1\nStreetGrid::AddVehicle - vehicle a2 now at 3,3\nStreetGrid::AddVehicle - vehicle a2 will go row 1000\nAdding event for time=1700, \n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1234, 1\nStreetGrid::AddVehicle - vehicle a3 now at 1,4\nStreetGrid::AddVehicle - vehicle a3 will go col 1000\nAdding event for time=2234, \n\n\nDequeued event at time = 1235, 1\nStreetGrid::AddVehicle - vehicle a4 now at 2,1\nStreetGrid::AddVehicle - vehicle a4 will go row 1000\nAdding event for time=2235, \n\n\nDequeued event at time = 1500, 3\n\nDequeued event at time = 1700, 3\nAdding event for time=2700, \n\n\nDequeued event at time = 1750, 1\nStreetGrid::AddVehicle - vehicle a5 now at 3,3\nStreetGrid::AddVehicle - vehicle a5 will go col 1000\nAdding event for time=2750, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    1   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        1        1     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2200, 1\nStreetGrid::AddVehicle - vehicle a6 now at 4,0\nStreetGrid::AddVehicle - vehicle a6 will go row 1000\nAdding event for time=3200, \n\n\nDequeued event at time = 2210, 1\nStreetGrid::AddVehicle - vehicle a7 now at 4,0\nStreetGrid::AddVehicle - vehicle a7 will go row 2000\nAdding event for time=4210, \n\n\nDequeued event at time = 2234, 3\nAdding event for time=3234, \n\n\nDequeued event at time = 2235, 3\nAdding event for time=3235, \n\n\nDequeued event at time = 2700, 3\n\nDequeued event at time = 2750, 3\nAdding event for time=3750, \n\n\nDequeued event at time = 2900, 1\nStreetGrid::AddVehicle - vehicle a8 now at 2,2\nStreetGrid::AddVehicle - vehicle a8 will go col 1000\nAdding event for time=3900, \n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    1   +    0   + \n   |   0        0        1        0        1     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    2   +    0   +    0   +    1   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3200, 3\nAdding event for time=4200, \n\n\nDequeued event at time = 3234, 3\nAdding event for time=4234, \n\n\nDequeued event at time = 3235, 3\nAdding event for time=4235, \n\n\nDequeued event at time = 3300, 1\nStreetGrid::AddVehicle - vehicle a9 now at 0,0\nStreetGrid::AddVehicle - vehicle a9 will go row 1000\nAdding event for time=4300, \n\n\nDequeued event at time = 3750, 3\n\nDequeued event at time = 3900, 3\nAdding event for time=4900, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    1   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    1   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    1   +    1   +    0   +    0   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4200, 3\nAdding event for time=5200, \n\n\nDequeued event at time = 4210, 3\nAdding event for time=5210, \n\n\nDequeued event at time = 4234, 3\n\nDequeued event at time = 4235, 3\nAdding event for time=5235, \n\n\nDequeued event at time = 4300, 3\nAdding event for time=5300, \n\n\nDequeued event at time = 4900, 3\nAdding event for time=5900, \n\n\nDequeued event at time = 5000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    1   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    0   +    1   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    1   +    1   +    0   + \n   |\nAdding event for time=6000, \n\n\nDequeued event at time = 5200, 3\nAdding event for time=6200, \n\n\nDequeued event at time = 5210, 3\nAdding event for time=6210, \n\n\nDequeued event at time = 5235, 3\nAdding event for time=6235, \n\n\nDequeued event at time = 5300, 3\nAdding event for time=6300, \n\n\nDequeued event at time = 5900, 3\nAdding event for time=7900, \n\n\nDequeued event at time = 6000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    1   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        2     \n 1 |   +    0   +    0   +    1   +    1   + \n   |\nAdding event for time=7000, \n\n\nDequeued event at time = 6200, 3\n\nDequeued event at time = 6210, 3\nAdding event for time=7210, \n\n\nDequeued event at time = 6235, 3\n\nDequeued event at time = 6300, 3\nAdding event for time=7300, \n\n\nDequeued event at time = 7000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    1   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    0   +    1   + \n   |\nAdding event for time=8000, \n\n\nDequeued event at time = 7210, 3\n\nDequeued event at time = 7300, 3\nAdding event for time=8300, \n\n\nDequeued event at time = 7900, 3\n\nDequeued event at time = 8000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=9000, \n\n\nDequeued event at time = 8300, 3\nAdding event for time=9300, \n\n\nDequeued event at time = 9000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=10000, \n\n\nDequeued event at time = 9300, 3\nAdding event for time=10300, \n\n\nDequeued event at time = 10000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=11000, \n\n\nDequeued event at time = 10300, 3\nAdding event for time=11300, \n\n\nDequeued event at time = 11000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=12000, \n\n\nDequeued event at time = 11300, 3\n\nDequeued event at time = 12000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case5"
+    },
+    "case6": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e6.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e6.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.004373792005935684,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +    0   + \n   |\n\nDequeued event at time = 500, 1\nStreetGrid::AddVehicle - vehicle a1 now at 1,2\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1500, \n\n\nDequeued event at time = 700, 1\nStreetGrid::AddVehicle - vehicle a2 now at 2,0\nStreetGrid::AddVehicle - vehicle a2 will go row 1000\nAdding event for time=1700, \n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    1   +    0   + \n   |   0        0        0        0        0     \n 3 |   +    1   +    0   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1500, 3\nAdding event for time=2500, \n\n\nDequeued event at time = 1700, 3\nAdding event for time=2700, \n\n\nDequeued event at time = 1800, 1\nStreetGrid::AddVehicle - vehicle a3 now at 1,2\nStreetGrid::AddVehicle - vehicle a3 will go col 1000\nAdding event for time=2800, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   + \n   |   0        0        1        0        0     \n 3 |   +    0   +    1   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2500, 3\nAdding event for time=3500, \n\n\nDequeued event at time = 2700, 3\nAdding event for time=3700, \n\n\nDequeued event at time = 2800, 3\nAdding event for time=3800, \n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 3 |   +    0   +    0   +    2   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3500, 3\n\nDequeued event at time = 3700, 3\nAdding event for time=4700, \n\n\nDequeued event at time = 3800, 3\nAdding event for time=4800, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +    2   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4700, 3\n\nDequeued event at time = 4800, 3\n\nDequeued event at time = 5000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case6"
+    },
+    "case7": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e7.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e7.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.0025137719931080937,
+          "stdin": null,
+          "stdout": "State: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\n\nDequeued event at time = 500, 1\nStreetGrid::AddVehicle - vehicle a1 now at 1,2\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1500, \n\n\nDequeued event at time = 700, 1\nStreetGrid::AddVehicle - vehicle a2 now at 2,0\nStreetGrid::AddVehicle - vehicle a2 will go row 1000\nAdding event for time=1700, \n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    1   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    1   +    0   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1500, 3\nAdding event for time=2500, \n\n\nDequeued event at time = 1700, 3\nAdding event for time=2700, \n\n\nDequeued event at time = 1800, 1\nStreetGrid::AddVehicle - vehicle a3 now at 1,2\nStreetGrid::AddVehicle - vehicle a3 will go col 1000\nAdding event for time=2800, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   + \n   |   0        0        1        0        0     \n 1 |   +    0   +    1   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2500, 3\nAdding event for time=3500, \n\n\nDequeued event at time = 2700, 3\nAdding event for time=3700, \n\n\nDequeued event at time = 2800, 3\nAdding event for time=4800, \n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        1     \n 1 |   +    0   +    0   +    2   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3500, 3\n\nDequeued event at time = 3700, 3\nAdding event for time=4700, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    1   +    1   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4700, 3\n\nDequeued event at time = 4800, 3\nAdding event for time=5800, \n\n\nDequeued event at time = 5000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   + \n   |\nAdding event for time=6000, \n\n\nDequeued event at time = 5800, 3\n\nDequeued event at time = 6000, 0\nState: \n       1        1        1        1        1     \n    ==================================================\n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case7"
+    },
+    "case8": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e8.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e8.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.002175932007958181,
+          "stdin": null,
+          "stdout": "State: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |\n\nDequeued event at time = 500, 1\nStreetGrid::AddVehicle - vehicle a1 now at 1,1\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1500, \n\n\nDequeued event at time = 1000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    1   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1000, 2\nBlockageEvent::process()\nBlocking col at 1,1\n\n\nDequeued event at time = 1100, 1\nStreetGrid::AddVehicle - vehicle a2 now at 3,0\nStreetGrid::AddVehicle - vehicle a2 will go row 1000\nAdding event for time=2100, \n\n\nDequeued event at time = 1500, 3\nAdding event for time=2500, \n\n\nDequeued event at time = 1800, 1\nStreetGrid::AddVehicle - vehicle a3 now at 1,1\nStreetGrid::AddVehicle - vehicle a3 will go row 1000\nAdding event for time=2800, \n\n\nDequeued event at time = 2000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    1   +    1   + \n   |   0       0B        0        0     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    1   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2000, 1\nStreetGrid::AddVehicle - vehicle a4 now at 1,1\nStreetGrid::AddVehicle - vehicle a4 will go row 1000\nAdding event for time=3000, \n\n\nDequeued event at time = 2100, 3\nAdding event for time=3100, \n\n\nDequeued event at time = 2500, 3\nAdding event for time=3500, \n\n\nDequeued event at time = 2800, 2\nBlockageEvent::process()\nBlocking col at 1,1\n\n\nDequeued event at time = 2800, 3\nAdding event for time=3800, \n\n\nDequeued event at time = 3000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    1   +    0   + \n   |   0        0        1        1     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    1   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3000, 3\nAdding event for time=4000, \n\n\nDequeued event at time = 3100, 3\nAdding event for time=4100, \n\n\nDequeued event at time = 3300, 2\nBlockageEvent::process()\nBlocking row at 1,2\n\n\nDequeued event at time = 3500, 3\nAdding event for time=4500, \n\n\nDequeued event at time = 3800, 3\nAdding event for time=4800, \n\n\nDequeued event at time = 4000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +   1B   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    1   + \n   |   0        0        0        1     \n 2 |   +    0   +    0   +    1   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4000, 3\nAdding event for time=5000, \n\n\nDequeued event at time = 4100, 3\n\nDequeued event at time = 4500, 3\n\nDequeued event at time = 4800, 3\nAdding event for time=5800, \n\n\nDequeued event at time = 5000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +   0B   + \n   |   0        0        0        1     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        1     \n 2 |   +    0   +    0   +    0   + \n   |\nAdding event for time=6000, \n\n\nDequeued event at time = 5000, 3\nAdding event for time=6000, \n\n\nDequeued event at time = 5800, 3\n\nDequeued event at time = 6000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +   0B   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        1     \n 2 |   +    0   +    0   +    0   + \n   |\nAdding event for time=7000, \n\n\nDequeued event at time = 6000, 3\n\nDequeued event at time = 7000, 0\nState: \n       2        2        2        2     \n    ========================================\n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +   0B   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |   0        0        0        0     \n 2 |   +    0   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case8"
+    },
+    "case9": {
+      "complete": true,
+      "passing": true,
+      "details": {
+        "runtime": {
+          "args": [
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/eventsim",
+            "/home/cs104/CS104/homework-resources/hw5-grading/eventsim/input/e9.in",
+            "/home/cs104/CS104/hw-amirhega/hw5/eventsim/output/e9.out"
+          ],
+          "cwd": null,
+          "elapsed": 0.003784808999625966,
+          "stdin": null,
+          "stdout": "State: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |\n\nDequeued event at time = 1, 1\nStreetGrid::AddVehicle - vehicle a1 now at 0,1\nStreetGrid::AddVehicle - vehicle a1 will go row 1000\nAdding event for time=1001, \n\n\nDequeued event at time = 2, 2\nBlockageEvent::process()\nBlocking row at 3,1\n\n\nDequeued event at time = 50, 2\nBlockageEvent::process()\nBlocking row at 2,1\n\n\nDequeued event at time = 262, 1\nStreetGrid::AddVehicle - vehicle a3 now at 1,1\nStreetGrid::AddVehicle - vehicle a3 will go row 1000\nAdding event for time=1262, \n\n\nDequeued event at time = 400, 2\nBlockageEvent::process()\nBlocking row at 4,3\n\n\nDequeued event at time = 407, 1\nStreetGrid::AddVehicle - vehicle a10 now at 0,0\nStreetGrid::AddVehicle - vehicle a10 will go row 1000\nAdding event for time=1407, \n\n\nDequeued event at time = 577, 1\nStreetGrid::AddVehicle - vehicle a2 now at 0,2\nStreetGrid::AddVehicle - vehicle a2 will go row 1000\nAdding event for time=1577, \n\n\nDequeued event at time = 803, 1\nStreetGrid::AddVehicle - vehicle a5 now at 1,1\nStreetGrid::AddVehicle - vehicle a5 will go col 1000\nAdding event for time=1803, \n\n\nDequeued event at time = 808, 1\nStreetGrid::AddVehicle - vehicle a6 now at 2,0\nStreetGrid::AddVehicle - vehicle a6 will go row 1000\nAdding event for time=1808, \n\n\nDequeued event at time = 809, 1\nStreetGrid::AddVehicle - vehicle a7 now at 1,2\nStreetGrid::AddVehicle - vehicle a7 will go row 1000\nAdding event for time=1809, \n\n\nDequeued event at time = 815, 1\nStreetGrid::AddVehicle - vehicle a8 now at 4,0\nStreetGrid::AddVehicle - vehicle a8 will go row 1000\nAdding event for time=1815, \n\n\nDequeued event at time = 900, 2\nBlockageEvent::process()\nBlocking col at 1,1\n\n\nDequeued event at time = 1000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    1   +    1   +    1   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    1   +    1   +    0   +    0   + \n   |   0       1B        0        0        0        0     \n 1 |   +    1   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 3 |   +    1   +    0   +    0   +   0B   +    0   + \n   |   0        0        0        0        0        0     \n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=2000, \n\n\nDequeued event at time = 1000, 2\nBlockageEvent::process()\nBlocking col at 2,4\n\n\nDequeued event at time = 1001, 3\nAdding event for time=2001, \n\n\nDequeued event at time = 1111, 1\nStreetGrid::AddVehicle - vehicle a11 now at 0,1\nStreetGrid::AddVehicle - vehicle a11 will go col 1000\nAdding event for time=2111, \n\n\nDequeued event at time = 1220, 2\nBlockageEvent::process()\nBlocking col at 4,4\n\n\nDequeued event at time = 1222, 1\nStreetGrid::AddVehicle - vehicle a12 now at 0,0\nStreetGrid::AddVehicle - vehicle a12 will go col 1000\nAdding event for time=2222, \n\n\nDequeued event at time = 1230, 2\nBlockageEvent::process()\nBlocking row at 2,1\n\n\nDequeued event at time = 1262, 3\nAdding event for time=2262, \n\n\nDequeued event at time = 1404, 1\nStreetGrid::AddVehicle - vehicle a4 now at 0,0\nStreetGrid::AddVehicle - vehicle a4 will go row 1000\nAdding event for time=2404, \n\n\nDequeued event at time = 1407, 3\nAdding event for time=2407, \n\n\nDequeued event at time = 1577, 3\nAdding event for time=2577, \n\n\nDequeued event at time = 1671, 1\nStreetGrid::AddVehicle - vehicle a13 now at 2,1\nStreetGrid::AddVehicle - vehicle a13 will go col 1000\nAdding event for time=2671, \n\n\nDequeued event at time = 1777, 1\nStreetGrid::AddVehicle - vehicle a14 now at 1,2\nStreetGrid::AddVehicle - vehicle a14 will go col 1000\nAdding event for time=2777, \n\n\nDequeued event at time = 1803, 3\nAdding event for time=3803, \n\n\nDequeued event at time = 1808, 3\nAdding event for time=4808, \n\n\nDequeued event at time = 1809, 3\nAdding event for time=2809, \n\n\nDequeued event at time = 1815, 3\nAdding event for time=2815, \n\n\nDequeued event at time = 2000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    1   +    1   +    0   +    1   +    0   + \n   |   1        1        1        0        0        0     \n 1 |   +    0   +    0   +    0   +    1   +    0   + \n   |   0       0B        2        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        3        0        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 3 |   +    0   +    1   +    0   +   0B   +    0   + \n   |   0        0        0        0       0B        0     \n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=3000, \n\n\nDequeued event at time = 2001, 3\nAdding event for time=3001, \n\n\nDequeued event at time = 2111, 3\nAdding event for time=3111, \n\n\nDequeued event at time = 2222, 3\nAdding event for time=3222, \n\n\nDequeued event at time = 2262, 3\nAdding event for time=3262, \n\n\nDequeued event at time = 2300, 2\nBlockageEvent::process()\nBlocking row at 1,2\n\n\nDequeued event at time = 2404, 3\nAdding event for time=3404, \n\n\nDequeued event at time = 2407, 3\nAdding event for time=3407, \n\n\nDequeued event at time = 2577, 3\nAdding event for time=3577, \n\n\nDequeued event at time = 2671, 3\nAdding event for time=3671, \n\n\nDequeued event at time = 2777, 3\nAdding event for time=3777, \n\n\nDequeued event at time = 2809, 3\nAdding event for time=3809, \n\n\nDequeued event at time = 2815, 3\nAdding event for time=3815, \n\n\nDequeued event at time = 3000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    1   +    1   +    0   +    1   + \n   |   0        0        0        0        0        0     \n 1 |   +    1   +    1   +   0B   +    0   +    1   + \n   |   0       0B        1        0        0        0     \n 1 |   +    0   +   0B   +    1   +    0   +    0   + \n   |   0        2        1        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        1        0        0        0        0     \n 3 |   +    0   +    0   +    1   +   0B   +    0   + \n   |   0        0        0        0       0B        0     \n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=4000, \n\n\nDequeued event at time = 3001, 3\nAdding event for time=4001, \n\n\nDequeued event at time = 3111, 3\nAdding event for time=4111, \n\n\nDequeued event at time = 3222, 3\nAdding event for time=4222, \n\n\nDequeued event at time = 3262, 3\nAdding event for time=4262, \n\n\nDequeued event at time = 3404, 3\nAdding event for time=4404, \n\n\nDequeued event at time = 3407, 3\nAdding event for time=4407, \n\n\nDequeued event at time = 3577, 3\nAdding event for time=4577, \n\n\nDequeued event at time = 3671, 3\nAdding event for time=4671, \n\n\nDequeued event at time = 3777, 3\nAdding event for time=4777, \n\n\nDequeued event at time = 3803, 3\nAdding event for time=4803, \n\n\nDequeued event at time = 3809, 3\nAdding event for time=4809, \n\n\nDequeued event at time = 3815, 3\nAdding event for time=4815, \n\n\nDequeued event at time = 4000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        1        1        0        1     \n 1 |   +    0   +    1   +   0B   +    0   +    0   + \n   |   0       0B        1        0        0        1     \n 1 |   +    0   +   0B   +    0   +    1   +    0   + \n   |   0        1        1        0       0B        0     \n 1 |   +    0   +   0B   +    1   +    0   +    0   + \n   |   0        1        0        0        0        0     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        1        0        1       0B        0     \n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |\nAdding event for time=5000, \n\n\nDequeued event at time = 4001, 3\nAdding event for time=5001, \n\n\nDequeued event at time = 4111, 3\nAdding event for time=5111, \n\n\nDequeued event at time = 4222, 3\nAdding event for time=5222, \n\n\nDequeued event at time = 4262, 3\nAdding event for time=5262, \n\n\nDequeued event at time = 4404, 3\nAdding event for time=5404, \n\n\nDequeued event at time = 4407, 3\nAdding event for time=5407, \n\n\nDequeued event at time = 4577, 3\nAdding event for time=5577, \n\n\nDequeued event at time = 4671, 3\nAdding event for time=5671, \n\n\nDequeued event at time = 4777, 3\nAdding event for time=5777, \n\n\nDequeued event at time = 4803, 3\nAdding event for time=5803, \n\n\nDequeued event at time = 4808, 3\nAdding event for time=5808, \n\n\nDequeued event at time = 4809, 3\nAdding event for time=5809, \n\n\nDequeued event at time = 4815, 3\nAdding event for time=5815, \n\n\nDequeued event at time = 5000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        2        1        0        1     \n 1 |   +    0   +   0B   +    0   +    0   +    1   + \n   |   0        0        1        0       0B        1     \n 1 |   +    0   +   0B   +    0   +    1   +    0   + \n   |   0        1        1        0        0        0     \n 3 |   +    0   +    1   +    0   +   0B   +    0   + \n   |   0        0        0        0       0B        0     \n 2 |   +    0   +    1   +    0   +    1   +    0   + \n   |\nAdding event for time=6000, \n\n\nDequeued event at time = 5001, 3\nAdding event for time=6001, \n\n\nDequeued event at time = 5111, 3\nAdding event for time=6111, \n\n\nDequeued event at time = 5222, 3\nAdding event for time=6222, \n\n\nDequeued event at time = 5262, 3\nAdding event for time=6262, \n\n\nDequeued event at time = 5404, 3\nAdding event for time=6404, \n\n\nDequeued event at time = 5407, 3\nAdding event for time=6407, \n\n\nDequeued event at time = 5577, 3\nAdding event for time=7077, \n\n\nDequeued event at time = 5671, 3\nAdding event for time=6671, \n\n\nDequeued event at time = 5777, 3\nAdding event for time=6777, \n\n\nDequeued event at time = 5803, 3\nAdding event for time=6803, \n\n\nDequeued event at time = 5808, 3\nAdding event for time=6808, \n\n\nDequeued event at time = 5809, 3\nAdding event for time=6809, \n\n\nDequeued event at time = 5815, 3\nAdding event for time=6815, \n\n\nDequeued event at time = 6000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    1   +    0   +    0   + \n   |   0        0        1        1       0B        2     \n 1 |   +    0   +   0B   +    0   +    0   +    1   + \n   |   0        0        1        0        0        1     \n 3 |   +    0   +    0   +    1   +   0B   +    0   + \n   |   0        1        1        0       0B        0     \n 2 |   +    0   +    0   +    1   +    0   +    1   + \n   |\nAdding event for time=7000, \n\n\nDequeued event at time = 6001, 3\nAdding event for time=7001, \n\n\nDequeued event at time = 6111, 3\nAdding event for time=7111, \n\n\nDequeued event at time = 6222, 3\nAdding event for time=7222, \n\n\nDequeued event at time = 6262, 3\nAdding event for time=7262, \n\n\nDequeued event at time = 6404, 3\nAdding event for time=7404, \n\n\nDequeued event at time = 6407, 3\nAdding event for time=7407, \n\n\nDequeued event at time = 6671, 3\nAdding event for time=7671, \n\n\nDequeued event at time = 6777, 3\nAdding event for time=8277, \n\n\nDequeued event at time = 6803, 3\nAdding event for time=7803, \n\n\nDequeued event at time = 6808, 3\nAdding event for time=7808, \n\n\nDequeued event at time = 6809, 3\nAdding event for time=7809, \n\n\nDequeued event at time = 6815, 3\n\nDequeued event at time = 7000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    1   +    0   + \n   |   0        0        0        0       0B        1     \n 1 |   +    0   +   0B   +    1   +    0   +    0   + \n   |   0        0        0        1        0        2     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        0        1        1       0B        1     \n 2 |   +    0   +    1   +    1   +    1   +    0   + \n   |\nAdding event for time=8000, \n\n\nDequeued event at time = 7001, 3\nAdding event for time=8001, \n\n\nDequeued event at time = 7077, 3\nAdding event for time=8577, \n\n\nDequeued event at time = 7111, 3\nAdding event for time=8111, \n\n\nDequeued event at time = 7222, 3\nAdding event for time=8222, \n\n\nDequeued event at time = 7262, 3\nAdding event for time=8262, \n\n\nDequeued event at time = 7404, 3\nAdding event for time=8404, \n\n\nDequeued event at time = 7407, 3\nAdding event for time=9407, \n\n\nDequeued event at time = 7671, 3\nAdding event for time=8671, \n\n\nDequeued event at time = 7803, 3\nAdding event for time=8803, \n\n\nDequeued event at time = 7808, 3\nAdding event for time=8808, \n\n\nDequeued event at time = 7809, 3\n\nDequeued event at time = 8000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    1   + \n   |   0        0        0        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    1   +    0   + \n   |   0        0        0        0        0        2     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        0        0        1       0B        1     \n 2 |   +    0   +    0   +    2   +    2   +    1   + \n   |\nAdding event for time=9000, \n\n\nDequeued event at time = 8001, 3\nAdding event for time=9001, \n\n\nDequeued event at time = 8111, 3\nAdding event for time=9111, \n\n\nDequeued event at time = 8123, 1\nStreetGrid::AddVehicle - vehicle a9 now at 5,3\nStreetGrid::AddVehicle - vehicle a9 will go row 1500\nAdding event for time=9623, \n\n\nDequeued event at time = 8222, 3\nAdding event for time=9222, \n\n\nDequeued event at time = 8262, 3\n\nDequeued event at time = 8277, 3\nAdding event for time=9277, \n\n\nDequeued event at time = 8404, 3\nAdding event for time=9404, \n\n\nDequeued event at time = 8577, 3\nAdding event for time=9577, \n\n\nDequeued event at time = 8671, 3\n\nDequeued event at time = 8803, 3\nAdding event for time=9803, \n\n\nDequeued event at time = 8808, 3\nAdding event for time=10308, \n\n\nDequeued event at time = 9000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0       0B        1     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        1        0     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        0        0        1       0B        2     \n 2 |   +    0   +    0   +    0   +    3   +    2   + \n   |\nAdding event for time=10000, \n\n\nDequeued event at time = 9001, 3\n\nDequeued event at time = 9111, 3\nAdding event for time=10111, \n\n\nDequeued event at time = 9222, 3\nAdding event for time=10222, \n\n\nDequeued event at time = 9277, 3\n\nDequeued event at time = 9404, 3\nAdding event for time=10404, \n\n\nDequeued event at time = 9407, 3\nAdding event for time=10907, \n\n\nDequeued event at time = 9577, 3\n\nDequeued event at time = 9623, 3\nAdding event for time=11123, \n\n\nDequeued event at time = 9803, 3\n\nDequeued event at time = 10000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        1     \n 3 |   +    0   +    0   +    0   +   0B   +    1   + \n   |   0        0        0        0       0B        0     \n 2 |   +    0   +    0   +    0   +    2   +    2   + \n   |\nAdding event for time=11000, \n\n\nDequeued event at time = 10111, 3\n\nDequeued event at time = 10222, 3\nAdding event for time=11222, \n\n\nDequeued event at time = 10308, 3\nAdding event for time=11308, \n\n\nDequeued event at time = 10404, 3\nAdding event for time=11404, \n\n\nDequeued event at time = 10907, 3\nAdding event for time=12407, \n\n\nDequeued event at time = 11000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        0        0        0       0B        2     \n 2 |   +    0   +    0   +    0   +    0   +    3   + \n   |\nAdding event for time=12000, \n\n\nDequeued event at time = 11123, 3\n\nDequeued event at time = 11222, 3\n\nDequeued event at time = 11308, 3\n\nDequeued event at time = 11404, 3\n\nDequeued event at time = 12000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        0        0        0       0B        0     \n 2 |   +    0   +    0   +    0   +    0   +    1   + \n   |\nAdding event for time=13000, \n\n\nDequeued event at time = 12407, 3\n\nDequeued event at time = 13000, 0\nState: \n       1        1        3        1        3        2     \n    ============================================================\n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 1 |   +    0   +    0   +   0B   +    0   +    0   + \n   |   0       0B        0        0        0        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0       0B        0     \n 1 |   +    0   +   0B   +    0   +    0   +    0   + \n   |   0        0        0        0        0        0     \n 3 |   +    0   +    0   +    0   +   0B   +    0   + \n   |   0        0        0        0       0B        0     \n 2 |   +    0   +    0   +    0   +    0   +    0   + \n   |\n",
+          "stderr": "",
+          "code": 0,
+          "timeout": 2,
+          "timed_out": false,
+          "raised_exception": false,
+          "exception": null
+        }
+      },
+      "error": null,
+      "task": "case9"
+    },
+    "cleanup_eventsim": {
+      "complete": true,
+      "passing": true,
+      "details": {},
+      "error": null,
+      "task": "cleanup_eventsim"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+1.
+	a)1,4,8
+	b)2,3,4,5
+	c)4
+	d)1,4
+
+2.
+	a)3
+	b) 
+		1)git add hw1q2b.cp
+		2)git log
+	c) it will ask the user for a commit message with a pop and then commit the files that are staged for commit
+
+3 Review
+	1. No, LHS has to be an instance to a class
+	2. Yes, 
+	3. No, can't access private data members
+
+4 Review
+	1. Since data members in the Square struct are public we do not need to make this a friend function.
+	2. Board
+
+5
+	a) Rational
+	   Rational
+	   Record
+	   Rational
+	   ~Rational
+	   Rational
+	   ~Rational
+
+	b)Copy Rational
+	  Copy Rational
+	  Record
+
+	c)  // initialize r with major and overall
+		Wrapper::Wrapper(const Rational& major, const Rational& overall) : r(major,overall)
+		{
+
+		}
+

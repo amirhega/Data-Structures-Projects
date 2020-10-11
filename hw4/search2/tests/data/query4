@@ -1,0 +1,4 @@
+PRAND n moon
+INCOMING tests/data/data7.md
+OUTGOING tests/data/data7.md
+QUIT
